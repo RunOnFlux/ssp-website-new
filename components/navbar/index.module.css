@@ -28,11 +28,7 @@
   .navLink:hover{
     color: #F9DB10 !important;
   }
-  .navLink span{
-    border: 1px solid white;
-    padding: 10px;
-    border-radius: 5px;
-  }
+ 
   .navLink span:hover{
     background-color: #F9DB10;
     color: #000;
@@ -46,6 +42,11 @@
  
 
   @media (max-width: 991.98px){
+    .navLink{
+      border-bottom: 1px solid white !important;
+      padding: 10px;
+      border-radius: 5px;
+    }
     .navLink{
         padding: 9px  10px!important;
         font-family: 'Montserrat';
