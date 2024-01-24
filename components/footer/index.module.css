@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/bitsumishi');
+.footer{
+    background-color: #1a1a23;
+    box-shadow: 0px 4px 8px 0px #00000040;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.footer img{
+    height: 20px;
+    width: auto;
+}
+
+@media (max-width: 767.98px) { 
+    .footer img{
+        height: 15px;
+        width: auto;
+    }
+}

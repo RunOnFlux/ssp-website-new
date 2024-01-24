@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/bitsumishi');
+.headerText1{
+    display: inline-flex;
+    width: 100%;
+}
+.card1{
+    border: 1px solid #F9DB10;
+    padding: 50px;
+    border-radius: 15px;
+    position: relative;
+    width: fit-content;
+    margin-bottom: 50px;
+}
+.headerText1 img{
+    width: auto;
+    height: 80px;
+    margin-left: 40px;
+}
+
+.card1 h4{
+    font-family: 'Bitsumishi';
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F9DB10;
+}
+.card1 h6{
+    font-family: 'Bitsumishi';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+.walletSeed{
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.walletSeed img{
+    width: 100%;
+    height: auto;
+}
+
+.walletSeed h6{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    
+}
+
+
+
+
+
+.headerText2{
+    display: inline-flex;
+    width: 100%;
+}
+.card2{
+    border: 1px solid #F9DB10;
+    padding: 50px;
+    border-radius: 15px;
+    /* position: relative; */
+    width: 100%;
+    margin-bottom: 50px;
+}
+.headerText2 img{
+    width: auto;
+    height: 60px;
+    margin-left: 40px;
+}
+
+.card2 h4{
+    font-family: 'Bitsumishi';
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F9DB10;
+}
+.card2 h6{
+    font-family: 'Bitsumishi';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+.doubleImages{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    justify-content: space-around;
+   
+   
+}
+
+.doubleImages img{
+    width: auto;
+    height: auto
+}
+
+
+
+@media all and (min-width: 992px){
+  .card001{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 991.98px) {
+    .card1{
+        border: 1px solid #F9DB10;
+        padding: 30px;
+        border-radius: 15px;
+        position: relative;
+        width: fit-content;
+    }
+    .headerText1 img{
+        width: auto;
+        height: 50px;
+        margin-left: 20px;
+    }
+    
+    .card1 h4{
+        font-family: 'Bitsumishi';
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #F9DB10;
+    }
+    .card1 h6{
+        font-family: 'Bitsumishi';
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #fff;
+    }
+    .walletSeed h6{
+        text-align: center;
+    }
+
+
+
+    .card2{
+        border: 1px solid #F9DB10;
+        padding: 30px;
+        border-radius: 15px;
+        position: relative;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .headerText2 img{
+        width: auto;
+        height: 50px;
+        margin-left: 40px;
+    }
+    
+    .card2 h4{
+        font-family: 'Bitsumishi';
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #F9DB10;
+    }
+    .card2 h6{
+        font-family: 'Bitsumishi';
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #fff;
+    }
+
+    .doubleImages img{
+        width: auto;
+        height: 90px
+    }
+    
+}
+@media (max-width: 767.98px) {
+    .card1{
+        border: 1px solid #F9DB10;
+        padding: 30px;
+        border-radius: 15px;
+        position: relative;
+        width: 100%;
+    }
+    .headerText1 img{
+        width: auto;
+        height: 50px;
+        margin-left: 20px;
+    }
+    
+    .card1 h4{
+        font-family: 'Bitsumishi';
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #F9DB10;
+    }
+    .card1 h6{
+        font-family: 'Bitsumishi';
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #fff;
+    }
+    .walletSeed h6{
+        text-align: center;
+    }
+
+
+   
+    .headerText2 img{
+        width: auto;
+        height: 40px;
+        margin-left: 40px;
+    }
+    
+    .card2 h4{
+        font-family: 'Bitsumishi';
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #F9DB10;
+    }
+    .card2 h6{
+        font-family: 'Bitsumishi';
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #fff;
+    }
+    .doubleImages img{
+        width: auto;
+        height: 80px
+    }
+}
+@media (max-width: 575.98px){
+    .card1{
+        border: 1px solid #F9DB10;
+        padding: 20px;
+        border-radius: 15px;
+        position: relative;
+        width: fit-content;
+    }
+    .headerText1 img{
+        width: auto;
+        height: 40px;
+        margin-left: 10px;
+    }
+    
+    .card1 h4{
+        font-family: 'Bitsumishi';
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #F9DB10;
+    }
+    .card1 h6{
+        font-family: 'Bitsumishi';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #fff;
+    }
+    .walletSeed h6{
+        text-align: center;
+    }
+    .doubleImages img{
+        width: auto;
+        height: 70px
+    }
+    .card2{
+        width: 100%;
+    }
+
+   
+}

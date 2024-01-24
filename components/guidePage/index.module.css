@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/bitsumishi');
+
+.section1{
+    /* margin-bottom: 100px; */
+    /* margin-top: -100px; */
+    /* padding-top: 100px; */
+    /* height: 100vh; */
+    margin-bottom: 50px;
+
+}
+
+
+.section1 img{
+    width: 100%;
+    height: auto;
+}
+
+.card{
+    background: #1A1A23;
+    padding: 50px 60px;
+    border-radius: 20px;
+    height: 100%;
+}
+.section1 h6{
+    font-family: 'Bitsumishi';
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F9DB10;
+}
+.section1 p{
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: justified;
+    color: #fff;
+}
+
+.card2{
+    border: 1px solid #F9DB10;
+    border-radius: 20px;
+    padding: 20px 40px;
+    height: 700px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+   
+}
+.card2 h3{
+    font-family: 'Bitsumishi';
+    font-size: 33px;
+    font-weight: 400;
+    line-height: 63px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F9DB10;
+    margin-left: 20px;
+}
+
+.card2 p{
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: justified;
+    margin-bottom: 20px;
+    color: #F9DB10;   
+}
+
+.card2 ul li{
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: justified;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.card2 ul li a{
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: justified;
+    margin-bottom: 20px;
+    color: #F9DB10;
+    word-wrap: break-word
+}
+.card2 ul{
+    list-style-type: decimal;
+    margin-left: -17px;
+}
+
+@media all and (min-width: 992px){
+    /* .section1{
+        height: 100vh;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    } */
+    .card{
+        width: 95%;
+    }
+    .car2{
+        width: 95%;
+    }
+}
+@media (max-width: 991.98px) {
+    .card{
+        background: #1A1A23;
+        padding: 30px 40px;
+        border-radius: 20px;
+        width: 95%;
+    }
+    .section1 h6{
+        font-family: 'Bitsumishi';
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #F9DB10;
+    }
+    .section1 p{
+        font-family: 'Montserrat';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: justified;
+    }
+    .card2{
+        border: 1px solid #F9DB10;
+        border-radius: 20px;
+        padding: 20px 20px;
+        height: 500px;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        margin-bottom: 50px;
+        width: 95%;
+    }
+    .card2 h3{
+        font-family: 'Bitsumishi';
+        font-size: 33px;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #F9DB10;
+        margin-left: 20px;
+    }
+    
+    .card2 ul li{
+        font-family: 'Montserrat';
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: justified;
+        margin-bottom: 20px;
+    }
+
+    .card2 ul li a{
+        font-family: 'Montserrat';
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: justified;
+        margin-bottom: 20px;
+    }
+    .card2 p{
+        font-family: 'Montserrat';
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: justified;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 767.98px) {
+    .card{
+        background: #1A1A23;
+        padding: 30px 30px;
+        border-radius: 20px;
+        width: 100%;
+    }
+    .section1 h6{
+        font-family: 'Bitsumishi';
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #F9DB10;
+    }
+    .section1 p{
+        font-family: 'Montserrat';
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: justified;
+    
+    }
+
+    .card2{
+        border: 1px solid #F9DB10;
+        border-radius: 20px;
+        padding: 20px 20px;
+        height: 500px;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+    .card2 h3{
+        font-family: 'Bitsumishi';
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #F9DB10;
+        margin-left: 20px;
+    }
+    
+    .card2 ul li{
+        font-family: 'Montserrat';
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: justified;
+        margin-bottom: 20px;
+    }
+    .card2 ul li a{
+        font-family: 'Montserrat';
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: justified;
+        margin-bottom: 20px;
+    }
+    .card2 p{
+        font-family: 'Montserrat';
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: justified;
+        margin-bottom: 20px;
+    }
+
+    .section1{
+        margin-bottom: 0px;
+    }
+}
+@media (max-width: 575.98px){
+    .card{
+        background: #1A1A23;
+        padding: 30px 30px;
+        border-radius: 20px;
+    }
+    .section1 h6{
+        font-family: 'Bitsumishi';
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #F9DB10;
+    }
+    .section1 p{
+        font-family: 'Montserrat';
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: justified;
+    
+    }
+    .card2{
+        border: 1px solid #F9DB10;
+        border-radius: 20px;
+        padding: 20px 20px;
+        height: 500px;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        margin-bottom: 50px;
+    }
+    .card2 h3{
+        font-family: 'Bitsumishi';
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 23px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #F9DB10;
+        margin-left: 20px;
+    }
+    
+    .card2 ul li{
+        font-family: 'Montserrat';
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: justified;
+        margin-bottom: 20px;
+    }
+    .card2 ul li a{
+        font-family: 'Montserrat';
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: justified;
+        margin-bottom: 20px;
+    }
+    .card2 p{
+        font-family: 'Montserrat';
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: justified;
+        margin-bottom: 20px;
+    }
+}

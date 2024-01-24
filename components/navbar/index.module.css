@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/bitsumishi');
+
+.navbar{
+    background-color: #1a1a23;
+    box-shadow: 0px 4px 8px 0px #00000040;
+    height: 80px;
+  
+}
+.navbar img{
+    height: 40px;
+    width: auto;
+}
+.active{
+    color: blue!important;
+}
+.navLink{
+    padding: 18px !important;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:  #fff !important;
+
+  }
+  .navLink:hover{
+    color: #F9DB10 !important;
+  }
+  .navLink span{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .navLink span:hover{
+    background-color: #F9DB10;
+    color: #000;
+    border: 1px solid #F9DB10;
+  }
+  img.twitterLogo{
+    height: 30px;
+    width: auto;
+  }
+
+ 
+
+  @media (max-width: 991.98px){
+    .navLink{
+        padding: 9px  10px!important;
+        font-family: 'Montserrat';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 50px;
+        letter-spacing: 0em;
+        text-align: left;
+        color:  #fff !important;
+       
+
+      }
+      .navbar img{
+       /* margin-left: 50px; */
+    }
+    .navLink span{
+        border: none;
+      }
+      .navLink span:hover{
+        background-color: transparent;
+        color: #F9DB10;
+        border: none;
+      }
+     
+  
+  }
+  @media (max-width: 767.98px) { 
+    .navLink{
+        padding: 9px  10px!important;
+        font-family: 'Montserrat';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 50px;
+        letter-spacing: 0em;
+        text-align: left;
+        color:  #fff !important;
+      }
+      .navbar img{
+        height: 30px;
+        width: auto;
+    }
+  }
+  @media (max-width: 575.98px){
+    .navLink{
+        padding: 8px  10px!important;
+        font-family: 'Montserrat';
+        font-size: 14px !important;
+        font-weight: 400;
+        line-height: 50px;
+        letter-spacing: 0em;
+        text-align: left;
+        color:  #fff !important;
+       
+
+      }
+  }
