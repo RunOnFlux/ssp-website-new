@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
 @import url('https://fonts.cdnfonts.com/css/bitsumishi');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 html,
 body {
 margin-top: 40px;
@@ -104,6 +104,11 @@ border: none !important;
   
 }
 
+.offcanvas .nav-link{
+
+  margin-right: -10px !important;
+}
+
 .btn-close{
   background-image:url("/images/toggler.svg") !important;
   opacity: 1 !important;
@@ -152,9 +157,8 @@ text-align: right; */
   top: 100% !important;
   transition: 0.1s cubic-bezier(0, 0, 0, 1) !important;
   /* box-shadow: 0px 4px 18px 0px #00000040; */
-  padding-left: 50px !important;
-  padding-right: 50px !important;
-  /* margin-left: 100px; */
+ 
+
 
 }
 

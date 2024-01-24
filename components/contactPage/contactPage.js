@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import styles from "./index.module.css"
-
+import Link from "next/link";
 export function ContactPage(){
     return(
         <React.Fragment>
@@ -28,7 +28,7 @@ export function ContactPage(){
                 </div>
                 <div className="row">
                     <div className={styles.btn}>
-                        <a href="#">View Support</a>
+                        <Link href="/support">View Support</Link>
                     </div>
                 </div>
             </div>

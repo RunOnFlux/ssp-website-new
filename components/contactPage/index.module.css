@@ -2,7 +2,7 @@
 @import url('https://fonts.cdnfonts.com/css/bitsumishi');
 
 .main{
-    height: 100vh;
+    height: 91vh;
 }
 .section1{
     height: 200px;
@@ -80,6 +80,7 @@
     border: 1px solid #F9DB10;
     padding: 20px 20px;
     border-radius: 7px;
+    text-decoration: none;
 }
 
 @media all and (min-width: 992px){

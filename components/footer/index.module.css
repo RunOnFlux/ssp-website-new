@@ -8,10 +8,25 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    color: #fff;
 }
 .footer img{
     height: 20px;
     width: auto;
+}
+
+.footer a{
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    
+    letter-spacing: 0em;
+    text-align: center;
+    color: #F9DB10;
+    margin-bottom: 0px;
+    
+
 }
 
 @media (max-width: 767.98px) { 

@@ -10,7 +10,9 @@ export function Footer(){
                 <div className="container">
                     <div className="row">
                         <div className="col">
-                        <Link href="https://runonflux.io" target="_blank"><Image alt="logo" src={footerLogo}/></Link>
+                        <Link href="https://runonflux.io" target="_blank"> <Image alt="logo" src={footerLogo}/> </Link> |
+                        <Link href="https://www.runonflux.io/privacyPolicy" target="_blank"> Privacy Policy </Link> |
+                        <Link href="https://www.runonflux.io/termsandconditions" target="_blank">  Terms & Conditions </Link>
                         </div>
                     </div>
                 </div>

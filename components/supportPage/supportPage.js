@@ -3,6 +3,11 @@ import styles from "./index.module.css";
 import Form from 'react-bootstrap/Form';
 import {useState} from "react"
 import Accordion from 'react-bootstrap/Accordion';
+import github from "../../public/images/github.svg"
+import youtube from "../../public/images/youtube.svg"
+import twitter from "../../public/images/twitter.svg"
+import Image from "next/image";
+import Link from "next/link";
 export function SupportPage(){
 
     const [validated, setValidated] = useState(false);
@@ -115,8 +120,18 @@ export function SupportPage(){
             </Accordion.Item>
             </Accordion>
                 </div>
+                <div className="row mt-3 mb-2">
+                <h2>Learn More by visiting our socials</h2>
+                <div className={styles.socialIcons}>
+                    <Link href="https://github.com/RunOnFlux" target="_blank"><Image alt="icons" src={github}/></Link>
+                    <Link href="https://www.youtube.com/channel/UCphbdfb1MXYgUPsdhQPcnGw" target="_blank"><Image alt="icons" src={youtube}/></Link>
+                    <Link href="https://twitter.com/RunOnFlux" target="_blank"><Image alt="icons" src={twitter}/></Link>
+                </div>
+                </div>
             </div>
         </section>
+
+      
         
         </React.Fragment>
        
