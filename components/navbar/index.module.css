@@ -12,8 +12,9 @@
     width: auto;
 }
 .active{
-    color: blue!important;
+    color: #F9DB10 !important;
 }
+
 .navLink{
     padding: 18px !important;
     font-family: 'Montserrat';
@@ -70,6 +71,7 @@
     }
     .navLink span{
         border: none;
+        margin-right: -10px;
       }
       .navLink span:hover{
         background-color: transparent;

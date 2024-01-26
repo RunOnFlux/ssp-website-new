@@ -1,3 +1,4 @@
+'use client'
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -10,9 +11,9 @@ import Image from 'next/image';
 import TwitterLogo from "../../public/images/twitter-logo.svg"
 import { useState } from 'react';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-
+import { usePathname } from 'next/navigation'
 export function NavBar(props){
-  
+  const pathname = usePathname()
     return(
         <React.Fragment>
        
@@ -34,12 +35,12 @@ export function NavBar(props){
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                <Nav.Link className={styles.navLink} href={'/'}>Home</Nav.Link>
-                  <Nav.Link className={styles.navLink} href={'/features'}>Features</Nav.Link>
-                  <Nav.Link className={styles.navLink} href={'/guide'}>Guide</Nav.Link>
-                  <Nav.Link className={styles.navLink} href={'/support'}>Support</Nav.Link>
-                  <Nav.Link className={styles.navLink} href={'/contact'}>Contact</Nav.Link>
-                  <Nav.Link className={styles.navLink} href="/download"><span>Download</span></Nav.Link>
+                <Nav.Link  className={`navLink ${pathname === '/' ? 'active' : ''}`} href={'/'}>Home</Nav.Link>
+                  <Nav.Link className={`navLink ${pathname === '/features' ? 'active' : ''}`} href={'/features'}>Features</Nav.Link>
+                  <Nav.Link className={`navLink ${pathname === '/guide' ? 'active' : ''}`} href={'/guide'}>Guide</Nav.Link>
+                  <Nav.Link className={`navLink ${pathname === '/support' ? 'active' : ''}`} href={'/support'}>Support</Nav.Link>
+                  <Nav.Link className={`navLink ${pathname === '/contact' ? 'active' : ''}`} href={'/contact'}>Contact</Nav.Link>
+                  <Nav.Link className={`navLink ${pathname === '/download' ? 'active' : ''}`} href="/download"><span>Download</span></Nav.Link>
                   <Nav.Link className={styles.navLink} target='_blank' href="https://twitter.com/sspwallet_io?s=21&t=renVVnU1l-mySXpPoQQrCQ"><Image className={styles.twitterLogo} alt="logo" src={TwitterLogo}/></Nav.Link>
                 </Nav>
              

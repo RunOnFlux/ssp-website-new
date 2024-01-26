@@ -38,7 +38,38 @@ color: #F9DB10 !important;
 background-color: transparent !important;
 box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color) !important;
 }
+.active{
+  color: #F9DB10 !important;
+}
 
+.navLink{
+  padding: 18px !important;
+  font-family: 'Montserrat';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+  color:  #fff !important;
+
+}
+
+
+.navLink:hover{
+  color: #F9DB10 !important;
+}
+
+.navLink span{
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.navLink span:hover{
+  background-color: #F9DB10;
+  color: #000;
+  border: 1px solid #F9DB10;
+}
 .accordion-button {
 color: #fff !important;
 outline: none !important;
@@ -131,6 +162,36 @@ border: none !important;
 }
 
 @media (max-width: 991.98px){
+
+  .navLink{
+    border-bottom: 1px solid white !important;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .navLink{
+      padding: 9px  10px!important;
+      font-family: 'Montserrat';
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 50px;
+      letter-spacing: 0em;
+      text-align: left;
+      color:  #fff !important;
+     
+
+    }
+    .navbar img{
+     /* margin-left: 50px; */
+  }
+  .navLink span{
+      border: none;
+      margin-right: -10px;
+    }
+    .navLink span:hover{
+      background-color: transparent;
+      color: #F9DB10;
+      border: none;
+    }
 
   .container, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
     --bs-gutter-x: 1.5rem;
@@ -226,6 +287,17 @@ background: url("/images/vector.png") !important;
 
 }
 @media (max-width: 767.98px) {
+
+  .navLink{
+    padding: 9px  10px!important;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:  #fff !important;
+  }
   .offcanvas{
     width: 300px !important;
   }
@@ -273,5 +345,17 @@ background: url("/images/vector.png") !important;
 @media (max-width: 575.98px){
 .navbar-collapse{
   /* margin-top: 30px; */
+}
+.navLink{
+  padding: 8px  10px!important;
+  font-family: 'Montserrat';
+  font-size: 14px !important;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+  color:  #fff !important;
+ 
+
 }
 }
