@@ -164,6 +164,30 @@ export function SupportPage() {
                                     SSP Relay is an open source relay between your SSP Wallet and SSP Key. It provides market information, blockchain fees information, allows seamless syncing of transaction requests between your SSP Wallet and SSP Key and provides notification servies to your SSP Key. No sensitive information is ever sent to SSP Relay. It is entirely open source and you can run your own instance of SSP Relay if you wish. 
                                 </Accordion.Body>
                             </Accordion.Item>
+                            <Accordion.Item eventKey="7">
+                                <Accordion.Header>Do you support Replace-By-Fee (RBF)?</Accordion.Header>
+                                <Accordion.Body>
+                                    Yes! SSP fully supports transaction replacement by Replace-By-Fee (RBF). If your transaction is underpriced and not getting mined, you can simply bump the fee. Moreover you can even change the receiver and amount! Granted that the overall fee and fee per vByte is higher than previous transaction. RBF is not guaranteed by blockchain and transaction replacement might fail and some blockchains do not support RBF.
+                                </Accordion.Body>
+                            </Accordion.Item>
+                            <Accordion.Item eventKey="8">
+                                <Accordion.Header>What are transaction fees?</Accordion.Header>
+                                <Accordion.Body>
+                                    Every transaction on blockchain requires a blockchain network fee. This fee goes to miners, block creators. SSP has zero fees! Fees on blockchains such as Bitcoin tend to be very expensive reaching tens of USD per transaction. SSP uses automatic fees for transactions favoring fast transaction confirmation. Sofisticated picking of UTXOs ensures optimal inputs composition for entire SSP wallet and transaction size. You can change fee to manual if you wish however use with caution. 
+                                </Accordion.Body>
+                            </Accordion.Item>
+                            <Accordion.Item eventKey="9">
+                                <Accordion.Header>Transaction can&apos;t be constructed?</Accordion.Header>
+                                <Accordion.Body>
+                                    Blockchains have limitations in terms of transaction sizes in Bytes. Transactions that require lots of UTXOs to be constructed may exceed this transaction size limits. This is especially noticable for miners who should resend between their wallets and thus consolidate their UTXOs first before attempting to send large amounts.
+                                </Accordion.Body>
+                            </Accordion.Item>
+                            <Accordion.Item eventKey="10">
+                                <Accordion.Header>Can I run Flux Nodes</Accordion.Header>
+                                <Accordion.Body>
+                                    Absolutely! SSP supports Flux Nodes operation in seamless manner - there are already millions of Flux locked in SSP powered Flux Nodes. Navigate to Nodes tab and set your node up! Needless to say, Fusion for SSP is in development and will arrive soon.
+                                </Accordion.Body>
+                            </Accordion.Item>
                         </Accordion>
                     </div>
                     <div className="row mt-3 mb-2">
