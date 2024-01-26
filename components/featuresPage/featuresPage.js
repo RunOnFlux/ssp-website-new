@@ -9,6 +9,7 @@ import IconLogo from "../../public/images/Icon Logo Black.svg";
 import security from "../../public/images/security.svg"
 import simplicity from "../../public/images/simplicity.svg";
 import powerful from "../../public/images/powerful.svg"
+import Link from "next/link";
 export function FeaturesPage(){
     return(
         <React.Fragment>
@@ -102,10 +103,10 @@ export function FeaturesPage(){
                         </div>
                     </div>
 
-                    <div className="row mb-5">
+                    <div className="row">
                         <div className="col">
                             <div className={styles.btns}>
-                            <a className={styles.btn4}>Medium Article</a>
+                            <Link target="_blank" href={'https://medium.com/@ssp_wallet'} className={styles.btn4}>Medium Article</Link>
                             {/* <a className={styles.btn5}>Button 5</a> */}
                             </div>
                         </div>

@@ -3,7 +3,7 @@
 .section1{
     /* height: 100vh; */
     color: #fff;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .section1 h1{
@@ -27,6 +27,7 @@
     letter-spacing: 0em;
     text-align: left;
     color: #F9DB10;
+    text-decoration: none;
 
 }
 .section1 img{

@@ -18,7 +18,7 @@ export function NavBar(props){
        
         <Navbar expand="lg"  fixed='top' className={styles.navbar}>
           <Container>
-            <Navbar.Brand href="#">
+            <Navbar.Brand href="/">
             <Image alt="logo" src={Logo} />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${"lg"}`} />
@@ -40,7 +40,7 @@ export function NavBar(props){
                   <Nav.Link className={styles.navLink} href={'/support'}>Support</Nav.Link>
                   <Nav.Link className={styles.navLink} href={'/contact'}>Contact</Nav.Link>
                   <Nav.Link className={styles.navLink} href="/download"><span>Download</span></Nav.Link>
-                  <Nav.Link className={styles.navLink} href="#"><Image className={styles.twitterLogo} alt="logo" src={TwitterLogo}/></Nav.Link>
+                  <Nav.Link className={styles.navLink} target='_blank' href="https://twitter.com/sspwallet_io?s=21&t=renVVnU1l-mySXpPoQQrCQ"><Image className={styles.twitterLogo} alt="logo" src={TwitterLogo}/></Nav.Link>
                 </Nav>
              
               </Offcanvas.Body>

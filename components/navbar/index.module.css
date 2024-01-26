@@ -28,6 +28,12 @@
   .navLink:hover{
     color: #F9DB10 !important;
   }
+
+  .navLink span{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+  }
  
   .navLink span:hover{
     background-color: #F9DB10;
