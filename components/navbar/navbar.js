@@ -18,7 +18,7 @@ export function NavBar(props){
         <React.Fragment>
        
         <Navbar expand="lg"  fixed='top' className={styles.navbar}>
-          <Container>
+          <Container fluid>
             <Navbar.Brand href="/">
             <Image alt="logo" src={Logo} />
             </Navbar.Brand>

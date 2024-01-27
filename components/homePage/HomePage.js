@@ -11,7 +11,7 @@ export function HomePage(){
   
     return(
         <section className={styles.section1}>
-            <div className="container">
+            <div className="container-fluid">
                 <div className="row">
                    <div className="col-lg-6 mb-5">
                     <h1>Secure, Simple,<br/> Powerful</h1><br/>

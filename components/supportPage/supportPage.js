@@ -61,7 +61,7 @@ export function SupportPage() {
     return (
         <React.Fragment>
             <section className={styles.section1}>
-                <div className="container">
+                <div className="container-fluid">
                     <div className="row">
                         <div className={styles.cardHeader}>
                             <div>
@@ -73,7 +73,7 @@ export function SupportPage() {
             </section>
 
             <section className={styles.section2}>
-                <div className="container">
+                <div className="container-fluid">
                     <div className="row">
                         {!ticketSent && !ticketSubmitting && (
                             <Form validated={validated} onSubmit={handleSubmit}>
@@ -114,7 +114,7 @@ export function SupportPage() {
             </section>
 
             <section className={styles.section3}>
-                <div className="container">
+                <div className="container-fluid">
                     <div className="row">
                         <h2>Frequently asked questions</h2>
                     </div>

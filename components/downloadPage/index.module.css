@@ -9,18 +9,18 @@
     padding: 50px;
     border-radius: 15px;
     position: relative;
-    width: fit-content;
+    width: 100%;
     margin-bottom: 50px;
 }
 .headerText1 img{
     width: auto;
-    height: 80px;
+    height: 120px;
     margin-left: 40px;
 }
 
 .card1 h4{
     font-family: 'Bitsumishi';
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 400;
     line-height: 45px;
     letter-spacing: 0em;
@@ -29,7 +29,7 @@
 }
 .card1 h6{
     font-family: 'Bitsumishi';
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 400;
     line-height: 25px;
     letter-spacing: 0em;

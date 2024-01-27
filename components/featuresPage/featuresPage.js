@@ -14,7 +14,7 @@ export function FeaturesPage(){
     return(
         <React.Fragment>
             <section className={styles.section1}>
-                <div className="container">
+                <div className="container-fluid">
                     <div className="row">
                         <div className="col">
                             <h2>TOP BEST FEATURES</h2>

@@ -14,7 +14,7 @@ export function DownloadPage(){
     return(
         <React.Fragment>
             <section>
-                <div className="container">
+                <div className="container-fluid">
                     <div className="row">
                         <div className="col-lg-7 col-md-6">
                             <div className={styles.card1}>

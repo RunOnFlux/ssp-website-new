@@ -7,7 +7,7 @@ import { VideoComponent2 } from "../videoComponent/videoComponent2";
 export function GuidePage(){
     return(
         <section className={styles.section1}>
-            <div className="container">
+            <div className="container-fluid">
                 <div className="row" style={{}}>
                     <div className="col-lg-8 col-md-6 mb-5">
                         <div className={styles.card}>

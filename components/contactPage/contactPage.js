@@ -7,7 +7,7 @@ export function ContactPage(){
         <React.Fragment>
             <main className={styles.main}>
             <section className={styles.section1}>
-                <div className="container">
+                <div className="container-fluid">
                 <div className="row">
                     <div className={styles.cardHeader}>
                         <div>
@@ -18,7 +18,7 @@ export function ContactPage(){
             </div>
         </section>
         <section className={styles.section2}>
-            <div className="container">
+            <div className="container-fluid">
                 <div className="row">
                     <div className="col">
                         <h5>GET IN TOUCH</h5>
