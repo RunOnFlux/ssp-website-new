@@ -13,7 +13,7 @@ import Link from "next/link"
 export function DownloadPage(){
     return(
         <React.Fragment>
-            <section>
+            <section className={styles.section1}>
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-lg-7 col-md-6">
