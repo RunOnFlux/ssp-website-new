@@ -11,7 +11,7 @@ export function VideoComponent(){
     //     height: '390',
     //     width: '640',
     //     playerVars: {
-    //       autoplay: 1,
+    //       autoPlay: 1,
     //       controls: 1,
     //     },
     //   };
@@ -30,7 +30,7 @@ export function VideoComponent(){
             />
           
           {/* <YouTube videoId="DBICLhldFEE" options={options} id="video"/> */}
-            {/* <iframe width="100%" height="400" src="../../public/images/ssppromo.mp4" style={{marginTop: "30px"}} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+            {/* <iframe width="100%" height="400" src="../../public/images/ssppromo.mp4" style={{marginTop: "30px"}} title="YouTube video player" frameborder="0" allow="accelerometer; autoPlay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe> */}
               
         </div>
        
