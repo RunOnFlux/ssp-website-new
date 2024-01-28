@@ -345,6 +345,9 @@
     
 }
 @media (max-width: 767.98px) {
+    .section1{
+        height: auto;
+    }
     .card1{
         border: 1px solid #F9DB10;
         padding: 30px;
