@@ -19,6 +19,10 @@ a {
   text-decoration: none;
 }
 
+.mainSection {
+  min-height: calc(100vh - 160px);
+}
+
 .accordion {
   --bs-accordion-color: #fff !important;
   --bs-accordion-bg: transparent !important;
@@ -42,7 +46,7 @@ a {
 
 .active {
   /* color: #F9DB10 !important; */
-} 
+}
 
 .navbar .active {
   color: #F9DB10 !important;
@@ -161,7 +165,8 @@ a {
 
 }
 
-.container, .container-fluid {
+.container,
+.container-fluid {
   max-width: 1440px;
 }
 

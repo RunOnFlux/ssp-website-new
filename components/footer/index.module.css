@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
 @import url('https://fonts.cdnfonts.com/css/bitsumishi');
-.footer{
+
+.footer {
     background-color: #1a1a23;
     box-shadow: 0px 4px 8px 0px #00000040;
     height: 40px;
@@ -9,28 +10,31 @@
     justify-content: center;
     text-align: center;
     color: #fff;
+    bottom: 0;
+    width: 100%;
 }
-.footer img{
+
+.footer img {
     height: 20px;
     width: auto;
 }
 
-.footer a{
+.footer a {
     text-decoration: none;
     font-family: Inter;
     font-size: 12px;
     font-weight: 400;
-    
+
     letter-spacing: 0em;
     text-align: center;
     color: #F9DB10;
     margin-bottom: 0px;
-    
+
 
 }
 
-@media (max-width: 767.98px) { 
-    .footer img{
+@media (max-width: 767.98px) {
+    .footer img {
         height: 15px;
         width: auto;
     }

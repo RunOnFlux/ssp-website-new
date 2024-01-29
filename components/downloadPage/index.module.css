@@ -2,10 +2,6 @@
 @import url('https://fonts.cdnfonts.com/css/bitsumishi');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-.section1 {
-    height: 100vh;
-}
-
 .headerText1 {
     display: inline-flex;
     width: 100%;
