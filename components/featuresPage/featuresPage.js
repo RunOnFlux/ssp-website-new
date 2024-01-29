@@ -97,7 +97,7 @@ export function FeaturesPage(){
                                     </div>
                                 </div>
                                 <div className="col-md-6">
-                                    <p>Features coming soon: Segwit, Taproot, Lightning, Replace by Fee, Child pays for parent, Account abstraction, Erc4337, Deploying FluxNodes </p>
+                                    <p>Features coming soon: Taproot, Lightning, Child-Pays-For-Parent, Account Abstraction, ERC-4337, Fusion, SSP Mobile </p>
                                 </div>
                             </div>
                         </div>

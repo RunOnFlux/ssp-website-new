@@ -26,6 +26,10 @@ export function VideoComponent(){
                 autoPlay={true}
                 light={false}
                 pip={true}
+                playing={true}
+                muted={true}
+                loop={true}
+                volume={0}
                 style={{marginTop: "30px"}}
             />
           
