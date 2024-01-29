@@ -2,9 +2,6 @@
 @import url('https://fonts.cdnfonts.com/css/bitsumishi');
 
 .section1{
-    /* margin-bottom: 100px; */
-    /* margin-top: -100px; */
-    /* padding-top: 100px; */
     height: 100vh;
     margin-bottom: 50px;
 
@@ -189,9 +186,6 @@
 }
 @media (max-width: 767.98px) {
     .section1{
-        /* margin-bottom: 100px; */
-        /* margin-top: -100px; */
-        /* padding-top: 100px; */
         height: auto;
         margin-bottom: 50px;
     
