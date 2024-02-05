@@ -17,7 +17,7 @@ export function FeaturesPage(){
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col">
-                            <h2>TOP BEST FEATURES</h2>
+                            <h2>CUTTING-EDGE TECHNOLOGY</h2>
                         </div>
                     </div>
                     <div className="row">
@@ -26,7 +26,7 @@ export function FeaturesPage(){
                             <div className="col-md-7">
                                 <div className={styles.cardText}>
                                 <div>
-                                <h3>Security<span><Image alt="img" src={security}/></span></h3>
+                                <h3>Secure<span><Image alt="img" src={security}/></span></h3>
                                 {/* <h6>your wallet with <span>ssp</span></h6> */}
                                 <p>SSP enhances digital asset security with dual-signature protection, mitigating the key person risk of single-signature wallets. Its BIP48-Multi-Sig design and 2FA system offer a secure alternative, safeguarding against unauthorized transactions even if your private key is compromised. With a strict "No-storing" policy, SSP eliminates the risk of data breaches, ensuring your wallet remains secure without storing passwords or data. </p>
                                 {/* <a href="#">Button1</a> */}
@@ -54,7 +54,7 @@ export function FeaturesPage(){
                             <div className="col-md-7 order-0 order-md-2">
                                 <div className={styles.cardText}>
                                 <div>
-                                <h3>Simplicity<span><Image alt="img" src={simplicity}/></span></h3>
+                                <h3>Simple<span><Image alt="img" src={simplicity}/></span></h3>
                                 {/* <h6>your wallet with <span>ssp</span></h6> */}
                                 <p>SSP introduces a simple, uncluttered, easy-to-use interface to improve accessibility and user experience. Our goal is to seamlessly transition users from conventional technologies to the decentralized ecosystem, making onboarding easy. Securely store your crypto, including Bitcoin, with our user-friendly approach.</p>
                                 {/* <a href="#">Button2</a> */}
@@ -71,7 +71,7 @@ export function FeaturesPage(){
                             <div className="col-md-7">
                                 <div className={styles.cardText}>
                                 <div>
-                                <h3>Powerful<br/> smart wallet<span><Image alt="img" src={powerful}/></span></h3>
+                                <h3>Powerful<br/> wallet<span><Image alt="img" src={powerful}/></span></h3>
                                 {/* <h6>your wallet with <span>ssp</span></h6> */}
                                 <p>SSP, a decentralized open-source project, evolves through global contributions for new features and functionalities, shaping Web3 by the people, for the people. The SSP wallet, released as a Chrome extension, enables users to engage in building a decentralized future and seamlessly integrate with major DApp platforms but also provides a secure haven for storing crypto, including Bitcoin.</p>
                                 {/* <a href="#">Button3</a> */}

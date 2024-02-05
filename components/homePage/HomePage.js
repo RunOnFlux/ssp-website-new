@@ -22,7 +22,7 @@ export function HomePage(){
                     <div className={styles.card1}>
                         <h3>Revolutionize </h3>
                         <h6>your wallet with <span>ssp</span></h6>
-                        <p>Serving as the true guardian of your digital wealth, SSP Wallet ensures ownership by putting the keys back into the hands of users. With a focus on usability, accessibility, and intuitive design, SSP provides a seamless transition to Web3. Leveraging industry-leading encryption, SSP offers powerful security features, including a multi-signature structure and two-factor authentication. Adhering to a strict "No-storing" policy, SSP eliminates the risks associated with data breaches. As an entirely decentralized and open-source project, SSP evolves with global contributions, allowing users to actively participate in building a decentralized future. The SSP Wallet, available as a Chrome extension, integrates effortlessly with major DApp platforms.</p>
+                        <p>SSP Wallet ensures user ownership with private keys back in their hands, emphasizing Security, Simplicity, and Powerful features. It pioneers cutting-edge encryption and mobile-integrated multi-signature mechanisms for a strong two-key authentication process. With a commitment to not storing any data information, SSP guarantees a secure environment. As a decentralized, open-source project, SSP evolves globally, empowering users to shape this Web3 wallet. Available as a Chrome extension, it seamlessly integrates with major DApp platforms..</p>
                     </div>
                         <div className={styles.cardPicture}>
                         {/* <Image alt="picture" src={picture1} /> */}
