@@ -3,7 +3,7 @@ import React from "react";
 import styles from "./index.module.css"
 import Image from "next/image";
 import Image1 from "../../public/images/Screenshot 2023-10-25 at 11.56 2.svg"
-import { VideoComponent2 } from "../videoComponent/videoComponent2";
+import { VideoComponent3 } from "../videoComponent/videoComponent3";
 export function GuidePage() {
     return (
         <section className={styles.section1}>
@@ -11,7 +11,7 @@ export function GuidePage() {
                 <div className="row" style={{}}>
                     <div className="col-lg-8 col-md-6 mb-5">
                         <div className={styles.card}>
-                            <VideoComponent2 />
+                            <VideoComponent3 />
                             <h6 className="mt-3">Sending Transaction</h6>
                             <p>This video showcases how the process of sending Bitcoin is secured.</p>
                         </div>

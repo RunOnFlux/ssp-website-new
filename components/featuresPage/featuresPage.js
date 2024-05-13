@@ -10,6 +10,7 @@ import security from "../../public/images/security.svg"
 import simplicity from "../../public/images/simplicity.svg";
 import powerful from "../../public/images/powerful.svg"
 import Link from "next/link";
+import { VideoComponent2 } from "../videoComponent/videoComponent2";
 export function FeaturesPage(){
     return(
         <React.Fragment>
@@ -19,6 +20,15 @@ export function FeaturesPage(){
                         <div className="col">
                             <h2>CUTTING-EDGE TECHNOLOGY</h2>
                         </div>
+                    </div>
+                    <div className="row">
+                    <div className="col-lg-8 col-md-12  mb-5">
+                        <div className={styles.card}>
+                            <VideoComponent2 />
+                            <h6 className="mt-3">Sending Transaction</h6>
+                            <p>This video showcases how the process of sending Bitcoin is secured.</p>
+                        </div>
+                    </div>
                     </div>
                     <div className="row">
                         <div className={styles.card1}>
@@ -86,6 +96,7 @@ export function FeaturesPage(){
                             </div>
                         </div>
                     </div>
+                   
 
                     <div className="row">
                         <div className={styles.card2}>
@@ -99,6 +110,7 @@ export function FeaturesPage(){
                                 <div className="col-md-6">
                                     <p>Features coming soon: Taproot, Lightning, Child-Pays-For-Parent, Account Abstraction, ERC-4337, Fusion, SSP Mobile </p>
                                 </div>
+                              
                             </div>
                         </div>
                     </div>
