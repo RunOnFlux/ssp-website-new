@@ -18,7 +18,7 @@ export function GuidePage() {
                     </div>
                     <div className="col-lg-4 col-md-6">
                         <div className={styles.card2}>
-                            <h3>VIDEO GUIDE</h3>
+                            <h3> GUIDE</h3>
                             <p>How to Install SSp Wallet and SSP Key:</p>
                             <p>Part One: Installing SSP Wallet</p>
                             <ul>
