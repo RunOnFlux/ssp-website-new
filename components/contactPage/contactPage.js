@@ -22,7 +22,7 @@ export function ContactPage() {
                         <div className="row">
                             <div className="col">
                                 <h5>GET IN TOUCH</h5>
-                                <h6>If you're interested in discussing our wallet for partnerships, adding your coin (currently supporting only UTXO-based coins), or exploring other opportunities, feel free to contact us at: <a href="#" style={{ color: "#F9DB10" }}>info@runonflux.io</a></h6>
+                                <h6>If you're interested in discussing our wallet for partnerships, adding your coin (currently supporting only UTXO-based chhains and EVM based chains), or exploring other opportunities, feel free to contact us at: <a href="#" style={{ color: "#F9DB10" }}>info@runonflux.io</a></h6>
                                 <h6>Find quick solutions in our FAQs before reaching out. Your question might already have an answer waiting for you!</h6>
                             </div>
                         </div>
