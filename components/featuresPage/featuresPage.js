@@ -110,7 +110,8 @@ export function FeaturesPage() {
                                 </div>
                                 <div className="col-md-6">
                                     <div className={styles.card2Text}>
-                                        <Image alt="logo" src={IconLogoB} />
+                                    <Image alt="logo" src={IconLogo} />
+                                        {/* <Image alt="logo" src={IconLogoB} /> */}
                                         <h6>Ethereum chain</h6>
                                     </div>
                                 </div>
