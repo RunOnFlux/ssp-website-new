@@ -12,8 +12,8 @@ export function GuidePage() {
                     <div className="col-lg-8 col-md-6 mb-5">
                         <div className={styles.card}>
                             <VideoComponent3 />
-                            <h6 className="mt-3">Sending Transaction</h6>
-                            <p>This video showcases how the process of sending Bitcoin is secured.</p>
+                            <h6 className="mt-3">Video Setup Guide</h6>
+                            <p>This video showcases how to set up both SSP Wallet and SSP Key.</p>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6">
