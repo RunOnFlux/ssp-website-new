@@ -131,8 +131,9 @@ export function FeaturesPage() {
                                 </div>
                                 <div className="col-md-6">
                                     <p>Enpowered by Native Segwit, P2SH, Account Abstraction ERC4337</p>
-                                    <p>Supported chains: Bitcoin (BTC), Ethereum (ETH), Litecoin (LTC), Zcash (ZEC), Ravencoin (RVN), Dogecoin (DOGE), Bitcoin Cash (BCH), Flux (FLUX)</p>
-                                    <p>Features coming soon: Taproot, Lightning, SSP Wallet Mobile, More EVM chains, Custom token import</p>
+                                    <p>Supported chains: Bitcoin (BTC), Ethereum (ETH) with Tokens, Litecoin (LTC), Zcash (ZEC), Ravencoin (RVN), Dogecoin (DOGE), Bitcoin Cash (BCH), Flux (FLUX)</p>
+                                    <p className={styles.links}>For a full list of natively supported chains and tokens refer to: <Link href="https://docs.google.com/spreadsheets/d/1GUqGeV4hCwjKlxazY1vPY52owrEqXQ1UTchOKfkyS7c" target="_blank">SSP Asset Spreadsheet</Link></p>
+                                    <p>Features coming soon: Purchase, Sell, Swap, More Chains, Extensive Documentation, WalletConenct, SSP Wallet Mobile</p>
                                 </div>
                             </div>
                         </div>

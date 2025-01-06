@@ -3,6 +3,7 @@ import styles from "./index.module.css"
 import Image from "next/image";
 import QRCode from "react-qr-code";
 import chrome from "../../public/images/chrome.svg"
+import brave from "../../public/images/brave.svg"
 import walletSeed from "../../public/images/Wallet Seed.svg"
 // import browsers from "../../public/images/browsers.svg"
 import playstore from "../../public/images/playstore.svg"
@@ -42,6 +43,8 @@ export function DownloadPage() {
                                         </div>
                                         <h6>supported browsers</h6>
                                         <Image alt="img" src={chrome} />
+                                        &nbsp; &nbsp; &nbsp; &nbsp;
+                                        <Image alt="img" src={brave} />
                                     </div>
                                 </div>
                             </Link>

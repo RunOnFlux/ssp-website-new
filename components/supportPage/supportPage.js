@@ -185,7 +185,7 @@ export function SupportPage() {
                             <Accordion.Item eventKey="10">
                                 <Accordion.Header>Can I run Flux Nodes</Accordion.Header>
                                 <Accordion.Body>
-                                    Absolutely! SSP supports Flux Nodes operation in seamless manner - there are already millions of Flux locked in SSP powered Flux Nodes. Navigate to Nodes tab and set your node up! Needless to say, Fusion for SSP is in development and will arrive soon.
+                                    Absolutely! SSP supports Flux Nodes operation in seamless manner - there are already millions of Flux locked in SSP powered Flux Nodes. Navigate to Nodes tab and set your node up! Fusion Parallel Asset Rewards Claiming is also available in SSP. 
                                 </Accordion.Body>
                             </Accordion.Item>
                         </Accordion>
