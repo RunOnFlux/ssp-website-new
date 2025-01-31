@@ -1,0 +1,575 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/bitsumishi');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.checkoutSuccess {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkoutCard {
+    border: 1px solid #F9DB10;
+    padding: 50px;
+    border-radius: 15px;
+    position: relative;
+    width: 100%;
+    margin-bottom: 50px;
+    text-decoration: none !important;
+}
+
+.checkoutSuccess img {
+    width: auto;
+    height: 120px;
+    margin-left: 40px;
+}
+
+.checkoutCard h4 {
+    font-family: 'Bitsumishi';
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F9DB10;
+}
+
+.checkoutCard h6 {
+    font-family: 'Bitsumishi';
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+.walletSeed {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.walletSeed img {
+    width: auto;
+    height: 80px;
+}
+
+.walletSeed h6 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+
+
+
+
+.headerText2 {
+    display: inline-flex;
+    width: 100%;
+}
+
+.card2 {
+    border: 1px solid #F9DB10;
+    padding: 43px;
+    border-radius: 15px;
+    /* position: relative; */
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.headerText2 img {
+    width: auto;
+    height: 60px;
+    margin-left: 40px;
+}
+
+.card2 h4 {
+    font-family: 'Bitsumishi';
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F9DB10;
+}
+
+.card2 h6 {
+    font-family: 'Bitsumishi';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+
+.doubleImages {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    justify-content: space-around;
+
+
+}
+
+.doubleImages img {
+    width: auto;
+    height: auto
+}
+
+.doubleImages svg {
+    width: 150px !important;
+}
+
+.extension {
+    background: #1A1A23;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    width: 330px;
+    margin: 0 auto;
+}
+
+.extension img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.extension h5 {
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+
+}
+
+.extension p {
+    font-family: Inter;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+}
+
+.extension .link1 {
+    box-shadow: 0px 3.7560174465179443px 11.268052101135254px 0px #1A345E0A;
+    background: #1677FF;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    display: block;
+    width: fit-content;
+    margin: auto;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 10px;
+
+
+}
+
+.extension .link2 {
+    box-shadow: 0px 3.7560174465179443px 11.268052101135254px 0px #1A345E0A;
+
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    width: fit-content;
+    margin: auto;
+    font-family: Montserrat;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 10px;
+
+
+}
+
+@media all and (min-width: 992px) {
+    .card001 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .checkoutCard {
+        border: 1px solid #F9DB10;
+        padding: 30px;
+        border-radius: 15px;
+        position: relative;
+        width: fit-content;
+    }
+
+    .checkoutSuccess img {
+        width: auto;
+        height: 50px;
+        margin-left: 20px;
+    }
+
+    .checkoutCard h4 {
+        font-family: 'Bitsumishi';
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #F9DB10;
+    }
+
+    .checkoutCard h6 {
+        font-family: 'Bitsumishi';
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #fff;
+    }
+
+    .walletSeed h6 {
+        text-align: center;
+    }
+
+
+
+    .card2 {
+        border: 1px solid #F9DB10;
+        padding: 30px;
+        border-radius: 15px;
+        position: relative;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .headerText2 img {
+        width: auto;
+        height: 50px;
+        margin-left: 40px;
+    }
+
+    .card2 h4 {
+        font-family: 'Bitsumishi';
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #F9DB10;
+    }
+
+    .card2 h6 {
+        font-family: 'Bitsumishi';
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #fff;
+    }
+
+    .doubleImages img {
+        width: auto;
+        height: 90px
+    }
+
+    .walletSeed img {
+        width: auto;
+        height: 70px;
+    }
+
+    .extension h5 {
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #fff;
+
+    }
+
+    .extension p {
+        font-family: Inter;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #fff;
+    }
+
+    .extension .link1 {
+        box-shadow: 0px 3.7560174465179443px 11.268052101135254px 0px #1A345E0A;
+        background: #1677FF;
+        border-radius: 5px;
+        text-decoration: none;
+        color: #fff;
+        padding: 10px 20px;
+        display: block;
+        width: fit-content;
+        margin: auto;
+        font-family: Montserrat;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin-bottom: 10px;
+
+
+    }
+
+    .extension .link2 {
+        box-shadow: 0px 3.7560174465179443px 11.268052101135254px 0px #1A345E0A;
+
+        border-radius: 5px;
+        text-decoration: none;
+        padding: 10px 20px;
+        display: block;
+        width: fit-content;
+        margin: auto;
+        font-family: Montserrat;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin-bottom: 10px;
+
+
+    }
+
+    .extension img {
+        width: 100%;
+        height: 50px;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (max-width: 767.98px) {
+    .section1 {
+        height: auto;
+    }
+
+    .checkoutCard {
+        border: 1px solid #F9DB10;
+        padding: 30px;
+        border-radius: 15px;
+        position: relative;
+        width: 100%;
+    }
+
+    .checkoutSuccess img {
+        width: auto;
+        height: 50px;
+        margin-left: 20px;
+    }
+
+    .checkoutCard h4 {
+        font-family: 'Bitsumishi';
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #F9DB10;
+    }
+
+    .checkoutCard h6 {
+        font-family: 'Bitsumishi';
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #fff;
+    }
+
+    .walletSeed h6 {
+        text-align: center;
+    }
+
+
+
+    .headerText2 img {
+        width: auto;
+        height: 40px;
+        margin-left: 40px;
+    }
+
+    .card2 h4 {
+        font-family: 'Bitsumishi';
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #F9DB10;
+    }
+
+    .card2 h6 {
+        font-family: 'Bitsumishi';
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #fff;
+    }
+
+    .doubleImages img {
+        width: auto;
+        height: 80px
+    }
+
+    .walletSeed img {
+        width: auto;
+        height: 60px;
+    }
+
+    .extension h5 {
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #fff;
+
+    }
+
+    .extension p {
+        font-family: Inter;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #fff;
+    }
+
+    .extension .link1 {
+        box-shadow: 0px 3.7560174465179443px 11.268052101135254px 0px #1A345E0A;
+        background: #1677FF;
+        border-radius: 5px;
+        text-decoration: none;
+        color: #fff;
+        padding: 10px 20px;
+        display: block;
+        width: fit-content;
+        margin: auto;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin-bottom: 10px;
+
+
+    }
+
+    .extension .link2 {
+        box-shadow: 0px 3.7560174465179443px 11.268052101135254px 0px #1A345E0A;
+
+        border-radius: 5px;
+        text-decoration: none;
+        padding: 10px 20px;
+        display: block;
+        width: fit-content;
+        margin: auto;
+        font-family: Montserrat;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin-bottom: 10px;
+
+
+    }
+
+    .extension img {
+        width: 100%;
+        height: 40px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .checkoutCard {
+        border: 1px solid #F9DB10;
+        padding: 20px;
+        border-radius: 15px;
+        position: relative;
+        width: 100%;
+    }
+
+    .checkoutSuccess img {
+        width: auto;
+        height: 40px;
+        margin-left: 10px;
+    }
+
+    .checkoutCard h4 {
+        font-family: 'Bitsumishi';
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #F9DB10;
+    }
+
+    .checkoutCard h6 {
+        font-family: 'Bitsumishi';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #fff;
+    }
+
+    .walletSeed h6 {
+        text-align: center;
+    }
+
+    .doubleImages img {
+        width: auto;
+        height: 70px
+    }
+
+    .card2 {
+        width: 100%;
+    }
+
+    .walletSeed img {
+        width: auto;
+        height: 50px;
+    }
+
+
+}

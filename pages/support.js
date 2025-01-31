@@ -5,7 +5,7 @@ export default function Support(){
     return(
         <>
            <Head>
-        <title>SSP-Wallet | Support</title>
+        <title>SSP Wallet | Support</title>
         <meta name="description" content="SSP Wallet website" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />

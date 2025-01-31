@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>SSP-Wallet | Home</title>
+        <title>SSP Wallet | Home</title>
         <meta name="description" content="SSP Wallet website" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
