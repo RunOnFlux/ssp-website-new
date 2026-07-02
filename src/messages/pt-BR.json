@@ -310,7 +310,8 @@
       "fluxAfter": "e gerenciar a tesouraria da Foundation com assinatura multi-party.",
       "fluxCta": "Ler o caso de uso",
       "explore": "Explorar SSP Enterprise",
-      "launchApp": "Acessar App Enterprise"
+      "launchApp": "Acessar App Enterprise",
+      "viewDemo": "Ver demo ao vivo"
     },
     "supportedChains": {
       "badge": "Suporte Multi-Chain",
@@ -1351,6 +1352,7 @@
     "heroTitlePart2": "para Empresas",
     "heroDescription": "Vaults multisig M-de-N para sua organização. Cada signatário usa dois dispositivos — extensão de browser e aplicativo móvel. Sem custodiantes. Sem MPC. Sem ponto único de falha.",
     "heroLaunchApp": "Acessar App Enterprise",
+    "heroViewDemo": "Ver demo ao vivo",
     "heroHowItWorks": "Como Funciona",
     "fluxBanner": {
       "imageAlt": "Flux Foundation",
@@ -1682,6 +1684,7 @@
       "title": "Suas Chaves. Suas Regras.",
       "description": "O SSP Enterprise oferece à sua organização a segurança da autocustódia com a governança de software empresarial. Sem custodiantes. Sem intermediários. Sem concessões.",
       "launchApp": "Acessar App Enterprise",
+      "viewDemo": "Ver demo ao vivo",
       "downloadWallet": "Baixar SSP Wallet",
       "exploreFeatures": "Explorar Todos os Recursos"
     }

@@ -1,7 +1,7 @@
 ---
 title: SSP Enterprise
 url: https://sspwallet.io/enterprise
-last_reviewed: 2026-06-23
+last_reviewed: 2026-07-02
 ---
 
 SSP Enterprise is the multisig vault product for organisations — true
@@ -30,6 +30,9 @@ self-custody at team scale. No custodians, no MPC vendors holding key shards.
 ## What you can do
 
 - Launch the Enterprise app at https://enterprise.sspwallet.com
+- Try the live read-only demo — a sample multisig treasury with vaults,
+  proposals, and a scripted 2-of-2 signing walkthrough, no install or wallet
+  needed — at https://enterprise.sspwallet.com/demo
 - Contact sales via the form on this page or tadeas@sspwallet.com
 - Read the case study → /case-studies/flux-foundation
 - Explore wallet features → /features

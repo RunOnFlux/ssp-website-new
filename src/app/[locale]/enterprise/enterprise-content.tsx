@@ -442,6 +442,16 @@ export function EnterpriseContent() {
                 {t('heroLaunchApp')}
                 <ArrowRight className='ml-2 h-4 w-4' />
               </Link>
+              <Link
+                href='https://enterprise.sspwallet.com/demo'
+                target='_blank'
+                rel='noopener noreferrer'
+                onClick={() => trackEvent('cta_click', { cta_id: 'enterprise_view_demo_hero' })}
+                className='btn btn-secondary'
+              >
+                {t('heroViewDemo')}
+                <ArrowRight className='ml-2 h-4 w-4' />
+              </Link>
               <Link href='#how-it-works' className='btn btn-secondary'>
                 {t('heroHowItWorks')}
                 <ChevronRight className='ml-2 h-4 w-4' />
@@ -1290,6 +1300,16 @@ export function EnterpriseContent() {
                 className='btn btn-primary'
               >
                 {t('finalCta.launchApp')}
+                <ArrowRight className='ml-2 h-4 w-4' />
+              </Link>
+              <Link
+                href='https://enterprise.sspwallet.com/demo'
+                target='_blank'
+                rel='noopener noreferrer'
+                onClick={() => trackEvent('cta_click', { cta_id: 'enterprise_view_demo_footer' })}
+                className='btn btn-secondary'
+              >
+                {t('finalCta.viewDemo')}
                 <ArrowRight className='ml-2 h-4 w-4' />
               </Link>
               <Link href='/download' className='btn btn-secondary'>

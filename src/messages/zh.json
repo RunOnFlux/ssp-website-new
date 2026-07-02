@@ -310,7 +310,8 @@
       "fluxAfter": "并通过多方签名管理基金会金库。",
       "fluxCta": "阅读案例研究",
       "explore": "探索 SSP Enterprise",
-      "launchApp": "启动 Enterprise 应用"
+      "launchApp": "启动 Enterprise 应用",
+      "viewDemo": "查看实时演示"
     },
     "supportedChains": {
       "badge": "多链支持",
@@ -1351,6 +1352,7 @@
     "heroTitlePart2": "自托管",
     "heroDescription": "为你的组织提供 M-of-N 多重签名金库。每位签名者均使用两台设备——浏览器扩展和移动应用。无托管方，无 MPC，无单点故障。",
     "heroLaunchApp": "打开 Enterprise 应用",
+    "heroViewDemo": "查看实时演示",
     "heroHowItWorks": "工作原理",
     "fluxBanner": {
       "imageAlt": "Flux Foundation",
@@ -1682,6 +1684,7 @@
       "title": "你的密钥，你的规则。",
       "description": "SSP Enterprise 让你的组织既具备自托管的安全性，又拥有企业级软件的治理能力。无托管方，无中介，毫不妥协。",
       "launchApp": "打开 Enterprise 应用",
+      "viewDemo": "查看实时演示",
       "downloadWallet": "下载 SSP Wallet",
       "exploreFeatures": "了解全部功能"
     }

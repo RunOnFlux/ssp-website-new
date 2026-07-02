@@ -13,6 +13,7 @@ import Image from 'next/image'
 import { useTranslations } from 'next-intl'
 import { useInView } from 'react-intersection-observer'
 import { Link } from '@/i18n/navigation'
+import { trackEvent } from '@/lib/gtag'
 
 const highlightIcons: LucideIcon[] = [Vault, ClipboardCheck, ShieldCheck]
 
@@ -160,6 +161,16 @@ export function EnterpriseBand() {
               className='dark:bg-dark-800/60 inline-flex items-center justify-center rounded-lg border border-gray-300 bg-white/80 px-6 py-3 text-sm font-medium text-gray-800 transition-colors duration-200 hover:bg-gray-50 dark:border-white/20 dark:text-white dark:hover:bg-white/10'
             >
               {t('launchApp')}
+              <ArrowRight className='ml-2 h-4 w-4' />
+            </Link>
+            <Link
+              href='https://enterprise.sspwallet.com/demo'
+              target='_blank'
+              rel='noopener noreferrer'
+              onClick={() => trackEvent('cta_click', { cta_id: 'home_enterprise_view_demo' })}
+              className='dark:bg-dark-800/60 inline-flex items-center justify-center rounded-lg border border-gray-300 bg-white/80 px-6 py-3 text-sm font-medium text-gray-800 transition-colors duration-200 hover:bg-gray-50 dark:border-white/20 dark:text-white dark:hover:bg-white/10'
+            >
+              {t('viewDemo')}
               <ArrowRight className='ml-2 h-4 w-4' />
             </Link>
           </motion.div>

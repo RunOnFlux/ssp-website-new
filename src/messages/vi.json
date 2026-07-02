@@ -310,7 +310,8 @@
       "fluxAfter": "và quản lý quỹ Foundation với ký đa bên.",
       "fluxCta": "Đọc case study",
       "explore": "Khám phá SSP Enterprise",
-      "launchApp": "Khởi chạy ứng dụng Enterprise"
+      "launchApp": "Khởi chạy ứng dụng Enterprise",
+      "viewDemo": "Xem bản demo trực tiếp"
     },
     "supportedChains": {
       "badge": "Hỗ trợ đa chuỗi",
@@ -1351,6 +1352,7 @@
     "heroTitlePart2": "cho doanh nghiệp",
     "heroDescription": "Kho multisig M-of-N cho tổ chức của bạn. Mỗi người ký sử dụng hai thiết bị — tiện ích mở rộng trình duyệt và ứng dụng di động. Không lưu ký. Không MPC. Không có điểm lỗi đơn lẻ.",
     "heroLaunchApp": "Khởi chạy ứng dụng Enterprise",
+    "heroViewDemo": "Xem bản demo trực tiếp",
     "heroHowItWorks": "Cách thức hoạt động",
     "fluxBanner": {
       "imageAlt": "Flux Foundation",
@@ -1682,6 +1684,7 @@
       "title": "Khóa của bạn. Quy tắc của bạn.",
       "description": "SSP Enterprise mang lại cho tổ chức bảo mật tự lưu trữ với quản trị phần mềm doanh nghiệp. Không lưu ký. Không trung gian. Không nhượng bộ.",
       "launchApp": "Khởi chạy ứng dụng Enterprise",
+      "viewDemo": "Xem bản demo trực tiếp",
       "downloadWallet": "Tải xuống SSP Wallet",
       "exploreFeatures": "Khám phá tất cả tính năng"
     }

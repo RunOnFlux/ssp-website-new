@@ -25,6 +25,7 @@ with a single self-custody platform.
 
 - Explore SSP Enterprise → /enterprise
 - Launch the Enterprise app at https://enterprise.sspwallet.com
+- Try the live demo at https://enterprise.sspwallet.com/demo
 - Contact the team for a similar setup → /contact
 - See the full feature breakdown → /features
 

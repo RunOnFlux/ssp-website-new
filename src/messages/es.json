@@ -310,7 +310,8 @@
       "fluxAfter": "y gestionar la tesorería de la fundación con firma multiparte.",
       "fluxCta": "Lee el caso de estudio",
       "explore": "Descubre SSP Enterprise",
-      "launchApp": "Abrir la app Enterprise"
+      "launchApp": "Abrir la app Enterprise",
+      "viewDemo": "Ver demo en vivo"
     },
     "supportedChains": {
       "badge": "Soporte multicadena",
@@ -1351,6 +1352,7 @@
     "heroTitlePart2": "para empresas",
     "heroDescription": "Bóvedas multifirma M-de-N para tu organización. Cada firmante usa dos dispositivos: extensión de navegador y app móvil. Sin custodios. Sin MPC. Sin punto único de fallo.",
     "heroLaunchApp": "Abrir la app Enterprise",
+    "heroViewDemo": "Ver demo en vivo",
     "heroHowItWorks": "Cómo funciona",
     "fluxBanner": {
       "imageAlt": "Flux Foundation",
@@ -1682,6 +1684,7 @@
       "title": "Tus claves. Tus reglas.",
       "description": "SSP Enterprise ofrece a tu organización la seguridad de la autocustodia con la gobernanza del software empresarial. Sin custodios. Sin intermediarios. Sin compromisos.",
       "launchApp": "Abrir la app Enterprise",
+      "viewDemo": "Ver demo en vivo",
       "downloadWallet": "Descargar SSP Wallet",
       "exploreFeatures": "Ver todas las características"
     }

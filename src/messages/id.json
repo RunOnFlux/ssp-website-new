@@ -310,7 +310,8 @@
       "fluxAfter": "dan mengelola treasury Foundation dengan penandatanganan multi-pihak.",
       "fluxCta": "Baca studi kasus",
       "explore": "Jelajahi SSP Enterprise",
-      "launchApp": "Luncurkan Aplikasi Enterprise"
+      "launchApp": "Luncurkan Aplikasi Enterprise",
+      "viewDemo": "Lihat demo langsung"
     },
     "supportedChains": {
       "badge": "Dukungan Multi-Chain",
@@ -1351,6 +1352,7 @@
     "heroTitlePart2": "untuk Bisnis",
     "heroDescription": "Vault multisig M-of-N untuk organisasi Anda. Setiap penandatangan menggunakan dua perangkat — ekstensi browser dan aplikasi mobile. Tidak ada kustodian. Tidak ada MPC. Tidak ada titik kegagalan tunggal.",
     "heroLaunchApp": "Luncurkan Aplikasi Enterprise",
+    "heroViewDemo": "Lihat Demo Langsung",
     "heroHowItWorks": "Cara Kerjanya",
     "fluxBanner": {
       "imageAlt": "Flux Foundation",
@@ -1682,6 +1684,7 @@
       "title": "Kunci Anda. Aturan Anda.",
       "description": "SSP Enterprise memberikan organisasi Anda keamanan kustodi mandiri dengan tata kelola perangkat lunak enterprise. Tidak ada kustodian. Tidak ada perantara. Tidak ada kompromi.",
       "launchApp": "Luncurkan Aplikasi Enterprise",
+      "viewDemo": "Lihat Demo Langsung",
       "downloadWallet": "Unduh SSP Wallet",
       "exploreFeatures": "Jelajahi Semua Fitur"
     }

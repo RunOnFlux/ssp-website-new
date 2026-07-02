@@ -310,7 +310,8 @@
       "fluxAfter": "i zarządzania skarbcem fundacji z podpisywaniem wielostronnym.",
       "fluxCta": "Przeczytaj przypadek użycia",
       "explore": "Poznaj SSP Enterprise",
-      "launchApp": "Uruchom aplikację Enterprise"
+      "launchApp": "Uruchom aplikację Enterprise",
+      "viewDemo": "Zobacz demo na żywo"
     },
     "supportedChains": {
       "badge": "Obsługa wielu sieci",
@@ -1351,6 +1352,7 @@
     "heroTitlePart2": "dla firm",
     "heroDescription": "Sejfy multisig M-z-N dla Twojej organizacji. Każdy sygnatariusz używa dwóch urządzeń — rozszerzenia przeglądarki i aplikacji mobilnej. Żadnych powierników. Żadnego MPC. Żadnego pojedynczego punktu awarii.",
     "heroLaunchApp": "Uruchom aplikację Enterprise",
+    "heroViewDemo": "Zobacz demo na żywo",
     "heroHowItWorks": "Jak to działa",
     "fluxBanner": {
       "imageAlt": "Flux Foundation",
@@ -1682,6 +1684,7 @@
       "title": "Twoje klucze. Twoje zasady.",
       "description": "SSP Enterprise daje organizacji bezpieczeństwo samodzielnej opieki z zarządzaniem oprogramowania enterprise. Żadnych powierników. Żadnych pośredników. Żadnych kompromisów.",
       "launchApp": "Uruchom aplikację Enterprise",
+      "viewDemo": "Zobacz demo na żywo",
       "downloadWallet": "Pobierz SSP Wallet",
       "exploreFeatures": "Przeglądaj wszystkie funkcje"
     }

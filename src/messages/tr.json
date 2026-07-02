@@ -310,7 +310,8 @@
       "fluxAfter": "güvence altına almak ve çok taraflı imzalamayla Vakıf hazinesini yönetmek için.",
       "fluxCta": "Örnek olayı oku",
       "explore": "SSP Enterprise'ı Keşfet",
-      "launchApp": "Enterprise Uygulamasını Başlat"
+      "launchApp": "Enterprise Uygulamasını Başlat",
+      "viewDemo": "Canlı demoyu görüntüle"
     },
     "supportedChains": {
       "badge": "Çok Zincirli Destek",
@@ -1351,6 +1352,7 @@
     "heroTitlePart2": "Öz Saklama",
     "heroDescription": "Kuruluşunuz için M-of-N multisig kasalar. Her imzacı iki cihaz kullanır — tarayıcı uzantısı ve mobil uygulama. Emanetçi yok. MPC yok. Tek başarısızlık noktası yok.",
     "heroLaunchApp": "Enterprise Uygulamasını Başlat",
+    "heroViewDemo": "Canlı Demoyu Görüntüle",
     "heroHowItWorks": "Nasıl Çalışır",
     "fluxBanner": {
       "imageAlt": "Flux Foundation",
@@ -1682,6 +1684,7 @@
       "title": "Anahtarlarınız. Kurallarınız.",
       "description": "SSP Enterprise, kuruluşunuza öz saklamanın güvenliğini kurumsal yazılımın yönetimiyle sağlar. Emanetçi yok. Aracı yok. Ödün yok.",
       "launchApp": "Enterprise Uygulamasını Başlat",
+      "viewDemo": "Canlı Demoyu Görüntüle",
       "downloadWallet": "SSP Wallet'ı İndir",
       "exploreFeatures": "Tüm Özellikleri Keşfet"
     }

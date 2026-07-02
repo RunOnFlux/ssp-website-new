@@ -310,7 +310,8 @@
       "fluxAfter": "를 보호하고 다자 서명으로 Foundation 트레저리를 관리합니다.",
       "fluxCta": "사례 연구 읽기",
       "explore": "SSP Enterprise 살펴보기",
-      "launchApp": "Enterprise 앱 실행"
+      "launchApp": "Enterprise 앱 실행",
+      "viewDemo": "라이브 데모 보기"
     },
     "supportedChains": {
       "badge": "멀티체인 지원",
@@ -1351,6 +1352,7 @@
     "heroTitlePart2": "비즈니스를 위한",
     "heroDescription": "조직을 위한 M-of-N multisig 볼트. 모든 서명자는 두 기기를 사용합니다 — 브라우저 확장 프로그램과 모바일 앱. 커스터디언 없음. MPC 없음. 단일 장애점 없음.",
     "heroLaunchApp": "Enterprise 앱 실행",
+    "heroViewDemo": "라이브 데모 보기",
     "heroHowItWorks": "작동 방식",
     "fluxBanner": {
       "imageAlt": "Flux Foundation",
@@ -1682,6 +1684,7 @@
       "title": "귀하의 키. 귀하의 규칙.",
       "description": "SSP Enterprise는 조직에 엔터프라이즈 소프트웨어의 거버넌스와 함께 셀프 커스터디의 보안을 제공합니다. 커스터디언 없음. 중개자 없음. 타협 없음.",
       "launchApp": "Enterprise 앱 실행",
+      "viewDemo": "라이브 데모 보기",
       "downloadWallet": "SSP Wallet 다운로드",
       "exploreFeatures": "모든 기능 살펴보기"
     }

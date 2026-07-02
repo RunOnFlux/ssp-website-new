@@ -310,7 +310,8 @@
       "fluxAfter": "を保護し、マルチパーティ署名でファウンデーションのトレジャリーを管理。",
       "fluxCta": "ケーススタディを読む",
       "explore": "SSP Enterprise を見る",
-      "launchApp": "Enterprise アプリを起動"
+      "launchApp": "Enterprise アプリを起動",
+      "viewDemo": "ライブデモを見る"
     },
     "supportedChains": {
       "badge": "マルチチェーンサポート",
@@ -1351,6 +1352,7 @@
     "heroTitlePart2": "ビジネス向け",
     "heroDescription": "組織向けの M-of-N multisig ボールト。すべての署名者はブラウザ拡張機能とモバイルアプリの 2 デバイスを使用します。カストディアンなし。MPC なし。単一障害点なし。",
     "heroLaunchApp": "Enterprise アプリを起動",
+    "heroViewDemo": "ライブデモを見る",
     "heroHowItWorks": "仕組み",
     "fluxBanner": {
       "imageAlt": "Flux Foundation",
@@ -1682,6 +1684,7 @@
       "title": "あなたの鍵。あなたのルール。",
       "description": "SSP Enterprise は、エンタープライズソフトウェアのガバナンスとセルフカストディのセキュリティを組織に提供します。カストディアンなし。仲介者なし。妥協なし。",
       "launchApp": "Enterprise アプリを起動",
+      "viewDemo": "ライブデモを見る",
       "downloadWallet": "SSP Wallet をダウンロード",
       "exploreFeatures": "すべての機能を見る"
     }
