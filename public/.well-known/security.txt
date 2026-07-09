@@ -1,0 +1,15 @@
+# SSP Wallet — Security Policy
+# https://sspwallet.com/.well-known/security.txt
+#
+# SSP Wallet is developed by InFlux Technologies (RunOnFlux). Security
+# vulnerabilities are handled through the Flux Bug Bounty Program. Please
+# report responsibly and encrypt sensitive details with the PGP key below.
+
+Contact: mailto:security@runonflux.com
+Policy: https://runonflux.com/bug-bounty/
+Acknowledgments: https://runonflux.com/bug-bounty/
+Encryption: https://sspwallet.com/.well-known/pgp-key.txt
+Preferred-Languages: en
+Canonical: https://sspwallet.com/.well-known/security.txt
+Canonical: https://relay.sspwallet.com/.well-known/security.txt
+Expires: 2027-07-08T00:00:00.000Z

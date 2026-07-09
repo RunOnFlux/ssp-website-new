@@ -199,6 +199,15 @@ export function Security() {
                   <p className='text-primary-800 dark:text-primary-200 text-sm'>
                     <strong>{t('bugBountyPrefix')}</strong> {t('bugBountyText')}
                   </p>
+                  <a
+                    href='https://runonflux.com/bug-bounty/'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    className='text-primary-700 dark:text-primary-300 hover:text-primary-900 dark:hover:text-primary-100 mt-2 inline-flex items-center gap-1 text-sm font-medium underline underline-offset-2'
+                  >
+                    {t('bugBountyLink')}
+                    <ExternalLink className='h-3.5 w-3.5' />
+                  </a>
                 </div>
               </div>
             </div>
