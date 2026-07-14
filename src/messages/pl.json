@@ -651,7 +651,7 @@
         },
         "1": {
           "title": "Wbudowany handel krypto",
-          "description": "Bezproblemowa zamiana krypto przez zintegrowane agregatory DEX, plus bramka fiat do kupowania i sprzedawania krypto kartą płatniczą."
+          "description": "Bezproblemowa zamiana krypto przez zintegrowanych dostawców giełdowych, plus bramka fiat do kupowania i sprzedawania krypto kartą płatniczą."
         },
         "2": {
           "title": "Account Abstraction (ERC-4337)",

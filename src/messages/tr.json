@@ -651,7 +651,7 @@
         },
         "1": {
           "title": "Yerleşik Kripto Ticareti",
-          "description": "Entegre DEX toplayıcıları aracılığıyla sorunsuz kripto takas, artı ödeme kartlarıyla kripto alım satımı için fiat giriş/çıkış."
+          "description": "Entegre borsa sağlayıcıları aracılığıyla sorunsuz kripto takas, artı ödeme kartlarıyla kripto alım satımı için fiat giriş/çıkış."
         },
         "2": {
           "title": "Account Abstraction (ERC-4337)",

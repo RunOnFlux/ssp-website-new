@@ -652,7 +652,7 @@
         },
         "1": {
           "title": "Built-in Crypto Trading",
-          "description": "Seamless crypto swapping via integrated DEX aggregators, plus fiat on-ramp/off-ramp for buying and selling crypto with payment cards."
+          "description": "Seamless in-wallet crypto swapping across integrated exchange providers, plus fiat on-ramp/off-ramp for buying and selling crypto with payment cards."
         },
         "2": {
           "title": "Account Abstraction (ERC-4337)",

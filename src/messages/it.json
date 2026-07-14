@@ -651,7 +651,7 @@
         },
         "1": {
           "title": "Trading Crypto Integrato",
-          "description": "Scambio di crypto senza soluzione di continuità tramite aggregatori DEX integrati, più fiat on-ramp/off-ramp per acquistare e vendere crypto con carte di pagamento."
+          "description": "Scambio di crypto senza soluzione di continuità tramite exchange provider integrati, più fiat on-ramp/off-ramp per acquistare e vendere crypto con carte di pagamento."
         },
         "2": {
           "title": "Account Abstraction (ERC-4337)",

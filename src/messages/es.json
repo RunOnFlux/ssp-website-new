@@ -651,7 +651,7 @@
         },
         "1": {
           "title": "Trading cripto integrado",
-          "description": "Intercambios cripto fluidos mediante agregadores DEX integrados, además de on-ramp/off-ramp fiat para comprar y vender cripto con tarjeta."
+          "description": "Intercambios cripto fluidos mediante proveedores de intercambio integrados, además de on-ramp/off-ramp fiat para comprar y vender cripto con tarjeta."
         },
         "2": {
           "title": "Account Abstraction (ERC-4337)",

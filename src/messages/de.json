@@ -651,7 +651,7 @@
         },
         "1": {
           "title": "Integrierter Krypto-Handel",
-          "description": "Nahtloser Krypto-Swap über integrierte DEX-Aggregatoren, plus Fiat-On-Ramp/Off-Ramp zum Kauf und Verkauf von Krypto mit Zahlungskarten."
+          "description": "Nahtloser Krypto-Swap über integrierte Exchange-Anbieter, plus Fiat-On-Ramp/Off-Ramp zum Kauf und Verkauf von Krypto mit Zahlungskarten."
         },
         "2": {
           "title": "Account Abstraction (ERC-4337)",

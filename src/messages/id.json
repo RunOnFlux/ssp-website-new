@@ -651,7 +651,7 @@
         },
         "1": {
           "title": "Trading Kripto Bawaan",
-          "description": "Crypto swapping yang mulus melalui DEX aggregator terintegrasi, ditambah fiat on-ramp/off-ramp untuk membeli dan menjual kripto dengan kartu pembayaran."
+          "description": "Crypto swapping yang mulus melalui penyedia bursa terintegrasi, ditambah fiat on-ramp/off-ramp untuk membeli dan menjual kripto dengan kartu pembayaran."
         },
         "2": {
           "title": "Account Abstraction (ERC-4337)",

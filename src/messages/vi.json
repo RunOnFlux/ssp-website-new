@@ -651,7 +651,7 @@
         },
         "1": {
           "title": "Giao dịch Crypto tích hợp",
-          "description": "Swap crypto liền mạch qua các DEX aggregator tích hợp, cùng với fiat on-ramp/off-ramp để mua và bán crypto bằng thẻ thanh toán."
+          "description": "Swap crypto liền mạch qua các nhà cung cấp sàn giao dịch tích hợp, cùng với fiat on-ramp/off-ramp để mua và bán crypto bằng thẻ thanh toán."
         },
         "2": {
           "title": "Account Abstraction (ERC-4337)",

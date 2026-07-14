@@ -651,7 +651,7 @@
         },
         "1": {
           "title": "Trading crypto intégré",
-          "description": "Échange crypto transparent via des agrégateurs DEX intégrés, plus fiat on-ramp/off-ramp pour acheter et vendre des cryptos avec des cartes de paiement."
+          "description": "Échange crypto transparent via des prestataires d'échange intégrés, plus fiat on-ramp/off-ramp pour acheter et vendre des cryptos avec des cartes de paiement."
         },
         "2": {
           "title": "Account Abstraction (ERC-4337)",
