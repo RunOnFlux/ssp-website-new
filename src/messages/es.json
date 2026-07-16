@@ -227,6 +227,7 @@
       },
       "bugBountyPrefix": "Recompensa por errores de seguridad:",
       "bugBountyText": "Ofrecemos recompensas por la divulgación responsable de vulnerabilidades de seguridad. Ayúdanos a mantener SSP seguro.",
+      "bugBountyLink": "Report a vulnerability",
       "lavaMoatTitleHighlight": "LavaMoat",
       "lavaMoatTitleSuffix": "Protección en tiempo de ejecución",
       "lavaMoatDescription": "SSP Wallet integra LavaMoat, un marco de seguridad que protege contra ataques a la cadena de suministro. LavaMoat envuelve cada dependencia en compartimentos y solo les da acceso a lo que necesitan, evitando que el código malicioso robe secretos o comprometa tu cartera.",

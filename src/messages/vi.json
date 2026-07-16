@@ -227,6 +227,7 @@
       },
       "bugBountyPrefix": "Bug Bounty bảo mật:",
       "bugBountyText": "Chúng tôi cung cấp phần thưởng cho việc tiết lộ có trách nhiệm các lỗ hổng bảo mật. Hãy giúp chúng tôi giữ SSP an toàn.",
+      "bugBountyLink": "Report a vulnerability",
       "lavaMoatTitleHighlight": "LavaMoat",
       "lavaMoatTitleSuffix": "Bảo vệ thời gian chạy",
       "lavaMoatDescription": "SSP Wallet tích hợp LavaMoat, một framework bảo mật bảo vệ chống lại các cuộc tấn công chuỗi cung ứng. LavaMoat bọc mỗi phụ thuộc trong các compartment và chỉ cấp cho chúng quyền truy cập vào những gì cần thiết, ngăn mã độc đánh cắp bí mật hoặc xâm phạm ví.",

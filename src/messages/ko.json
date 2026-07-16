@@ -227,6 +227,7 @@
       },
       "bugBountyPrefix": "보안 버그 바운티:",
       "bugBountyText": "보안 취약점의 책임 있는 공개에 대한 보상을 제공합니다. SSP를 안전하게 유지하는 데 도움을 주십시오.",
+      "bugBountyLink": "Report a vulnerability",
       "lavaMoatTitleHighlight": "LavaMoat",
       "lavaMoatTitleSuffix": "런타임 보호",
       "lavaMoatDescription": "SSP Wallet은 공급망 공격으로부터 보호하는 보안 프레임워크인 LavaMoat을 통합합니다. LavaMoat은 각 종속성을 격실로 감싸고 필요한 것에만 접근할 수 있게 하여 악성 코드가 비밀을 훔치거나 지갑을 손상시키는 것을 방지합니다.",

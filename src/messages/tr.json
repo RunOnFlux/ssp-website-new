@@ -227,6 +227,7 @@
       },
       "bugBountyPrefix": "Güvenlik Hata Ödülü:",
       "bugBountyText": "Güvenlik açıklarının sorumlu bir şekilde ifşa edilmesi için ödüller sunuyoruz. SSP'yi güvenli tutmamıza yardımcı olun.",
+      "bugBountyLink": "Report a vulnerability",
       "lavaMoatTitleHighlight": "LavaMoat",
       "lavaMoatTitleSuffix": "Çalışma Zamanı Koruması",
       "lavaMoatDescription": "SSP Wallet, tedarik zinciri saldırılarına karşı koruyan bir güvenlik çerçevesi olan LavaMoat'ı entegre eder. LavaMoat her bağımlılığı bölmelere sarar ve yalnızca ihtiyaç duydukları şeylere erişim verir; böylece kötü amaçlı kodun sırları çalmasını veya cüzdanınızı tehlikeye atmasını önler.",
