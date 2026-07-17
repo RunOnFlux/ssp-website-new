@@ -781,7 +781,7 @@
     "videoTitle": "Guia de Configuração em Vídeo",
     "videoSubtitle": "Tutorial completo",
     "videoDescription": "Assista ao nosso tutorial em vídeo abrangente que mostra como configurar tanto a SSP Wallet quanto o SSP Key com instruções detalhadas passo a passo.",
-    "videoLegacyNote": "This video was recorded with the previous interface. SSP Wallet 2.0.0 looks different — the written steps below match the current version.",
+    "videoLegacyNote": "Este vídeo foi gravado com a interface anterior. A SSP Wallet 2.0.0 tem outra aparência — os passos escritos abaixo correspondem à versão atual.",
     "videoUnsupported": "Seu browser não suporta a tag de vídeo.",
     "videoBullet1": "Instalação da extensão de browser",
     "videoBullet2": "Configuração e sincronização do aplicativo móvel",
@@ -808,29 +808,29 @@
             "action": "Adicionar ao browser"
           },
           "2": {
-            "title": "Open Wallet & Create Password",
-            "description": "Locate the SSP Wallet logo in your browser and click on it. Click 'Get Started!', set your password — it encrypts your wallet on this device — agree to the Terms of Service, and click 'Create Wallet'.",
-            "action": "Set password"
+            "title": "Abrir a carteira e criar a senha",
+            "description": "Localize o logotipo da SSP Wallet no seu navegador e clique nele. Clique em 'Começar a Utilizar!', defina sua senha — ela criptografa sua carteira neste dispositivo —, aceite os Termos de Serviço e clique em 'Criar Carteira'.",
+            "action": "Definir senha"
           },
           "3": {
-            "title": "Backup Wallet Seed",
-            "description": "Click 'Show Mnemonic' to reveal your wallet seed phrase. Write the words down in order, store them securely offline, and confirm that you have backed them up.",
-            "action": "Secure backup"
+            "title": "Fazer backup da frase da carteira",
+            "description": "Clique em 'Mostrar Mnemônico' para revelar a frase de recuperação da sua carteira. Anote as palavras em ordem, guarde-as offline em segurança e confirme que fez o backup.",
+            "action": "Guardar o backup"
           },
           "4": {
-            "title": "Confirm Your Backup",
-            "description": "A quick word challenge verifies your backup is real: pick the correct word for each requested position. Once you see 'Backup Confirmed!', click 'Create Wallet'.",
-            "action": "Pass word challenge"
+            "title": "Confirmar seu backup",
+            "description": "Um rápido desafio de palavras verifica se o seu backup é real: escolha a palavra correta para cada posição solicitada. Quando aparecer 'Cópia de segurança confirmada!', clique em 'Criar Carteira'.",
+            "action": "Passar no desafio de palavras"
           },
           "5": {
-            "title": "Make It Yours",
-            "description": "Give your wallet a name and pick an accent color so you can spot it at a glance — you can change both later. Click 'Continue'.",
-            "action": "Personalize wallet"
+            "title": "Deixe com a sua cara",
+            "description": "Dê um nome à sua carteira e escolha uma cor de destaque para reconhecê-la de relance — você pode mudar os dois depois. Clique em 'Continuar'.",
+            "action": "Personalizar carteira"
           },
           "6": {
-            "title": "Get Ready to Pair",
-            "description": "Your wallet is ready! It now shows a QR code and asks you to pair your SSP Key — the second signature. Grab your phone and continue with Part Two.",
-            "action": "Continue to Part Two"
+            "title": "Prepare-se para parear",
+            "description": "Sua carteira está pronta! Agora ela exibe um código QR e pede para parear o seu SSP Key — a segunda assinatura. Pegue o celular e continue na parte dois.",
+            "action": "Continuar na parte dois"
           }
         }
       },
@@ -844,48 +844,48 @@
             "action": "Instalar app móvel"
           },
           "1": {
-            "title": "Secure Your Key",
-            "description": "Tap 'Synchronise Key!' to begin, then set your SSP Key password and confirm it. Tap 'Setup Key!'. You can also enable biometrics to unlock with your fingerprint or face.",
-            "action": "Create key password"
+            "title": "Proteja sua chave",
+            "description": "Toque em 'Sincronizar chave!' para começar, depois defina a senha do seu SSP Key e confirme-a. Toque em 'Configuração Chave!'. Você também pode ativar a biometria para desbloquear com a digital ou o rosto.",
+            "action": "Criar senha da chave"
           },
           "2": {
-            "title": "Backup Key Seed",
-            "description": "Tap 'Show Mnemonic' to reveal your key seed phrase. This seed is separate from your wallet seed — both must be backed up to recover your funds. Store it securely offline.",
-            "action": "Secure key backup"
+            "title": "Fazer backup da frase da chave",
+            "description": "Toque em 'Mostrar mnemónico' para revelar a frase de recuperação da sua chave. Essa frase é separada da frase da carteira — as duas precisam de backup para recuperar seus fundos. Guarde-a offline em segurança.",
+            "action": "Guardar o backup da chave"
           },
           "3": {
-            "title": "Confirm Your Key Backup",
-            "description": "A quick word challenge verifies your backup is real: select the requested words from your key seed phrase. If a word is wrong, check your written backup and try again.",
-            "action": "Pass word challenge"
+            "title": "Confirmar o backup da chave",
+            "description": "Um rápido desafio de palavras verifica se o seu backup é real: selecione as palavras solicitadas da frase de recuperação da sua chave. Se alguma palavra estiver errada, confira sua anotação e tente novamente.",
+            "action": "Passar no desafio de palavras"
           },
           "4": {
-            "title": "Scan the QR Code",
-            "description": "In your browser wallet, tick any extra chains to activate — one approval covers them all. Then tap 'Scan Code' in SSP Key and scan the QR code shown in your browser. Both apps also still support manual entry for offline setups.",
-            "action": "Sync devices"
+            "title": "Escanear o código QR",
+            "description": "Na carteira do navegador, marque as chains extras que quiser ativar — uma única aprovação cobre todas. Depois toque em 'Modo de digitalização' no SSP Key e escaneie o código QR exibido no navegador. Os dois aplicativos ainda aceitam entrada manual para configurações offline.",
+            "action": "Sincronizar dispositivos"
           },
           "5": {
-            "title": "Slide to Approve",
-            "description": "SSP Key shows the synchronisation request with every chain you selected. Slide to approve — a single approval activates all of them, with live progress on both devices.",
-            "action": "Approve sync"
+            "title": "Deslize para aprovar",
+            "description": "O SSP Key mostra a solicitação de sincronização com todas as chains selecionadas. Deslize para aprovar ('Slide to approve') — uma única aprovação ativa todas, com progresso ao vivo nos dois dispositivos.",
+            "action": "Aprovar sincronização"
           },
           "6": {
-            "title": "Verify Your Pairing",
-            "description": "Both devices now show the same 6 words. Compare them — or tap 'Scan wallet to verify' in SSP Key to check automatically. Matching words prove your pairing wasn't tampered with. If they differ, stop and re-pair.",
-            "action": "Match the 6 words"
+            "title": "Verifique o pareamento",
+            "description": "Os dois dispositivos agora mostram as mesmas 6 palavras. Compare-as — ou toque em 'Scan wallet to verify' no SSP Key para verificar automaticamente. Palavras iguais provam que o pareamento não foi adulterado. Se forem diferentes, pare e refaça o pareamento.",
+            "action": "Conferir as 6 palavras"
           }
         }
       }
     },
-    "afterTitle": "After Setup: Finding Your Way Around",
-    "afterSubtitle": "SSP Wallet 2.0 in a nutshell — where things are and how sending works",
+    "afterTitle": "Depois da configuração: como se orientar",
+    "afterSubtitle": "SSP Wallet 2.0 em resumo — onde estão as coisas e como funciona o envio",
     "after": {
       "0": {
-        "title": "Navigate with the Identity Pill",
-        "description": "Tap the identity pill at the top — your wallet's name and color — to switch wallets and networks. The bottom bar has four tabs: Home, Portfolio, Activity, and Menu. Everything that used to live in Settings is now under Menu."
+        "title": "Navegue com a pílula de identidade",
+        "description": "Toque na pílula de identidade no topo — o nome e a cor da sua carteira — para alternar entre carteiras e redes. A barra inferior tem quatro abas: Home, Portfolio, Atividade e Menu. Tudo o que ficava em Configurações agora está em Menu."
       },
       "1": {
-        "title": "Send with Two Devices",
-        "description": "Sending is one clear 3-step flow — Details, Review, Approve — with the full recipient address always shown at review. To finish, SSP Key displays a plain-language summary, decoded on your phone, of exactly what you're signing. Slide to approve; release early and nothing happens."
+        "title": "Envie com dois dispositivos",
+        "description": "O envio é um fluxo claro de 3 passos — Details, Review, Approve — com o endereço completo do destinatário sempre exibido na revisão. Para concluir, o SSP Key mostra um resumo em linguagem simples, decodificado no seu celular, exatamente do que você está assinando. Deslize para aprovar ('Slide to approve'); se soltar antes da hora, nada acontece."
       }
     },
     "tipsTitle": "Melhores Práticas de Segurança",
@@ -1130,11 +1130,11 @@
           },
           "13": {
             "question": "Estou recebendo o erro \"Synchronisation with SSP wallet needed\" no celular",
-            "answer": "This error typically occurs when changing phones or when a blockchain is not yet activated on your SSP Key. To resolve: 1) Open SSP Wallet, 2) Tap the identity pill at the top and switch to the chain you want to activate — the wallet shows the chain sync screen with a QR code, 3) Optionally tick more chains to activate them in the same approval, 4) Tap 'Scan Code' in SSP Key and scan the QR code, 5) Slide to approve on your phone — one approval activates all selected chains."
+            "answer": "Esse erro normalmente ocorre ao trocar de celular ou quando uma blockchain ainda não foi ativada no seu SSP Key. Para resolver: 1) Abra a SSP Wallet, 2) Toque na pílula de identidade no topo e mude para a chain que deseja ativar — a carteira mostra a tela de sincronização de chain com um código QR, 3) Opcionalmente marque mais chains para ativá-las na mesma aprovação, 4) Toque em 'Modo de digitalização' no SSP Key e escaneie o código QR, 5) Deslize para aprovar no celular — uma única aprovação ativa todas as chains selecionadas."
           },
           "14": {
             "question": "Estou recebendo o erro \"SSP Key Public nonces do not match or SSP Key Public nonces are missing\"",
-            "answer": "This error occurs when public nonces used to construct transactions are not synchronized between your SSP Wallet and SSP Key. To resolve: 1) Open SSP Wallet and go to the Menu tab, 2) In the Security section, find \"Public Nonces\" and click \"Sync Public Nonces\", 3) Approve the request on your SSP Key. Your public nonces are now synchronized and you can begin transacting."
+            "answer": "Esse erro ocorre quando os public nonces usados para construir transações não estão sincronizados entre a sua SSP Wallet e o seu SSP Key. Para resolver: 1) Abra a SSP Wallet e vá até a aba Menu, 2) Na seção Security, encontre 'Public Nonces' e clique em 'Sync Public Nonces', 3) Aprove a solicitação no seu SSP Key. Seus public nonces agora estão sincronizados e você pode começar a transacionar."
           }
         }
       }

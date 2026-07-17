@@ -781,7 +781,7 @@
     "videoTitle": "视频设置指南",
     "videoSubtitle": "完整演示",
     "videoDescription": "观看我们的完整视频教程，详细分步演示如何配置 SSP Wallet 与 SSP Key。",
-    "videoLegacyNote": "This video was recorded with the previous interface. SSP Wallet 2.0.0 looks different — the written steps below match the current version.",
+    "videoLegacyNote": "本视频使用旧版界面录制。SSP Wallet 2.0.0 外观有所不同——下方的文字步骤与当前版本一致。",
     "videoUnsupported": "你的浏览器不支持视频标签。",
     "videoBullet1": "浏览器扩展安装",
     "videoBullet2": "移动应用配置与同步",
@@ -808,29 +808,29 @@
             "action": "添加到浏览器"
           },
           "2": {
-            "title": "Open Wallet & Create Password",
-            "description": "Locate the SSP Wallet logo in your browser and click on it. Click 'Get Started!', set your password — it encrypts your wallet on this device — agree to the Terms of Service, and click 'Create Wallet'.",
-            "action": "Set password"
+            "title": "打开钱包并创建密码",
+            "description": "在浏览器中找到 SSP Wallet 图标并点击。点击「开始使用！」，设置密码——密码会在此设备上加密您的钱包——同意服务条款后点击「创建钱包」。",
+            "action": "设置密码"
           },
           "3": {
-            "title": "Backup Wallet Seed",
-            "description": "Click 'Show Mnemonic' to reveal your wallet seed phrase. Write the words down in order, store them securely offline, and confirm that you have backed them up.",
-            "action": "Secure backup"
+            "title": "备份钱包助记词",
+            "description": "点击「显示助记词」以显示钱包助记词。按顺序抄写这些单词，离线安全保存，并确认已完成备份。",
+            "action": "妥善保存备份"
           },
           "4": {
-            "title": "Confirm Your Backup",
-            "description": "A quick word challenge verifies your backup is real: pick the correct word for each requested position. Once you see 'Backup Confirmed!', click 'Create Wallet'.",
-            "action": "Pass word challenge"
+            "title": "确认备份",
+            "description": "一个快速的单词校验会验证备份是否真实：为每个指定位置选出正确的单词。看到「备份已确认！」后，点击「创建钱包」。",
+            "action": "通过单词校验"
           },
           "5": {
-            "title": "Make It Yours",
-            "description": "Give your wallet a name and pick an accent color so you can spot it at a glance — you can change both later. Click 'Continue'.",
-            "action": "Personalize wallet"
+            "title": "打造专属钱包",
+            "description": "为钱包命名并挑选一个强调色，让您一眼就能认出它——两者以后都可以修改。点击「继续」。",
+            "action": "个性化钱包"
           },
           "6": {
-            "title": "Get Ready to Pair",
-            "description": "Your wallet is ready! It now shows a QR code and asks you to pair your SSP Key — the second signature. Grab your phone and continue with Part Two.",
-            "action": "Continue to Part Two"
+            "title": "准备配对",
+            "description": "钱包已就绪！现在它会显示一个二维码，并请您配对 SSP Key——第二个签名。拿起手机，继续第二部分。",
+            "action": "继续第二部分"
           }
         }
       },
@@ -844,48 +844,48 @@
             "action": "安装移动应用"
           },
           "1": {
-            "title": "Secure Your Key",
-            "description": "Tap 'Synchronise Key!' to begin, then set your SSP Key password and confirm it. Tap 'Setup Key!'. You can also enable biometrics to unlock with your fingerprint or face.",
-            "action": "Create key password"
+            "title": "保护您的密钥",
+            "description": "点按「同步密钥！」开始，然后设置 SSP Key 密码并确认。点按「设置密钥！」。您还可以启用生物识别，用指纹或面容解锁。",
+            "action": "创建密钥密码"
           },
           "2": {
-            "title": "Backup Key Seed",
-            "description": "Tap 'Show Mnemonic' to reveal your key seed phrase. This seed is separate from your wallet seed — both must be backed up to recover your funds. Store it securely offline.",
-            "action": "Secure key backup"
+            "title": "备份密钥助记词",
+            "description": "点按「显示助记词」以显示密钥助记词。此助记词与钱包助记词相互独立——两者都必须备份才能恢复资金。请离线安全保存。",
+            "action": "妥善保存密钥备份"
           },
           "3": {
-            "title": "Confirm Your Key Backup",
-            "description": "A quick word challenge verifies your backup is real: select the requested words from your key seed phrase. If a word is wrong, check your written backup and try again.",
-            "action": "Pass word challenge"
+            "title": "确认密钥备份",
+            "description": "一个快速的单词校验会验证备份是否真实：从密钥助记词中选出指定的单词。如果某个单词不对，请核对手写备份后重试。",
+            "action": "通过单词校验"
           },
           "4": {
-            "title": "Scan the QR Code",
-            "description": "In your browser wallet, tick any extra chains to activate — one approval covers them all. Then tap 'Scan Code' in SSP Key and scan the QR code shown in your browser. Both apps also still support manual entry for offline setups.",
-            "action": "Sync devices"
+            "title": "扫描二维码",
+            "description": "在浏览器钱包中勾选要激活的其他链——一次批准即可全部覆盖。然后在 SSP Key 中点按「扫码」，扫描浏览器中显示的二维码。两款应用仍支持手动输入，便于离线设置。",
+            "action": "同步设备"
           },
           "5": {
-            "title": "Slide to Approve",
-            "description": "SSP Key shows the synchronisation request with every chain you selected. Slide to approve — a single approval activates all of them, with live progress on both devices.",
-            "action": "Approve sync"
+            "title": "滑动以批准",
+            "description": "SSP Key 会显示包含您所选全部链的同步请求。滑动以批准（「Slide to approve」）——一次批准即可全部激活，两台设备上都有实时进度。",
+            "action": "批准同步"
           },
           "6": {
-            "title": "Verify Your Pairing",
-            "description": "Both devices now show the same 6 words. Compare them — or tap 'Scan wallet to verify' in SSP Key to check automatically. Matching words prove your pairing wasn't tampered with. If they differ, stop and re-pair.",
-            "action": "Match the 6 words"
+            "title": "验证配对",
+            "description": "两台设备现在显示相同的 6 个单词。请比对它们——或在 SSP Key 中点按「Scan wallet to verify」自动核验。单词一致即证明配对未被篡改。若不一致，请停止并重新配对。",
+            "action": "核对 6 个单词"
           }
         }
       }
     },
-    "afterTitle": "After Setup: Finding Your Way Around",
-    "afterSubtitle": "SSP Wallet 2.0 in a nutshell — where things are and how sending works",
+    "afterTitle": "设置完成后：快速上手",
+    "afterSubtitle": "SSP Wallet 2.0 速览——各项功能在哪里，发送如何进行",
     "after": {
       "0": {
-        "title": "Navigate with the Identity Pill",
-        "description": "Tap the identity pill at the top — your wallet's name and color — to switch wallets and networks. The bottom bar has four tabs: Home, Portfolio, Activity, and Menu. Everything that used to live in Settings is now under Menu."
+        "title": "使用身份胶囊导航",
+        "description": "点按顶部的身份胶囊——即钱包的名称和颜色——即可切换钱包和网络。底部栏有四个标签页：Home、Portfolio、活动和 Menu。以前在设置里的所有内容现在都位于 Menu 下。"
       },
       "1": {
-        "title": "Send with Two Devices",
-        "description": "Sending is one clear 3-step flow — Details, Review, Approve — with the full recipient address always shown at review. To finish, SSP Key displays a plain-language summary, decoded on your phone, of exactly what you're signing. Slide to approve; release early and nothing happens."
+        "title": "用两台设备发送",
+        "description": "发送是清晰的 3 步流程——Details、Review、Approve——在确认步骤始终显示完整的收款地址。最后，SSP Key 会显示在您手机上解码的通俗摘要，说明您正在签署的确切内容。滑动以批准（「Slide to approve」）；提前松手则不会发生任何操作。"
       }
     },
     "tipsTitle": "安全最佳实践",
@@ -1130,11 +1130,11 @@
           },
           "13": {
             "question": "我在移动端收到「Synchronisation with SSP wallet needed」错误",
-            "answer": "This error typically occurs when changing phones or when a blockchain is not yet activated on your SSP Key. To resolve: 1) Open SSP Wallet, 2) Tap the identity pill at the top and switch to the chain you want to activate — the wallet shows the chain sync screen with a QR code, 3) Optionally tick more chains to activate them in the same approval, 4) Tap 'Scan Code' in SSP Key and scan the QR code, 5) Slide to approve on your phone — one approval activates all selected chains."
+            "answer": "此错误通常发生在更换手机时，或某条区块链尚未在您的 SSP Key 上激活。解决方法：1) 打开 SSP Wallet，2) 点按顶部的身份胶囊并切换到要激活的链——钱包会显示带二维码的链同步界面，3) 可选择勾选更多链，在同一次批准中一并激活，4) 在 SSP Key 中点按「扫码」并扫描二维码，5) 在手机上滑动以批准——一次批准即可激活所有选中的链。"
           },
           "14": {
             "question": "我收到「SSP Key Public nonces do not match or SSP Key Public nonces are missing」错误",
-            "answer": "This error occurs when public nonces used to construct transactions are not synchronized between your SSP Wallet and SSP Key. To resolve: 1) Open SSP Wallet and go to the Menu tab, 2) In the Security section, find \"Public Nonces\" and click \"Sync Public Nonces\", 3) Approve the request on your SSP Key. Your public nonces are now synchronized and you can begin transacting."
+            "answer": "此错误发生在用于构建交易的 public nonces 未在 SSP Wallet 与 SSP Key 之间同步时。解决方法：1) 打开 SSP Wallet 并进入 Menu 标签页，2) 在 Security 区域找到「Public Nonces」并点击「Sync Public Nonces」，3) 在 SSP Key 上批准请求。您的 public nonces 现已同步，可以开始交易。"
           }
         }
       }

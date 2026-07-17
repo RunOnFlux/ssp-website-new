@@ -781,7 +781,7 @@
     "videoTitle": "Guía en vídeo",
     "videoSubtitle": "Tutorial completo",
     "videoDescription": "Mira nuestro completo tutorial en vídeo, que muestra cómo configurar tanto SSP Wallet como SSP Key con instrucciones detalladas paso a paso.",
-    "videoLegacyNote": "This video was recorded with the previous interface. SSP Wallet 2.0.0 looks different — the written steps below match the current version.",
+    "videoLegacyNote": "Este vídeo se grabó con la interfaz anterior. SSP Wallet 2.0.0 tiene un aspecto diferente — los pasos escritos a continuación corresponden a la versión actual.",
     "videoUnsupported": "Tu navegador no admite la etiqueta de vídeo.",
     "videoBullet1": "Instalación de la extensión de navegador",
     "videoBullet2": "Configuración y sincronización de la app móvil",
@@ -808,29 +808,29 @@
             "action": "Añadir al navegador"
           },
           "2": {
-            "title": "Open Wallet & Create Password",
-            "description": "Locate the SSP Wallet logo in your browser and click on it. Click 'Get Started!', set your password — it encrypts your wallet on this device — agree to the Terms of Service, and click 'Create Wallet'.",
-            "action": "Set password"
+            "title": "Abre la cartera y crea una contraseña",
+            "description": "Localiza el logotipo de SSP Wallet en tu navegador y haz clic en él. Haz clic en '¡Empezar!', establece tu contraseña — cifra tu cartera en este dispositivo —, acepta los Términos de Servicio y haz clic en 'Crear Cartera'.",
+            "action": "Establecer contraseña"
           },
           "3": {
-            "title": "Backup Wallet Seed",
-            "description": "Click 'Show Mnemonic' to reveal your wallet seed phrase. Write the words down in order, store them securely offline, and confirm that you have backed them up.",
-            "action": "Secure backup"
+            "title": "Respalda la semilla de la cartera",
+            "description": "Haz clic en 'Mostrar mnemónica' para revelar la frase semilla de tu cartera. Escribe las palabras en orden, guárdalas de forma segura sin conexión y confirma que las has respaldado.",
+            "action": "Guardar la copia de seguridad"
           },
           "4": {
-            "title": "Confirm Your Backup",
-            "description": "A quick word challenge verifies your backup is real: pick the correct word for each requested position. Once you see 'Backup Confirmed!', click 'Create Wallet'.",
-            "action": "Pass word challenge"
+            "title": "Confirma tu copia de seguridad",
+            "description": "Un breve reto de palabras verifica que tu copia es real: elige la palabra correcta para cada posición solicitada. Cuando veas '¡Copia de seguridad confirmada!', haz clic en 'Crear Cartera'.",
+            "action": "Superar el reto de palabras"
           },
           "5": {
-            "title": "Make It Yours",
-            "description": "Give your wallet a name and pick an accent color so you can spot it at a glance — you can change both later. Click 'Continue'.",
-            "action": "Personalize wallet"
+            "title": "Hazla tuya",
+            "description": "Dale un nombre a tu cartera y elige un color de acento para reconocerla de un vistazo — puedes cambiar ambos más adelante. Haz clic en 'Continuar'.",
+            "action": "Personalizar cartera"
           },
           "6": {
-            "title": "Get Ready to Pair",
-            "description": "Your wallet is ready! It now shows a QR code and asks you to pair your SSP Key — the second signature. Grab your phone and continue with Part Two.",
-            "action": "Continue to Part Two"
+            "title": "Prepárate para emparejar",
+            "description": "¡Tu cartera está lista! Ahora muestra un código QR y te pide emparejar tu SSP Key — la segunda firma. Coge tu teléfono y continúa con la segunda parte.",
+            "action": "Continuar con la segunda parte"
           }
         }
       },
@@ -844,48 +844,48 @@
             "action": "Instalar app móvil"
           },
           "1": {
-            "title": "Secure Your Key",
-            "description": "Tap 'Synchronise Key!' to begin, then set your SSP Key password and confirm it. Tap 'Setup Key!'. You can also enable biometrics to unlock with your fingerprint or face.",
-            "action": "Create key password"
+            "title": "Protege tu clave",
+            "description": "Toca '¡Sincronizar Clave!' para empezar, luego establece la contraseña de tu SSP Key y confírmala. Toca '¡Configurar Clave!'. También puedes activar la biometría para desbloquear con tu huella o tu cara.",
+            "action": "Crear contraseña de la clave"
           },
           "2": {
-            "title": "Backup Key Seed",
-            "description": "Tap 'Show Mnemonic' to reveal your key seed phrase. This seed is separate from your wallet seed — both must be backed up to recover your funds. Store it securely offline.",
-            "action": "Secure key backup"
+            "title": "Respalda la semilla de la clave",
+            "description": "Toca 'Mostrar mnemónica' para revelar la frase semilla de tu clave. Esta semilla es independiente de la semilla de tu cartera — ambas deben estar respaldadas para recuperar tus fondos. Guárdala de forma segura sin conexión.",
+            "action": "Guardar la copia de la clave"
           },
           "3": {
-            "title": "Confirm Your Key Backup",
-            "description": "A quick word challenge verifies your backup is real: select the requested words from your key seed phrase. If a word is wrong, check your written backup and try again.",
-            "action": "Pass word challenge"
+            "title": "Confirma la copia de la clave",
+            "description": "Un breve reto de palabras verifica que tu copia es real: selecciona las palabras solicitadas de la frase semilla de tu clave. Si una palabra es incorrecta, revisa tu copia escrita e inténtalo de nuevo.",
+            "action": "Superar el reto de palabras"
           },
           "4": {
-            "title": "Scan the QR Code",
-            "description": "In your browser wallet, tick any extra chains to activate — one approval covers them all. Then tap 'Scan Code' in SSP Key and scan the QR code shown in your browser. Both apps also still support manual entry for offline setups.",
-            "action": "Sync devices"
+            "title": "Escanea el código QR",
+            "description": "En la cartera de tu navegador, marca las cadenas adicionales que quieras activar — una sola aprobación las cubre todas. Después toca 'Escanear Código' en SSP Key y escanea el código QR que se muestra en tu navegador. Ambas apps siguen admitiendo la entrada manual para configuraciones sin conexión.",
+            "action": "Sincronizar dispositivos"
           },
           "5": {
-            "title": "Slide to Approve",
-            "description": "SSP Key shows the synchronisation request with every chain you selected. Slide to approve — a single approval activates all of them, with live progress on both devices.",
-            "action": "Approve sync"
+            "title": "Desliza para aprobar",
+            "description": "SSP Key muestra la solicitud de sincronización con todas las cadenas que seleccionaste. Desliza para aprobar ('Slide to approve') — una sola aprobación las activa todas, con progreso en vivo en ambos dispositivos.",
+            "action": "Aprobar sincronización"
           },
           "6": {
-            "title": "Verify Your Pairing",
-            "description": "Both devices now show the same 6 words. Compare them — or tap 'Scan wallet to verify' in SSP Key to check automatically. Matching words prove your pairing wasn't tampered with. If they differ, stop and re-pair.",
-            "action": "Match the 6 words"
+            "title": "Verifica tu emparejamiento",
+            "description": "Ambos dispositivos muestran ahora las mismas 6 palabras. Compáralas — o toca 'Scan wallet to verify' en SSP Key para comprobarlo automáticamente. Que las palabras coincidan demuestra que tu emparejamiento no fue manipulado. Si difieren, detente y vuelve a emparejar.",
+            "action": "Comparar las 6 palabras"
           }
         }
       }
     },
-    "afterTitle": "After Setup: Finding Your Way Around",
-    "afterSubtitle": "SSP Wallet 2.0 in a nutshell — where things are and how sending works",
+    "afterTitle": "Después de la configuración: oriéntate en la app",
+    "afterSubtitle": "SSP Wallet 2.0 en pocas palabras — dónde está cada cosa y cómo funciona el envío",
     "after": {
       "0": {
-        "title": "Navigate with the Identity Pill",
-        "description": "Tap the identity pill at the top — your wallet's name and color — to switch wallets and networks. The bottom bar has four tabs: Home, Portfolio, Activity, and Menu. Everything that used to live in Settings is now under Menu."
+        "title": "Navega con la píldora de identidad",
+        "description": "Toca la píldora de identidad en la parte superior — el nombre y color de tu cartera — para cambiar de cartera y de red. La barra inferior tiene cuatro pestañas: Home, Portfolio, Actividad y Menu. Todo lo que antes estaba en Ajustes ahora está en Menu."
       },
       "1": {
-        "title": "Send with Two Devices",
-        "description": "Sending is one clear 3-step flow — Details, Review, Approve — with the full recipient address always shown at review. To finish, SSP Key displays a plain-language summary, decoded on your phone, of exactly what you're signing. Slide to approve; release early and nothing happens."
+        "title": "Envía con dos dispositivos",
+        "description": "Enviar es un flujo claro de 3 pasos — Details, Review, Approve — y la dirección completa del destinatario siempre se muestra en la revisión. Para terminar, SSP Key muestra un resumen en lenguaje claro, descodificado en tu teléfono, de lo que estás firmando exactamente. Desliza para aprobar ('Slide to approve'); si sueltas antes de tiempo, no pasa nada."
       }
     },
     "tipsTitle": "Mejores prácticas de seguridad",
@@ -1130,11 +1130,11 @@
           },
           "13": {
             "question": "Recibo el error «Synchronisation with SSP wallet needed» en el móvil",
-            "answer": "This error typically occurs when changing phones or when a blockchain is not yet activated on your SSP Key. To resolve: 1) Open SSP Wallet, 2) Tap the identity pill at the top and switch to the chain you want to activate — the wallet shows the chain sync screen with a QR code, 3) Optionally tick more chains to activate them in the same approval, 4) Tap 'Scan Code' in SSP Key and scan the QR code, 5) Slide to approve on your phone — one approval activates all selected chains."
+            "answer": "Este error suele ocurrir al cambiar de teléfono o cuando una blockchain aún no está activada en tu SSP Key. Para resolverlo: 1) Abre SSP Wallet, 2) Toca la píldora de identidad en la parte superior y cambia a la cadena que quieras activar — la cartera muestra la pantalla de sincronización de cadenas con un código QR, 3) Opcionalmente marca más cadenas para activarlas en la misma aprobación, 4) Toca 'Escanear Código' en SSP Key y escanea el código QR, 5) Desliza para aprobar en tu teléfono — una sola aprobación activa todas las cadenas seleccionadas."
           },
           "14": {
             "question": "Recibo el error «SSP Key Public nonces do not match or SSP Key Public nonces are missing»",
-            "answer": "This error occurs when public nonces used to construct transactions are not synchronized between your SSP Wallet and SSP Key. To resolve: 1) Open SSP Wallet and go to the Menu tab, 2) In the Security section, find \"Public Nonces\" and click \"Sync Public Nonces\", 3) Approve the request on your SSP Key. Your public nonces are now synchronized and you can begin transacting."
+            "answer": "Este error ocurre cuando los public nonces usados para construir transacciones no están sincronizados entre tu SSP Wallet y tu SSP Key. Para resolverlo: 1) Abre SSP Wallet y ve a la pestaña Menu, 2) En la sección Security, busca 'Public Nonces' y haz clic en 'Sync Public Nonces', 3) Aprueba la solicitud en tu SSP Key. Tus public nonces quedarán sincronizados y podrás empezar a operar."
           }
         }
       }

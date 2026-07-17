@@ -781,7 +781,7 @@
     "videoTitle": "Hướng dẫn thiết lập bằng video",
     "videoSubtitle": "Hướng dẫn đầy đủ",
     "videoDescription": "Xem hướng dẫn video toàn diện giới thiệu cách thiết lập cả SSP Wallet và SSP Key với hướng dẫn từng bước chi tiết.",
-    "videoLegacyNote": "This video was recorded with the previous interface. SSP Wallet 2.0.0 looks different — the written steps below match the current version.",
+    "videoLegacyNote": "Video này được quay với giao diện cũ. SSP Wallet 2.0.0 trông khác — các bước bằng chữ bên dưới khớp với phiên bản hiện tại.",
     "videoUnsupported": "Trình duyệt của bạn không hỗ trợ thẻ video.",
     "videoBullet1": "Cài đặt tiện ích mở rộng trình duyệt",
     "videoBullet2": "Thiết lập và đồng bộ ứng dụng di động",
@@ -808,29 +808,29 @@
             "action": "Thêm vào trình duyệt"
           },
           "2": {
-            "title": "Open Wallet & Create Password",
-            "description": "Locate the SSP Wallet logo in your browser and click on it. Click 'Get Started!', set your password — it encrypts your wallet on this device — agree to the Terms of Service, and click 'Create Wallet'.",
-            "action": "Set password"
+            "title": "Mở ví & tạo mật khẩu",
+            "description": "Tìm logo SSP Wallet trong trình duyệt của bạn và nhấp vào đó. Nhấp 'Bắt đầu nào!', đặt mật khẩu — mật khẩu này mã hóa ví của bạn trên thiết bị này — đồng ý với Điều khoản Dịch vụ và nhấp 'Tạo ví'.",
+            "action": "Đặt mật khẩu"
           },
           "3": {
-            "title": "Backup Wallet Seed",
-            "description": "Click 'Show Mnemonic' to reveal your wallet seed phrase. Write the words down in order, store them securely offline, and confirm that you have backed them up.",
-            "action": "Secure backup"
+            "title": "Sao lưu seed ví",
+            "description": "Nhấp 'Hiện Mnemonic' để hiển thị cụm từ seed của ví. Viết các từ theo đúng thứ tự, cất giữ chúng an toàn ngoại tuyến và xác nhận rằng bạn đã sao lưu.",
+            "action": "Cất giữ bản sao lưu"
           },
           "4": {
-            "title": "Confirm Your Backup",
-            "description": "A quick word challenge verifies your backup is real: pick the correct word for each requested position. Once you see 'Backup Confirmed!', click 'Create Wallet'.",
-            "action": "Pass word challenge"
+            "title": "Xác nhận bản sao lưu",
+            "description": "Một thử thách từ nhanh sẽ xác minh bản sao lưu của bạn là thật: chọn từ đúng cho từng vị trí được yêu cầu. Khi thấy 'Đã xác nhận sao lưu!', nhấp 'Tạo ví'.",
+            "action": "Vượt qua thử thách từ"
           },
           "5": {
-            "title": "Make It Yours",
-            "description": "Give your wallet a name and pick an accent color so you can spot it at a glance — you can change both later. Click 'Continue'.",
-            "action": "Personalize wallet"
+            "title": "Cá nhân hóa ví",
+            "description": "Đặt tên cho ví và chọn màu nhấn để nhận ra ví ngay từ cái nhìn đầu tiên — bạn có thể thay đổi cả hai sau này. Nhấp 'Tiếp tục'.",
+            "action": "Chọn tên và màu sắc"
           },
           "6": {
-            "title": "Get Ready to Pair",
-            "description": "Your wallet is ready! It now shows a QR code and asks you to pair your SSP Key — the second signature. Grab your phone and continue with Part Two.",
-            "action": "Continue to Part Two"
+            "title": "Sẵn sàng ghép nối",
+            "description": "Ví của bạn đã sẵn sàng! Ví hiện hiển thị mã QR và yêu cầu bạn ghép nối SSP Key — chữ ký thứ hai. Cầm điện thoại lên và tiếp tục với phần hai.",
+            "action": "Tiếp tục sang phần hai"
           }
         }
       },
@@ -844,48 +844,48 @@
             "action": "Cài đặt ứng dụng di động"
           },
           "1": {
-            "title": "Secure Your Key",
-            "description": "Tap 'Synchronise Key!' to begin, then set your SSP Key password and confirm it. Tap 'Setup Key!'. You can also enable biometrics to unlock with your fingerprint or face.",
-            "action": "Create key password"
+            "title": "Bảo vệ khóa của bạn",
+            "description": "Chạm 'Đồng bộ Khóa!' để bắt đầu, sau đó đặt mật khẩu SSP Key và xác nhận. Chạm 'Cài đặt Khóa!'. Bạn cũng có thể bật sinh trắc học để mở khóa bằng vân tay hoặc khuôn mặt.",
+            "action": "Tạo mật khẩu khóa"
           },
           "2": {
-            "title": "Backup Key Seed",
-            "description": "Tap 'Show Mnemonic' to reveal your key seed phrase. This seed is separate from your wallet seed — both must be backed up to recover your funds. Store it securely offline.",
-            "action": "Secure key backup"
+            "title": "Sao lưu seed khóa",
+            "description": "Chạm 'Hiện Mnemonic' để hiển thị cụm từ seed của khóa. Seed này tách biệt với seed của ví — cả hai đều phải được sao lưu để khôi phục tiền của bạn. Cất giữ nó an toàn ngoại tuyến.",
+            "action": "Cất giữ bản sao lưu khóa"
           },
           "3": {
-            "title": "Confirm Your Key Backup",
-            "description": "A quick word challenge verifies your backup is real: select the requested words from your key seed phrase. If a word is wrong, check your written backup and try again.",
-            "action": "Pass word challenge"
+            "title": "Xác nhận bản sao lưu khóa",
+            "description": "Một thử thách từ nhanh sẽ xác minh bản sao lưu của bạn là thật: chọn các từ được yêu cầu từ cụm từ seed của khóa. Nếu một từ bị sai, hãy kiểm tra lại bản sao lưu viết tay và thử lại.",
+            "action": "Vượt qua thử thách từ"
           },
           "4": {
-            "title": "Scan the QR Code",
-            "description": "In your browser wallet, tick any extra chains to activate — one approval covers them all. Then tap 'Scan Code' in SSP Key and scan the QR code shown in your browser. Both apps also still support manual entry for offline setups.",
-            "action": "Sync devices"
+            "title": "Quét mã QR",
+            "description": "Trong ví trên trình duyệt, đánh dấu các chuỗi bổ sung cần kích hoạt — một lần phê duyệt bao trọn tất cả. Sau đó chạm 'Quét mã' trong SSP Key và quét mã QR hiển thị trên trình duyệt. Cả hai ứng dụng vẫn hỗ trợ nhập thủ công cho thiết lập ngoại tuyến.",
+            "action": "Đồng bộ thiết bị"
           },
           "5": {
-            "title": "Slide to Approve",
-            "description": "SSP Key shows the synchronisation request with every chain you selected. Slide to approve — a single approval activates all of them, with live progress on both devices.",
-            "action": "Approve sync"
+            "title": "Trượt để phê duyệt",
+            "description": "SSP Key hiển thị yêu cầu đồng bộ với mọi chuỗi bạn đã chọn. Trượt để phê duyệt ('Slide to approve') — một lần phê duyệt kích hoạt tất cả, với tiến trình trực tiếp trên cả hai thiết bị.",
+            "action": "Phê duyệt đồng bộ"
           },
           "6": {
-            "title": "Verify Your Pairing",
-            "description": "Both devices now show the same 6 words. Compare them — or tap 'Scan wallet to verify' in SSP Key to check automatically. Matching words prove your pairing wasn't tampered with. If they differ, stop and re-pair.",
-            "action": "Match the 6 words"
+            "title": "Xác minh ghép nối",
+            "description": "Cả hai thiết bị giờ hiển thị cùng 6 từ. Hãy so sánh chúng — hoặc chạm 'Scan wallet to verify' trong SSP Key để kiểm tra tự động. Các từ trùng khớp chứng minh việc ghép nối không bị can thiệp. Nếu chúng khác nhau, hãy dừng lại và ghép nối lại.",
+            "action": "Đối chiếu 6 từ"
           }
         }
       }
     },
-    "afterTitle": "After Setup: Finding Your Way Around",
-    "afterSubtitle": "SSP Wallet 2.0 in a nutshell — where things are and how sending works",
+    "afterTitle": "Sau khi thiết lập: Làm quen với giao diện",
+    "afterSubtitle": "SSP Wallet 2.0 tóm gọn — mọi thứ nằm ở đâu và gửi tiền hoạt động ra sao",
     "after": {
       "0": {
-        "title": "Navigate with the Identity Pill",
-        "description": "Tap the identity pill at the top — your wallet's name and color — to switch wallets and networks. The bottom bar has four tabs: Home, Portfolio, Activity, and Menu. Everything that used to live in Settings is now under Menu."
+        "title": "Điều hướng bằng thẻ nhận dạng",
+        "description": "Chạm vào thẻ nhận dạng ở trên cùng — tên và màu của ví bạn — để chuyển đổi ví và mạng. Thanh dưới cùng có bốn tab: Home, Portfolio, Hoạt động và Menu. Mọi thứ trước đây nằm trong Cài đặt giờ đều ở dưới Menu."
       },
       "1": {
-        "title": "Send with Two Devices",
-        "description": "Sending is one clear 3-step flow — Details, Review, Approve — with the full recipient address always shown at review. To finish, SSP Key displays a plain-language summary, decoded on your phone, of exactly what you're signing. Slide to approve; release early and nothing happens."
+        "title": "Gửi bằng hai thiết bị",
+        "description": "Gửi tiền là một quy trình 3 bước rõ ràng — Details, Review, Approve — với địa chỉ người nhận đầy đủ luôn hiển thị ở bước xem lại. Để hoàn tất, SSP Key hiển thị bản tóm tắt dễ hiểu, được giải mã ngay trên điện thoại của bạn, về chính xác những gì bạn đang ký. Trượt để phê duyệt ('Slide to approve'); nếu thả tay sớm thì không có gì xảy ra."
       }
     },
     "tipsTitle": "Các phương pháp bảo mật tốt nhất",
@@ -1130,11 +1130,11 @@
           },
           "13": {
             "question": "Tôi nhận được lỗi \"Synchronisation with SSP wallet needed\" trên di động",
-            "answer": "This error typically occurs when changing phones or when a blockchain is not yet activated on your SSP Key. To resolve: 1) Open SSP Wallet, 2) Tap the identity pill at the top and switch to the chain you want to activate — the wallet shows the chain sync screen with a QR code, 3) Optionally tick more chains to activate them in the same approval, 4) Tap 'Scan Code' in SSP Key and scan the QR code, 5) Slide to approve on your phone — one approval activates all selected chains."
+            "answer": "Lỗi này thường xảy ra khi đổi điện thoại hoặc khi một blockchain chưa được kích hoạt trên SSP Key của bạn. Cách khắc phục: 1) Mở SSP Wallet, 2) Chạm vào thẻ nhận dạng ở trên cùng và chuyển sang chuỗi bạn muốn kích hoạt — ví sẽ hiển thị màn hình đồng bộ chuỗi kèm mã QR, 3) Tùy chọn đánh dấu thêm các chuỗi khác để kích hoạt trong cùng một lần phê duyệt, 4) Chạm 'Quét mã' trong SSP Key và quét mã QR, 5) Trượt để phê duyệt trên điện thoại — một lần phê duyệt kích hoạt tất cả các chuỗi đã chọn."
           },
           "14": {
             "question": "Tôi nhận được lỗi \"SSP Key Public nonces do not match or SSP Key Public nonces are missing\"",
-            "answer": "This error occurs when public nonces used to construct transactions are not synchronized between your SSP Wallet and SSP Key. To resolve: 1) Open SSP Wallet and go to the Menu tab, 2) In the Security section, find \"Public Nonces\" and click \"Sync Public Nonces\", 3) Approve the request on your SSP Key. Your public nonces are now synchronized and you can begin transacting."
+            "answer": "Lỗi này xảy ra khi các public nonce dùng để dựng giao dịch không được đồng bộ giữa SSP Wallet và SSP Key của bạn. Cách khắc phục: 1) Mở SSP Wallet và vào tab Menu, 2) Trong mục Security, tìm 'Public Nonces' và nhấp 'Sync Public Nonces', 3) Phê duyệt yêu cầu trên SSP Key. Các public nonce của bạn giờ đã được đồng bộ và bạn có thể bắt đầu giao dịch."
           }
         }
       }

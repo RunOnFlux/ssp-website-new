@@ -781,7 +781,7 @@
     "videoTitle": "Видеоруководство по настройке",
     "videoSubtitle": "Полное прохождение",
     "videoDescription": "Посмотрите наш подробный видеоурок, демонстрирующий настройку SSP Wallet и SSP Key с детальными пошаговыми инструкциями.",
-    "videoLegacyNote": "This video was recorded with the previous interface. SSP Wallet 2.0.0 looks different — the written steps below match the current version.",
+    "videoLegacyNote": "Это видео записано с прежним интерфейсом. SSP Wallet 2.0.0 выглядит иначе — письменные шаги ниже соответствуют актуальной версии.",
     "videoUnsupported": "Ваш браузер не поддерживает тег video.",
     "videoBullet1": "Установка браузерного расширения",
     "videoBullet2": "Настройка и синхронизация мобильного приложения",
@@ -808,29 +808,29 @@
             "action": "Добавить в браузер"
           },
           "2": {
-            "title": "Open Wallet & Create Password",
-            "description": "Locate the SSP Wallet logo in your browser and click on it. Click 'Get Started!', set your password — it encrypts your wallet on this device — agree to the Terms of Service, and click 'Create Wallet'.",
-            "action": "Set password"
+            "title": "Открыть кошелёк и создать пароль",
+            "description": "Найдите логотип SSP Wallet в браузере и нажмите на него. Нажмите «Начать!», задайте пароль — он шифрует ваш кошелёк на этом устройстве, — примите Условия обслуживания и нажмите «Создать кошелек».",
+            "action": "Задать пароль"
           },
           "3": {
-            "title": "Backup Wallet Seed",
-            "description": "Click 'Show Mnemonic' to reveal your wallet seed phrase. Write the words down in order, store them securely offline, and confirm that you have backed them up.",
-            "action": "Secure backup"
+            "title": "Сохранить seed-фразу кошелька",
+            "description": "Нажмите «Показать мнемоническую фразу», чтобы увидеть seed-фразу кошелька. Запишите слова по порядку, храните их в надёжном месте офлайн и подтвердите, что сделали резервную копию.",
+            "action": "Сделать резервную копию"
           },
           "4": {
-            "title": "Confirm Your Backup",
-            "description": "A quick word challenge verifies your backup is real: pick the correct word for each requested position. Once you see 'Backup Confirmed!', click 'Create Wallet'.",
-            "action": "Pass word challenge"
+            "title": "Подтвердить резервную копию",
+            "description": "Короткая проверка слов подтверждает, что резервная копия настоящая: выберите правильное слово для каждой запрошенной позиции. Когда появится «Резервная копия подтверждена!», нажмите «Создать кошелек».",
+            "action": "Пройти проверку слов"
           },
           "5": {
-            "title": "Make It Yours",
-            "description": "Give your wallet a name and pick an accent color so you can spot it at a glance — you can change both later. Click 'Continue'.",
-            "action": "Personalize wallet"
+            "title": "Персонализировать кошелёк",
+            "description": "Дайте кошельку имя и выберите акцентный цвет, чтобы узнавать его с первого взгляда — и то и другое можно изменить позже. Нажмите «Продолжить».",
+            "action": "Выбрать имя и цвет"
           },
           "6": {
-            "title": "Get Ready to Pair",
-            "description": "Your wallet is ready! It now shows a QR code and asks you to pair your SSP Key — the second signature. Grab your phone and continue with Part Two.",
-            "action": "Continue to Part Two"
+            "title": "Подготовиться к сопряжению",
+            "description": "Ваш кошелёк готов! Теперь он показывает QR-код и просит подключить SSP Key — вторую подпись. Возьмите телефон и продолжите со второй частью.",
+            "action": "Перейти ко второй части"
           }
         }
       },
@@ -844,48 +844,48 @@
             "action": "Установить мобильное приложение"
           },
           "1": {
-            "title": "Secure Your Key",
-            "description": "Tap 'Synchronise Key!' to begin, then set your SSP Key password and confirm it. Tap 'Setup Key!'. You can also enable biometrics to unlock with your fingerprint or face.",
-            "action": "Create key password"
+            "title": "Защитить ключ",
+            "description": "Нажмите «Синхронизировать ключ!», чтобы начать, затем задайте пароль SSP Key и подтвердите его. Нажмите «Настроить ключ!». Также можно включить биометрию, чтобы разблокировать по отпечатку пальца или лицу.",
+            "action": "Создать пароль ключа"
           },
           "2": {
-            "title": "Backup Key Seed",
-            "description": "Tap 'Show Mnemonic' to reveal your key seed phrase. This seed is separate from your wallet seed — both must be backed up to recover your funds. Store it securely offline.",
-            "action": "Secure key backup"
+            "title": "Сохранить seed-фразу ключа",
+            "description": "Нажмите «Показать мнемоническую фразу», чтобы увидеть seed-фразу ключа. Эта фраза отдельна от seed-фразы кошелька — для восстановления средств нужны резервные копии обеих. Храните её в надёжном месте офлайн.",
+            "action": "Резервная копия ключа"
           },
           "3": {
-            "title": "Confirm Your Key Backup",
-            "description": "A quick word challenge verifies your backup is real: select the requested words from your key seed phrase. If a word is wrong, check your written backup and try again.",
-            "action": "Pass word challenge"
+            "title": "Подтвердить резервную копию ключа",
+            "description": "Короткая проверка слов подтверждает, что резервная копия настоящая: выберите запрошенные слова из seed-фразы ключа. Если слово неверно, сверьтесь с записанной копией и попробуйте снова.",
+            "action": "Пройти проверку слов"
           },
           "4": {
-            "title": "Scan the QR Code",
-            "description": "In your browser wallet, tick any extra chains to activate — one approval covers them all. Then tap 'Scan Code' in SSP Key and scan the QR code shown in your browser. Both apps also still support manual entry for offline setups.",
-            "action": "Sync devices"
+            "title": "Отсканировать QR-код",
+            "description": "В кошельке в браузере отметьте дополнительные сети для активации — одно подтверждение охватит их все. Затем нажмите «Сканировать код» в SSP Key и отсканируйте QR-код, показанный в браузере. Оба приложения по-прежнему поддерживают ручной ввод для офлайн-настройки.",
+            "action": "Синхронизировать устройства"
           },
           "5": {
-            "title": "Slide to Approve",
-            "description": "SSP Key shows the synchronisation request with every chain you selected. Slide to approve — a single approval activates all of them, with live progress on both devices.",
-            "action": "Approve sync"
+            "title": "Провести для подтверждения",
+            "description": "SSP Key показывает запрос на синхронизацию со всеми выбранными сетями. Проведите для подтверждения («Slide to approve») — одно подтверждение активирует их все, с ходом выполнения в реальном времени на обоих устройствах.",
+            "action": "Подтвердить синхронизацию"
           },
           "6": {
-            "title": "Verify Your Pairing",
-            "description": "Both devices now show the same 6 words. Compare them — or tap 'Scan wallet to verify' in SSP Key to check automatically. Matching words prove your pairing wasn't tampered with. If they differ, stop and re-pair.",
-            "action": "Match the 6 words"
+            "title": "Проверить сопряжение",
+            "description": "Оба устройства теперь показывают одни и те же 6 слов. Сравните их — или нажмите «Scan wallet to verify» в SSP Key для автоматической проверки. Совпадение слов доказывает, что сопряжение не было подменено. Если слова различаются, остановитесь и выполните сопряжение заново.",
+            "action": "Сверить 6 слов"
           }
         }
       }
     },
-    "afterTitle": "After Setup: Finding Your Way Around",
-    "afterSubtitle": "SSP Wallet 2.0 in a nutshell — where things are and how sending works",
+    "afterTitle": "После настройки: как ориентироваться",
+    "afterSubtitle": "SSP Wallet 2.0 вкратце — где что находится и как работает отправка",
     "after": {
       "0": {
-        "title": "Navigate with the Identity Pill",
-        "description": "Tap the identity pill at the top — your wallet's name and color — to switch wallets and networks. The bottom bar has four tabs: Home, Portfolio, Activity, and Menu. Everything that used to live in Settings is now under Menu."
+        "title": "Навигация с помощью идентификационной плашки",
+        "description": "Нажмите на идентификационную плашку вверху — имя и цвет вашего кошелька, — чтобы переключаться между кошельками и сетями. На нижней панели четыре вкладки: Home, Portfolio, Активность и Menu. Всё, что раньше находилось в настройках, теперь под Menu."
       },
       "1": {
-        "title": "Send with Two Devices",
-        "description": "Sending is one clear 3-step flow — Details, Review, Approve — with the full recipient address always shown at review. To finish, SSP Key displays a plain-language summary, decoded on your phone, of exactly what you're signing. Slide to approve; release early and nothing happens."
+        "title": "Отправка с двумя устройствами",
+        "description": "Отправка — это понятный процесс из 3 шагов — Details, Review, Approve — с полным адресом получателя, который всегда виден на этапе проверки. В завершение SSP Key показывает понятную сводку, декодированную на вашем телефоне, — что именно вы подписываете. Проведите для подтверждения («Slide to approve»); если отпустить раньше, ничего не произойдёт."
       }
     },
     "tipsTitle": "Лучшие практики безопасности",
@@ -1130,11 +1130,11 @@
           },
           "13": {
             "question": "На мобильном устройстве появляется ошибка «Synchronisation with SSP wallet needed»",
-            "answer": "This error typically occurs when changing phones or when a blockchain is not yet activated on your SSP Key. To resolve: 1) Open SSP Wallet, 2) Tap the identity pill at the top and switch to the chain you want to activate — the wallet shows the chain sync screen with a QR code, 3) Optionally tick more chains to activate them in the same approval, 4) Tap 'Scan Code' in SSP Key and scan the QR code, 5) Slide to approve on your phone — one approval activates all selected chains."
+            "answer": "Эта ошибка обычно возникает при смене телефона или когда блокчейн ещё не активирован на вашем SSP Key. Решение: 1) Откройте SSP Wallet, 2) Нажмите на идентификационную плашку вверху и переключитесь на сеть, которую хотите активировать, — кошелёк покажет экран синхронизации сети с QR-кодом, 3) При желании отметьте другие сети, чтобы активировать их тем же подтверждением, 4) Нажмите «Сканировать код» в SSP Key и отсканируйте QR-код, 5) Проведите для подтверждения на телефоне — одно подтверждение активирует все выбранные сети."
           },
           "14": {
             "question": "Появляется ошибка «SSP Key Public nonces do not match or SSP Key Public nonces are missing»",
-            "answer": "This error occurs when public nonces used to construct transactions are not synchronized between your SSP Wallet and SSP Key. To resolve: 1) Open SSP Wallet and go to the Menu tab, 2) In the Security section, find \"Public Nonces\" and click \"Sync Public Nonces\", 3) Approve the request on your SSP Key. Your public nonces are now synchronized and you can begin transacting."
+            "answer": "Эта ошибка возникает, когда публичные нонсы (public nonces), используемые для построения транзакций, не синхронизированы между SSP Wallet и SSP Key. Решение: 1) Откройте SSP Wallet и перейдите на вкладку Menu, 2) В разделе Security найдите «Public Nonces» и нажмите «Sync Public Nonces», 3) Подтвердите запрос на SSP Key. Публичные нонсы синхронизированы, и вы можете совершать транзакции."
           }
         }
       }

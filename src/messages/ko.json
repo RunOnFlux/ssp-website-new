@@ -781,7 +781,7 @@
     "videoTitle": "동영상 설정 가이드",
     "videoSubtitle": "완전한 안내",
     "videoDescription": "SSP Wallet과 SSP Key를 설정하는 방법을 단계별 상세 안내와 함께 보여주는 포괄적인 동영상 튜토리얼을 시청하십시오.",
-    "videoLegacyNote": "This video was recorded with the previous interface. SSP Wallet 2.0.0 looks different — the written steps below match the current version.",
+    "videoLegacyNote": "이 영상은 이전 인터페이스로 녹화되었습니다. SSP Wallet 2.0.0은 모습이 다릅니다 — 아래의 문서 단계는 현재 버전과 일치합니다.",
     "videoUnsupported": "브라우저가 동영상 태그를 지원하지 않습니다.",
     "videoBullet1": "브라우저 확장 프로그램 설치",
     "videoBullet2": "모바일 앱 설정 및 동기화",
@@ -808,29 +808,29 @@
             "action": "브라우저에 추가"
           },
           "2": {
-            "title": "Open Wallet & Create Password",
-            "description": "Locate the SSP Wallet logo in your browser and click on it. Click 'Get Started!', set your password — it encrypts your wallet on this device — agree to the Terms of Service, and click 'Create Wallet'.",
-            "action": "Set password"
+            "title": "지갑 열기 및 비밀번호 생성",
+            "description": "브라우저에서 SSP Wallet 로고를 찾아 클릭하십시오. '시작하기!'를 클릭하고 비밀번호를 설정하십시오 — 이 비밀번호는 이 기기에서 지갑을 암호화합니다. 서비스 약관에 동의한 후 '지갑 생성'을 클릭하십시오.",
+            "action": "비밀번호 설정"
           },
           "3": {
-            "title": "Backup Wallet Seed",
-            "description": "Click 'Show Mnemonic' to reveal your wallet seed phrase. Write the words down in order, store them securely offline, and confirm that you have backed them up.",
-            "action": "Secure backup"
+            "title": "지갑 시드 백업",
+            "description": "'니모닉 표시'를 클릭하여 지갑 시드 구문을 확인하십시오. 단어를 순서대로 적고 오프라인에 안전하게 보관한 다음, 백업했음을 확인하십시오.",
+            "action": "백업 보관"
           },
           "4": {
-            "title": "Confirm Your Backup",
-            "description": "A quick word challenge verifies your backup is real: pick the correct word for each requested position. Once you see 'Backup Confirmed!', click 'Create Wallet'.",
-            "action": "Pass word challenge"
+            "title": "백업 확인",
+            "description": "간단한 단어 확인으로 백업이 진짜인지 검증합니다. 요청된 각 위치에 맞는 단어를 고르십시오. '백업 확인 완료!'가 표시되면 '지갑 생성'을 클릭하십시오.",
+            "action": "단어 확인 통과"
           },
           "5": {
-            "title": "Make It Yours",
-            "description": "Give your wallet a name and pick an accent color so you can spot it at a glance — you can change both later. Click 'Continue'.",
-            "action": "Personalize wallet"
+            "title": "나만의 지갑 만들기",
+            "description": "지갑에 이름을 지정하고 한눈에 알아볼 수 있도록 강조 색상을 고르십시오 — 둘 다 나중에 변경할 수 있습니다. '계속'을 클릭하십시오.",
+            "action": "지갑 개인화"
           },
           "6": {
-            "title": "Get Ready to Pair",
-            "description": "Your wallet is ready! It now shows a QR code and asks you to pair your SSP Key — the second signature. Grab your phone and continue with Part Two.",
-            "action": "Continue to Part Two"
+            "title": "페어링 준비",
+            "description": "지갑이 준비되었습니다! 이제 QR 코드가 표시되며 두 번째 서명인 SSP Key와의 페어링을 요청합니다. 휴대폰을 들고 2부를 계속 진행하십시오.",
+            "action": "2부로 계속"
           }
         }
       },
@@ -844,48 +844,48 @@
             "action": "모바일 앱 설치"
           },
           "1": {
-            "title": "Secure Your Key",
-            "description": "Tap 'Synchronise Key!' to begin, then set your SSP Key password and confirm it. Tap 'Setup Key!'. You can also enable biometrics to unlock with your fingerprint or face.",
-            "action": "Create key password"
+            "title": "키 보호",
+            "description": "'키 동기화!'를 탭하여 시작한 다음, SSP Key 비밀번호를 설정하고 확인하십시오. '키 설정!'을 탭하십시오. 지문이나 얼굴로 잠금을 해제할 수 있도록 생체 인증을 활성화할 수도 있습니다.",
+            "action": "키 비밀번호 생성"
           },
           "2": {
-            "title": "Backup Key Seed",
-            "description": "Tap 'Show Mnemonic' to reveal your key seed phrase. This seed is separate from your wallet seed — both must be backed up to recover your funds. Store it securely offline.",
-            "action": "Secure key backup"
+            "title": "키 시드 백업",
+            "description": "'니모닉 표시'를 탭하여 키 시드 구문을 확인하십시오. 이 시드는 지갑 시드와 별개입니다 — 자금을 복구하려면 둘 다 백업되어 있어야 합니다. 오프라인에 안전하게 보관하십시오.",
+            "action": "키 백업 보관"
           },
           "3": {
-            "title": "Confirm Your Key Backup",
-            "description": "A quick word challenge verifies your backup is real: select the requested words from your key seed phrase. If a word is wrong, check your written backup and try again.",
-            "action": "Pass word challenge"
+            "title": "키 백업 확인",
+            "description": "간단한 단어 확인으로 백업이 진짜인지 검증합니다. 키 시드 구문에서 요청된 단어를 선택하십시오. 단어가 틀리면 적어 둔 백업을 확인하고 다시 시도하십시오.",
+            "action": "단어 확인 통과"
           },
           "4": {
-            "title": "Scan the QR Code",
-            "description": "In your browser wallet, tick any extra chains to activate — one approval covers them all. Then tap 'Scan Code' in SSP Key and scan the QR code shown in your browser. Both apps also still support manual entry for offline setups.",
-            "action": "Sync devices"
+            "title": "QR 코드 스캔",
+            "description": "브라우저 지갑에서 추가로 활성화할 체인을 선택하십시오 — 한 번의 승인으로 모두 처리됩니다. 그런 다음 SSP Key에서 '코드 스캔'을 탭하고 브라우저에 표시된 QR 코드를 스캔하십시오. 오프라인 설정을 위해 두 앱 모두 수동 입력도 계속 지원합니다.",
+            "action": "기기 동기화"
           },
           "5": {
-            "title": "Slide to Approve",
-            "description": "SSP Key shows the synchronisation request with every chain you selected. Slide to approve — a single approval activates all of them, with live progress on both devices.",
-            "action": "Approve sync"
+            "title": "슬라이드하여 승인",
+            "description": "SSP Key에 선택한 모든 체인이 포함된 동기화 요청이 표시됩니다. 슬라이드하여 승인('Slide to approve')하십시오 — 한 번의 승인으로 모두 활성화되며, 두 기기에서 실시간 진행 상황을 확인할 수 있습니다.",
+            "action": "동기화 승인"
           },
           "6": {
-            "title": "Verify Your Pairing",
-            "description": "Both devices now show the same 6 words. Compare them — or tap 'Scan wallet to verify' in SSP Key to check automatically. Matching words prove your pairing wasn't tampered with. If they differ, stop and re-pair.",
-            "action": "Match the 6 words"
+            "title": "페어링 검증",
+            "description": "이제 두 기기에 동일한 6개의 단어가 표시됩니다. 서로 비교하거나 SSP Key에서 'Scan wallet to verify'를 탭하여 자동으로 확인하십시오. 단어가 일치하면 페어링이 변조되지 않았다는 증거입니다. 다르면 중단하고 다시 페어링하십시오.",
+            "action": "6개 단어 대조"
           }
         }
       }
     },
-    "afterTitle": "After Setup: Finding Your Way Around",
-    "afterSubtitle": "SSP Wallet 2.0 in a nutshell — where things are and how sending works",
+    "afterTitle": "설정 후: 화면 구성 익히기",
+    "afterSubtitle": "SSP Wallet 2.0 요약 — 각 기능의 위치와 전송 방식",
     "after": {
       "0": {
-        "title": "Navigate with the Identity Pill",
-        "description": "Tap the identity pill at the top — your wallet's name and color — to switch wallets and networks. The bottom bar has four tabs: Home, Portfolio, Activity, and Menu. Everything that used to live in Settings is now under Menu."
+        "title": "아이덴티티 필로 이동하기",
+        "description": "상단의 아이덴티티 필(지갑의 이름과 색상)을 탭하면 지갑과 네트워크를 전환할 수 있습니다. 하단 바에는 Home, Portfolio, 활동, Menu의 네 가지 탭이 있습니다. 이전에 설정에 있던 모든 항목은 이제 Menu에 있습니다."
       },
       "1": {
-        "title": "Send with Two Devices",
-        "description": "Sending is one clear 3-step flow — Details, Review, Approve — with the full recipient address always shown at review. To finish, SSP Key displays a plain-language summary, decoded on your phone, of exactly what you're signing. Slide to approve; release early and nothing happens."
+        "title": "두 기기로 전송하기",
+        "description": "전송은 Details, Review, Approve의 명확한 3단계 흐름이며, 검토 단계에서 수신자 주소 전체가 항상 표시됩니다. 마지막으로 SSP Key가 서명할 내용을 휴대폰에서 디코딩한 알기 쉬운 요약으로 보여줍니다. 슬라이드하여 승인('Slide to approve')하십시오. 도중에 손을 떼면 아무 일도 일어나지 않습니다."
       }
     },
     "tipsTitle": "보안 모범 사례",
@@ -1130,11 +1130,11 @@
           },
           "13": {
             "question": "모바일에서 \"SSP 지갑과 동기화가 필요합니다\" 오류가 발생합니다",
-            "answer": "This error typically occurs when changing phones or when a blockchain is not yet activated on your SSP Key. To resolve: 1) Open SSP Wallet, 2) Tap the identity pill at the top and switch to the chain you want to activate — the wallet shows the chain sync screen with a QR code, 3) Optionally tick more chains to activate them in the same approval, 4) Tap 'Scan Code' in SSP Key and scan the QR code, 5) Slide to approve on your phone — one approval activates all selected chains."
+            "answer": "이 오류는 보통 휴대폰을 교체했거나 블록체인이 아직 SSP Key에서 활성화되지 않았을 때 발생합니다. 해결 방법: 1) SSP Wallet을 여십시오, 2) 상단의 아이덴티티 필을 탭하고 활성화할 체인으로 전환하십시오 — 지갑에 QR 코드가 있는 체인 동기화 화면이 표시됩니다, 3) 필요하면 더 많은 체인을 선택하여 같은 승인으로 활성화하십시오, 4) SSP Key에서 '코드 스캔'을 탭하고 QR 코드를 스캔하십시오, 5) 휴대폰에서 슬라이드하여 승인하십시오 — 한 번의 승인으로 선택한 모든 체인이 활성화됩니다."
           },
           "14": {
             "question": "\"SSP Key 공개 논스가 일치하지 않거나 SSP Key 공개 논스가 누락되었습니다\" 오류가 발생합니다",
-            "answer": "This error occurs when public nonces used to construct transactions are not synchronized between your SSP Wallet and SSP Key. To resolve: 1) Open SSP Wallet and go to the Menu tab, 2) In the Security section, find \"Public Nonces\" and click \"Sync Public Nonces\", 3) Approve the request on your SSP Key. Your public nonces are now synchronized and you can begin transacting."
+            "answer": "이 오류는 트랜잭션 구성에 사용되는 공개 논스가 SSP Wallet과 SSP Key 간에 동기화되지 않았을 때 발생합니다. 해결 방법: 1) SSP Wallet을 열고 Menu 탭으로 이동하십시오, 2) Security 섹션에서 'Public Nonces'를 찾아 'Sync Public Nonces'를 클릭하십시오, 3) SSP Key에서 요청을 승인하십시오. 이제 공개 논스가 동기화되어 거래를 시작할 수 있습니다."
           }
         }
       }
