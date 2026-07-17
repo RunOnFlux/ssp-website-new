@@ -781,6 +781,7 @@
     "videoTitle": "Video Kurulum Kılavuzu",
     "videoSubtitle": "Eksiksiz kılavuz",
     "videoDescription": "Hem SSP Wallet'ı hem de SSP Key'i ayrıntılı adım adım talimatlarla nasıl kuracağınızı gösteren kapsamlı video eğitimimizi izleyin.",
+    "videoLegacyNote": "This video was recorded with the previous interface. SSP Wallet 2.0.0 looks different — the written steps below match the current version.",
     "videoUnsupported": "Tarayıcınız video etiketini desteklemiyor.",
     "videoBullet1": "Tarayıcı uzantısı kurulumu",
     "videoBullet2": "Mobil uygulama kurulumu ve senkronizasyonu",
@@ -807,29 +808,29 @@
             "action": "Tarayıcıya ekle"
           },
           "2": {
-            "title": "Cüzdanı Aç",
-            "description": "Tarayıcınızda SSP cüzdan logosunu bulun ve üzerine tıklayın. Başlamak için istemleri izleyin.",
-            "action": "Cüzdanı başlat"
+            "title": "Open Wallet & Create Password",
+            "description": "Locate the SSP Wallet logo in your browser and click on it. Click 'Get Started!', set your password — it encrypts your wallet on this device — agree to the Terms of Service, and click 'Create Wallet'.",
+            "action": "Set password"
           },
           "3": {
-            "title": "Şifre Oluştur",
-            "description": "Şifrenizi oluşturun. Lütfen SSP Wallet Feragat Beyanını dikkatlice okuyun ve onayınızı bildirin.",
-            "action": "Şifre belirle"
+            "title": "Backup Wallet Seed",
+            "description": "Click 'Show Mnemonic' to reveal your wallet seed phrase. Write the words down in order, store them securely offline, and confirm that you have backed them up.",
+            "action": "Secure backup"
           },
           "4": {
-            "title": "Cüzdan Oluştur",
-            "description": "Yeni cüzdanınızı başlatmak için 'Cüzdan Oluştur'a tıklayın.",
-            "action": "Cüzdanı başlat"
+            "title": "Confirm Your Backup",
+            "description": "A quick word challenge verifies your backup is real: pick the correct word for each requested position. Once you see 'Backup Confirmed!', click 'Create Wallet'.",
+            "action": "Pass word challenge"
           },
           "5": {
-            "title": "Kurtarma Kelimelerini Yedekle",
-            "description": "'Anımsatıcı Cüzdan Kurtarma Kelimelerini Göster'e tıklayın. Kurtarma kelimelerini güvenli bir şekilde saklayın ve yedeklediğinizi onaylayın.",
-            "action": "Güvenli yedekleme"
+            "title": "Make It Yours",
+            "description": "Give your wallet a name and pick an accent color so you can spot it at a glance — you can change both later. Click 'Continue'.",
+            "action": "Personalize wallet"
           },
           "6": {
-            "title": "Kurulumu Tamamla",
-            "description": "İşlemi tamamlamak için 'Cüzdan Oluştur'a tıklayın. Tarayıcı cüzdanınız artık hazır!",
-            "action": "Kurulumu tamamla"
+            "title": "Get Ready to Pair",
+            "description": "Your wallet is ready! It now shows a QR code and asks you to pair your SSP Key — the second signature. Grab your phone and continue with Part Two.",
+            "action": "Continue to Part Two"
           }
         }
       },
@@ -843,36 +844,48 @@
             "action": "Mobil uygulamayı kur"
           },
           "1": {
-            "title": "Senkronizasyonu Başlat",
-            "description": "Kurulum sürecini başlatmak için 'Anahtarı Senkronize Et'e tıklayın.",
-            "action": "Senkronizasyonu başlat"
+            "title": "Secure Your Key",
+            "description": "Tap 'Synchronise Key!' to begin, then set your SSP Key password and confirm it. Tap 'Setup Key!'. You can also enable biometrics to unlock with your fingerprint or face.",
+            "action": "Create key password"
           },
           "2": {
-            "title": "Anahtar Şifresini Belirle",
-            "description": "Bir SSP Key şifresi belirleyin ve onaylayın. Ardından 'Anahtarı Kur'a tıklayın.",
-            "action": "Anahtar şifresi oluştur"
+            "title": "Backup Key Seed",
+            "description": "Tap 'Show Mnemonic' to reveal your key seed phrase. This seed is separate from your wallet seed — both must be backed up to recover your funds. Store it securely offline.",
+            "action": "Secure key backup"
           },
           "3": {
-            "title": "Anahtar Tohumunu Yedekle",
-            "description": "'Anımsatıcı Anahtar Kurtarma Kelimelerini Göster'e tıklayın. Anahtar kurtarma kelimelerini güvenli bir şekilde saklayın ve yedeklemeyi onaylayın.",
-            "action": "Güvenli anahtar yedekleme"
+            "title": "Confirm Your Key Backup",
+            "description": "A quick word challenge verifies your backup is real: select the requested words from your key seed phrase. If a word is wrong, check your written backup and try again.",
+            "action": "Pass word challenge"
           },
           "4": {
-            "title": "Anahtar Kurulumunu Tamamla",
-            "description": "'Anahtarı Kur'a tıklayın. SSP Key artık SSP Wallet için ikinci kimlik doğrulama faktörü olarak görev yapar.",
-            "action": "Anahtarı sonlandır"
+            "title": "Scan the QR Code",
+            "description": "In your browser wallet, tick any extra chains to activate — one approval covers them all. Then tap 'Scan Code' in SSP Key and scan the QR code shown in your browser. Both apps also still support manual entry for offline setups.",
+            "action": "Sync devices"
           },
           "5": {
-            "title": "QR Kodunu Tara",
-            "description": "SSP Key'i SSP Wallet ile senkronize etmek için 'Kodu Tara'ya tıklayın. Tarayıcınızda gösterilen QR kodunu tarayın.",
-            "action": "Cihazları senkronize et"
+            "title": "Slide to Approve",
+            "description": "SSP Key shows the synchronisation request with every chain you selected. Slide to approve — a single approval activates all of them, with live progress on both devices.",
+            "action": "Approve sync"
           },
           "6": {
-            "title": "Senkronizasyonu Onayla",
-            "description": "'Senkronizasyonu Onayla'ya tıklayın ve Anahtar şifrenizle onaylayın. Başarılı senkronizasyon bildirilecektir.",
-            "action": "Senkronizasyonu tamamla"
+            "title": "Verify Your Pairing",
+            "description": "Both devices now show the same 6 words. Compare them — or tap 'Scan wallet to verify' in SSP Key to check automatically. Matching words prove your pairing wasn't tampered with. If they differ, stop and re-pair.",
+            "action": "Match the 6 words"
           }
         }
+      }
+    },
+    "afterTitle": "After Setup: Finding Your Way Around",
+    "afterSubtitle": "SSP Wallet 2.0 in a nutshell — where things are and how sending works",
+    "after": {
+      "0": {
+        "title": "Navigate with the Identity Pill",
+        "description": "Tap the identity pill at the top — your wallet's name and color — to switch wallets and networks. The bottom bar has four tabs: Home, Portfolio, Activity, and Menu. Everything that used to live in Settings is now under Menu."
+      },
+      "1": {
+        "title": "Send with Two Devices",
+        "description": "Sending is one clear 3-step flow — Details, Review, Approve — with the full recipient address always shown at review. To finish, SSP Key displays a plain-language summary, decoded on your phone, of exactly what you're signing. Slide to approve; release early and nothing happens."
       }
     },
     "tipsTitle": "En İyi Güvenlik Uygulamaları",
@@ -1117,11 +1130,11 @@
           },
           "13": {
             "question": "Mobilde \"SSP cüzdanıyla senkronizasyon gerekiyor\" hatası alıyorum",
-            "answer": "Bu hata genellikle telefon değiştirirken veya bir blok zinciri henüz SSP Key ile senkronize edilmemişken oluşur. Çözüm için: 1) SSP Wallet'ı açın, 2) Yeniden senkronize etmek istediğiniz blok zincirine geçin, 3) Hamburger menüsüne (sağ üst köşe) tıklayın, 4) \"SSP Wallet Ayrıntıları\"nı seçin, 5) Şifrenizle erişimi onaylayın, 6) İlk satırda \"SSP Key ile Zincir Senkronizasyonu\"nu bulun ve QR kodunu göstermek için göz simgesine tıklayın, 7) QR kodunu SSP Key'inizle tarayın ve zincir senkronizasyonunu onaylayın."
+            "answer": "This error typically occurs when changing phones or when a blockchain is not yet activated on your SSP Key. To resolve: 1) Open SSP Wallet, 2) Tap the identity pill at the top and switch to the chain you want to activate — the wallet shows the chain sync screen with a QR code, 3) Optionally tick more chains to activate them in the same approval, 4) Tap 'Scan Code' in SSP Key and scan the QR code, 5) Slide to approve on your phone — one approval activates all selected chains."
           },
           "14": {
             "question": "\"SSP Key Genel nonce'ları eşleşmiyor veya SSP Key Genel nonce'ları eksik\" hatası alıyorum",
-            "answer": "Bu hata, işlemleri oluşturmak için kullanılan genel nonce'lar SSP Wallet ve SSP Key arasında senkronize edilmediğinde oluşur. Çözüm için: 1) Hamburger menüsünü açın (sağ üst köşe), 2) Ayarlara gidin, 3) \"Genel Nonce'lar\" bölümünü bulun ve \"Genel Nonce'ları Senkronize Et\"e tıklayın, 4) SSP Key'inizle gösterilen QR kodunu tarayın, 5) Mobil cihazınızdaki isteği onaylayın. Genel nonce'larınız artık senkronize edildi ve işlem yapmaya başlayabilirsiniz."
+            "answer": "This error occurs when public nonces used to construct transactions are not synchronized between your SSP Wallet and SSP Key. To resolve: 1) Open SSP Wallet and go to the Menu tab, 2) In the Security section, find \"Public Nonces\" and click \"Sync Public Nonces\", 3) Approve the request on your SSP Key. Your public nonces are now synchronized and you can begin transacting."
           }
         }
       }

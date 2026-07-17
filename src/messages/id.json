@@ -781,6 +781,7 @@
     "videoTitle": "Panduan Video Penyiapan",
     "videoSubtitle": "Panduan lengkap",
     "videoDescription": "Tonton tutorial video komprehensif kami yang menampilkan cara menyiapkan SSP Wallet dan SSP Key dengan instruksi langkah demi langkah yang terperinci.",
+    "videoLegacyNote": "This video was recorded with the previous interface. SSP Wallet 2.0.0 looks different — the written steps below match the current version.",
     "videoUnsupported": "Browser Anda tidak mendukung tag video.",
     "videoBullet1": "Instalasi ekstensi browser",
     "videoBullet2": "Penyiapan dan sinkronisasi aplikasi mobile",
@@ -807,29 +808,29 @@
             "action": "Tambahkan ke browser"
           },
           "2": {
-            "title": "Buka Dompet",
-            "description": "Temukan logo SSP wallet di browser Anda dan klik. Ikuti petunjuk untuk memulai.",
-            "action": "Luncurkan dompet"
+            "title": "Open Wallet & Create Password",
+            "description": "Locate the SSP Wallet logo in your browser and click on it. Click 'Get Started!', set your password — it encrypts your wallet on this device — agree to the Terms of Service, and click 'Create Wallet'.",
+            "action": "Set password"
           },
           "3": {
-            "title": "Buat Kata Sandi",
-            "description": "Buat kata sandi Anda. Mohon baca dengan seksama Penafian SSP Wallet dan akui persetujuan Anda.",
-            "action": "Atur kata sandi"
+            "title": "Backup Wallet Seed",
+            "description": "Click 'Show Mnemonic' to reveal your wallet seed phrase. Write the words down in order, store them securely offline, and confirm that you have backed them up.",
+            "action": "Secure backup"
           },
           "4": {
-            "title": "Buat Dompet",
-            "description": "Klik 'Buat Dompet' untuk menginisialisasi dompet baru Anda.",
-            "action": "Inisialisasi dompet"
+            "title": "Confirm Your Backup",
+            "description": "A quick word challenge verifies your backup is real: pick the correct word for each requested position. Once you see 'Backup Confirmed!', click 'Create Wallet'.",
+            "action": "Pass word challenge"
           },
           "5": {
-            "title": "Cadangkan Frasa Pemulihan",
-            "description": "Klik 'Tampilkan Frasa Pemulihan Mnemonic Dompet.' Simpan frasa pemulihan dengan aman dan konfirmasikan bahwa Anda telah mencadangkannya.",
-            "action": "Cadangan aman"
+            "title": "Make It Yours",
+            "description": "Give your wallet a name and pick an accent color so you can spot it at a glance — you can change both later. Click 'Continue'.",
+            "action": "Personalize wallet"
           },
           "6": {
-            "title": "Selesaikan Penyiapan",
-            "description": "Klik 'Buat Dompet' untuk menyelesaikan proses. Dompet browser Anda kini siap!",
-            "action": "Selesaikan penyiapan"
+            "title": "Get Ready to Pair",
+            "description": "Your wallet is ready! It now shows a QR code and asks you to pair your SSP Key — the second signature. Grab your phone and continue with Part Two.",
+            "action": "Continue to Part Two"
           }
         }
       },
@@ -843,36 +844,48 @@
             "action": "Instal aplikasi mobile"
           },
           "1": {
-            "title": "Mulai Sinkronisasi",
-            "description": "Klik 'Sinkronkan Key' untuk memulai proses penyiapan.",
-            "action": "Mulai sinkronisasi"
+            "title": "Secure Your Key",
+            "description": "Tap 'Synchronise Key!' to begin, then set your SSP Key password and confirm it. Tap 'Setup Key!'. You can also enable biometrics to unlock with your fingerprint or face.",
+            "action": "Create key password"
           },
           "2": {
-            "title": "Atur Kata Sandi Key",
-            "description": "Atur kata sandi SSP Key dan konfirmasikan. Kemudian, klik 'Setup Key.'",
-            "action": "Buat kata sandi key"
+            "title": "Backup Key Seed",
+            "description": "Tap 'Show Mnemonic' to reveal your key seed phrase. This seed is separate from your wallet seed — both must be backed up to recover your funds. Store it securely offline.",
+            "action": "Secure key backup"
           },
           "3": {
-            "title": "Cadangkan Seed Key",
-            "description": "Klik 'Tampilkan Frasa Pemulihan Mnemonic Key.' Simpan frasa pemulihan key dengan aman dan konfirmasikan cadangan.",
-            "action": "Cadangan key aman"
+            "title": "Confirm Your Key Backup",
+            "description": "A quick word challenge verifies your backup is real: select the requested words from your key seed phrase. If a word is wrong, check your written backup and try again.",
+            "action": "Pass word challenge"
           },
           "4": {
-            "title": "Selesaikan Penyiapan Key",
-            "description": "Klik 'Setup Key.' SSP Key kini berfungsi sebagai faktor autentikasi kedua untuk SSP Wallet Anda.",
-            "action": "Finalisasi key"
+            "title": "Scan the QR Code",
+            "description": "In your browser wallet, tick any extra chains to activate — one approval covers them all. Then tap 'Scan Code' in SSP Key and scan the QR code shown in your browser. Both apps also still support manual entry for offline setups.",
+            "action": "Sync devices"
           },
           "5": {
-            "title": "Pindai Kode QR",
-            "description": "Klik 'Pindai Kode' untuk menyinkronkan SSP Key dengan SSP Wallet. Pindai kode QR yang ditampilkan di browser Anda.",
-            "action": "Sinkronkan perangkat"
+            "title": "Slide to Approve",
+            "description": "SSP Key shows the synchronisation request with every chain you selected. Slide to approve — a single approval activates all of them, with live progress on both devices.",
+            "action": "Approve sync"
           },
           "6": {
-            "title": "Setujui Sinkronisasi",
-            "description": "Klik 'Setujui Sinkronisasi' dan konfirmasikan dengan kata sandi Key Anda. Anda akan diberitahu sinkronisasi berhasil.",
-            "action": "Selesaikan sinkronisasi"
+            "title": "Verify Your Pairing",
+            "description": "Both devices now show the same 6 words. Compare them — or tap 'Scan wallet to verify' in SSP Key to check automatically. Matching words prove your pairing wasn't tampered with. If they differ, stop and re-pair.",
+            "action": "Match the 6 words"
           }
         }
+      }
+    },
+    "afterTitle": "After Setup: Finding Your Way Around",
+    "afterSubtitle": "SSP Wallet 2.0 in a nutshell — where things are and how sending works",
+    "after": {
+      "0": {
+        "title": "Navigate with the Identity Pill",
+        "description": "Tap the identity pill at the top — your wallet's name and color — to switch wallets and networks. The bottom bar has four tabs: Home, Portfolio, Activity, and Menu. Everything that used to live in Settings is now under Menu."
+      },
+      "1": {
+        "title": "Send with Two Devices",
+        "description": "Sending is one clear 3-step flow — Details, Review, Approve — with the full recipient address always shown at review. To finish, SSP Key displays a plain-language summary, decoded on your phone, of exactly what you're signing. Slide to approve; release early and nothing happens."
       }
     },
     "tipsTitle": "Praktik Terbaik Keamanan",
@@ -1117,11 +1130,11 @@
           },
           "13": {
             "question": "Saya mendapatkan error \"Synchronisation with SSP wallet needed\" di mobile",
-            "answer": "Error ini biasanya terjadi saat mengganti ponsel atau ketika blockchain belum disinkronkan dengan SSP Key Anda. Untuk mengatasi: 1) Buka SSP Wallet, 2) Beralih ke blockchain yang ingin Anda sinkronkan ulang, 3) Klik menu burger (sudut kanan atas), 4) Pilih \"SSP Wallet Details\", 5) Konfirmasikan akses dengan kata sandi Anda, 6) Di baris pertama, temukan \"Chain Sync with SSP Key\" dan klik ikon mata untuk menampilkan kode QR, 7) Pindai kode QR dengan SSP Key Anda dan setujui sinkronisasi chain."
+            "answer": "This error typically occurs when changing phones or when a blockchain is not yet activated on your SSP Key. To resolve: 1) Open SSP Wallet, 2) Tap the identity pill at the top and switch to the chain you want to activate — the wallet shows the chain sync screen with a QR code, 3) Optionally tick more chains to activate them in the same approval, 4) Tap 'Scan Code' in SSP Key and scan the QR code, 5) Slide to approve on your phone — one approval activates all selected chains."
           },
           "14": {
             "question": "Saya mendapatkan error \"SSP Key Public nonces do not match or SSP Key Public nonces are missing\"",
-            "answer": "Error ini terjadi ketika nonce publik yang digunakan untuk mengkonstruksi transaksi tidak tersinkronkan antara SSP Wallet dan SSP Key Anda. Untuk mengatasi: 1) Buka menu burger (sudut kanan atas), 2) Navigasikan ke Pengaturan, 3) Temukan bagian \"Public Nonces\" dan klik \"Sync Public Nonces\", 4) Pindai kode QR yang ditampilkan dengan SSP Key Anda, 5) Setujui permintaan di perangkat mobile Anda. Nonce publik Anda kini tersinkronkan dan Anda dapat mulai bertransaksi."
+            "answer": "This error occurs when public nonces used to construct transactions are not synchronized between your SSP Wallet and SSP Key. To resolve: 1) Open SSP Wallet and go to the Menu tab, 2) In the Security section, find \"Public Nonces\" and click \"Sync Public Nonces\", 3) Approve the request on your SSP Key. Your public nonces are now synchronized and you can begin transacting."
           }
         }
       }

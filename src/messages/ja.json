@@ -781,6 +781,7 @@
     "videoTitle": "ビデオセットアップガイド",
     "videoSubtitle": "完全なウォークスルー",
     "videoDescription": "SSP Wallet と SSP Key の両方のセットアップ方法を詳細なステップごとの手順とともに紹介する包括的なビデオチュートリアルをご覧ください。",
+    "videoLegacyNote": "This video was recorded with the previous interface. SSP Wallet 2.0.0 looks different — the written steps below match the current version.",
     "videoUnsupported": "お使いのブラウザはビデオタグをサポートしていません。",
     "videoBullet1": "ブラウザ拡張機能のインストール",
     "videoBullet2": "モバイルアプリのセットアップと同期",
@@ -807,29 +808,29 @@
             "action": "ブラウザに追加"
           },
           "2": {
-            "title": "ウォレットを開く",
-            "description": "ブラウザで SSP ウォレットのロゴを見つけてクリックします。プロンプトに従って開始します。",
-            "action": "ウォレットを起動"
+            "title": "Open Wallet & Create Password",
+            "description": "Locate the SSP Wallet logo in your browser and click on it. Click 'Get Started!', set your password — it encrypts your wallet on this device — agree to the Terms of Service, and click 'Create Wallet'.",
+            "action": "Set password"
           },
           "3": {
-            "title": "パスワードを作成",
-            "description": "パスワードを作成してください。SSP Wallet の免責事項をよく読み、同意を確認してください。",
-            "action": "パスワードを設定"
+            "title": "Backup Wallet Seed",
+            "description": "Click 'Show Mnemonic' to reveal your wallet seed phrase. Write the words down in order, store them securely offline, and confirm that you have backed them up.",
+            "action": "Secure backup"
           },
           "4": {
-            "title": "ウォレットを作成",
-            "description": "「ウォレットを作成」をクリックして新しいウォレットを初期化します。",
-            "action": "ウォレットを初期化"
+            "title": "Confirm Your Backup",
+            "description": "A quick word challenge verifies your backup is real: pick the correct word for each requested position. Once you see 'Backup Confirmed!', click 'Create Wallet'.",
+            "action": "Pass word challenge"
           },
           "5": {
-            "title": "シードフレーズをバックアップ",
-            "description": "「ウォレットのニーモニックシードフレーズを表示」をクリックします。シードフレーズを安全に保管し、バックアップしたことを確認します。",
-            "action": "安全なバックアップ"
+            "title": "Make It Yours",
+            "description": "Give your wallet a name and pick an accent color so you can spot it at a glance — you can change both later. Click 'Continue'.",
+            "action": "Personalize wallet"
           },
           "6": {
-            "title": "セットアップを完了",
-            "description": "「ウォレットを作成」をクリックしてプロセスを完了します。ブラウザウォレットの準備が整いました！",
-            "action": "セットアップを完了"
+            "title": "Get Ready to Pair",
+            "description": "Your wallet is ready! It now shows a QR code and asks you to pair your SSP Key — the second signature. Grab your phone and continue with Part Two.",
+            "action": "Continue to Part Two"
           }
         }
       },
@@ -843,36 +844,48 @@
             "action": "モバイルアプリをインストール"
           },
           "1": {
-            "title": "同期を開始",
-            "description": "「キーを同期」をクリックしてセットアッププロセスを開始します。",
-            "action": "同期を開始"
+            "title": "Secure Your Key",
+            "description": "Tap 'Synchronise Key!' to begin, then set your SSP Key password and confirm it. Tap 'Setup Key!'. You can also enable biometrics to unlock with your fingerprint or face.",
+            "action": "Create key password"
           },
           "2": {
-            "title": "キーパスワードを設定",
-            "description": "SSP Key のパスワードを設定して確認します。次に「キーをセットアップ」をクリックします。",
-            "action": "キーパスワードを作成"
+            "title": "Backup Key Seed",
+            "description": "Tap 'Show Mnemonic' to reveal your key seed phrase. This seed is separate from your wallet seed — both must be backed up to recover your funds. Store it securely offline.",
+            "action": "Secure key backup"
           },
           "3": {
-            "title": "キーシードをバックアップ",
-            "description": "「キーのニーモニックシードフレーズを表示」をクリックします。キーシードフレーズを安全に保管し、バックアップを確認します。",
-            "action": "キーバックアップを安全に保管"
+            "title": "Confirm Your Key Backup",
+            "description": "A quick word challenge verifies your backup is real: select the requested words from your key seed phrase. If a word is wrong, check your written backup and try again.",
+            "action": "Pass word challenge"
           },
           "4": {
-            "title": "キーセットアップを完了",
-            "description": "「キーをセットアップ」をクリックします。SSP Key は SSP Wallet の 2 番目の認証要素として機能するようになりました。",
-            "action": "キーを完了"
+            "title": "Scan the QR Code",
+            "description": "In your browser wallet, tick any extra chains to activate — one approval covers them all. Then tap 'Scan Code' in SSP Key and scan the QR code shown in your browser. Both apps also still support manual entry for offline setups.",
+            "action": "Sync devices"
           },
           "5": {
-            "title": "QR コードをスキャン",
-            "description": "「コードをスキャン」をクリックして SSP Key を SSP Wallet と同期します。ブラウザに表示された QR コードをスキャンします。",
-            "action": "デバイスを同期"
+            "title": "Slide to Approve",
+            "description": "SSP Key shows the synchronisation request with every chain you selected. Slide to approve — a single approval activates all of them, with live progress on both devices.",
+            "action": "Approve sync"
           },
           "6": {
-            "title": "同期を承認",
-            "description": "「同期を承認」をクリックし、キーパスワードで確認します。同期が成功したことが通知されます。",
-            "action": "同期を完了"
+            "title": "Verify Your Pairing",
+            "description": "Both devices now show the same 6 words. Compare them — or tap 'Scan wallet to verify' in SSP Key to check automatically. Matching words prove your pairing wasn't tampered with. If they differ, stop and re-pair.",
+            "action": "Match the 6 words"
           }
         }
+      }
+    },
+    "afterTitle": "After Setup: Finding Your Way Around",
+    "afterSubtitle": "SSP Wallet 2.0 in a nutshell — where things are and how sending works",
+    "after": {
+      "0": {
+        "title": "Navigate with the Identity Pill",
+        "description": "Tap the identity pill at the top — your wallet's name and color — to switch wallets and networks. The bottom bar has four tabs: Home, Portfolio, Activity, and Menu. Everything that used to live in Settings is now under Menu."
+      },
+      "1": {
+        "title": "Send with Two Devices",
+        "description": "Sending is one clear 3-step flow — Details, Review, Approve — with the full recipient address always shown at review. To finish, SSP Key displays a plain-language summary, decoded on your phone, of exactly what you're signing. Slide to approve; release early and nothing happens."
       }
     },
     "tipsTitle": "セキュリティのベストプラクティス",
@@ -1117,11 +1130,11 @@
           },
           "13": {
             "question": "モバイルで「Synchronisation with SSP wallet needed」エラーが表示されます",
-            "answer": "このエラーは通常、電話を変更したとき、またはブロックチェーンがまだ SSP Key と同期されていないときに発生します。解決するには：1) SSP Wallet を開きます。2) 再同期したいブロックチェーンに切り替えます。3) バーガーメニュー（右上隅）をクリックします。4) 「SSP Wallet Details」を選択します。5) パスワードでアクセスを確認します。6) 最初の行で「Chain Sync with SSP Key」を見つけ、目のアイコンをクリックして QR コードを表示します。7) SSP Key で QR コードをスキャンし、チェーンの同期を承認します。"
+            "answer": "This error typically occurs when changing phones or when a blockchain is not yet activated on your SSP Key. To resolve: 1) Open SSP Wallet, 2) Tap the identity pill at the top and switch to the chain you want to activate — the wallet shows the chain sync screen with a QR code, 3) Optionally tick more chains to activate them in the same approval, 4) Tap 'Scan Code' in SSP Key and scan the QR code, 5) Slide to approve on your phone — one approval activates all selected chains."
           },
           "14": {
             "question": "「SSP Key Public nonces do not match or SSP Key Public nonces are missing」エラーが表示されます",
-            "answer": "このエラーは、トランザクションの構築に使用される公開ノンスが SSP Wallet と SSP Key 間で同期されていない場合に発生します。解決するには：1) バーガーメニュー（右上隅）を開きます。2) 設定に移動します。3) 「Public Nonces」セクションを見つけて「Sync Public Nonces」をクリックします。4) SSP Key で表示された QR コードをスキャンします。5) モバイルデバイスでリクエストを承認します。公開ノンスが同期され、トランザクションを開始できます。"
+            "answer": "This error occurs when public nonces used to construct transactions are not synchronized between your SSP Wallet and SSP Key. To resolve: 1) Open SSP Wallet and go to the Menu tab, 2) In the Security section, find \"Public Nonces\" and click \"Sync Public Nonces\", 3) Approve the request on your SSP Key. Your public nonces are now synchronized and you can begin transacting."
           }
         }
       }

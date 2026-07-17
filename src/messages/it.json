@@ -781,6 +781,7 @@
     "videoTitle": "Guida Video alla Configurazione",
     "videoSubtitle": "Procedura completa",
     "videoDescription": "Guardi il nostro tutorial video completo che mostra come configurare sia SSP Wallet che SSP Key con istruzioni passo dopo passo dettagliate.",
+    "videoLegacyNote": "This video was recorded with the previous interface. SSP Wallet 2.0.0 looks different — the written steps below match the current version.",
     "videoUnsupported": "Il browser non supporta il tag video.",
     "videoBullet1": "Installazione dell'estensione browser",
     "videoBullet2": "Configurazione e sincronizzazione dell'app mobile",
@@ -807,29 +808,29 @@
             "action": "Aggiungi al browser"
           },
           "2": {
-            "title": "Apri il Wallet",
-            "description": "Individui il logo del wallet SSP nel browser e faccia clic su di esso. Segua le istruzioni per iniziare.",
-            "action": "Avvia wallet"
+            "title": "Open Wallet & Create Password",
+            "description": "Locate the SSP Wallet logo in your browser and click on it. Click 'Get Started!', set your password — it encrypts your wallet on this device — agree to the Terms of Service, and click 'Create Wallet'.",
+            "action": "Set password"
           },
           "3": {
-            "title": "Crea Password",
-            "description": "Crei la sua password. Legga attentamente la Clausola di esclusione di responsabilità di SSP Wallet e confermi il suo accordo.",
-            "action": "Imposta password"
+            "title": "Backup Wallet Seed",
+            "description": "Click 'Show Mnemonic' to reveal your wallet seed phrase. Write the words down in order, store them securely offline, and confirm that you have backed them up.",
+            "action": "Secure backup"
           },
           "4": {
-            "title": "Crea Wallet",
-            "description": "Faccia clic su 'Crea Wallet' per inizializzare il suo nuovo wallet.",
-            "action": "Inizializza wallet"
+            "title": "Confirm Your Backup",
+            "description": "A quick word challenge verifies your backup is real: pick the correct word for each requested position. Once you see 'Backup Confirmed!', click 'Create Wallet'.",
+            "action": "Pass word challenge"
           },
           "5": {
-            "title": "Backup Frase di Recupero",
-            "description": "Faccia clic su 'Mostra Frase di Recupero Mnemonica del Wallet'. Conservi la frase di recupero in modo sicuro e confermi il backup.",
-            "action": "Backup sicuro"
+            "title": "Make It Yours",
+            "description": "Give your wallet a name and pick an accent color so you can spot it at a glance — you can change both later. Click 'Continue'.",
+            "action": "Personalize wallet"
           },
           "6": {
-            "title": "Finalizza Configurazione",
-            "description": "Faccia clic su 'Crea Wallet' per finalizzare il processo. Il wallet browser è ora pronto!",
-            "action": "Completa configurazione"
+            "title": "Get Ready to Pair",
+            "description": "Your wallet is ready! It now shows a QR code and asks you to pair your SSP Key — the second signature. Grab your phone and continue with Part Two.",
+            "action": "Continue to Part Two"
           }
         }
       },
@@ -843,36 +844,48 @@
             "action": "Installa app mobile"
           },
           "1": {
-            "title": "Avvia la Sincronizzazione",
-            "description": "Faccia clic su 'Sincronizza Chiave' per iniziare il processo di configurazione.",
-            "action": "Inizia sincronizzazione"
+            "title": "Secure Your Key",
+            "description": "Tap 'Synchronise Key!' to begin, then set your SSP Key password and confirm it. Tap 'Setup Key!'. You can also enable biometrics to unlock with your fingerprint or face.",
+            "action": "Create key password"
           },
           "2": {
-            "title": "Imposta Password della Chiave",
-            "description": "Imposti una password SSP Key e la confermi. Poi faccia clic su 'Configura Chiave'.",
-            "action": "Crea password chiave"
+            "title": "Backup Key Seed",
+            "description": "Tap 'Show Mnemonic' to reveal your key seed phrase. This seed is separate from your wallet seed — both must be backed up to recover your funds. Store it securely offline.",
+            "action": "Secure key backup"
           },
           "3": {
-            "title": "Backup Seed della Chiave",
-            "description": "Faccia clic su 'Mostra Frase di Recupero Mnemonica della Chiave'. Conservi la frase di recupero della chiave in modo sicuro e confermi il backup.",
-            "action": "Backup sicuro della chiave"
+            "title": "Confirm Your Key Backup",
+            "description": "A quick word challenge verifies your backup is real: select the requested words from your key seed phrase. If a word is wrong, check your written backup and try again.",
+            "action": "Pass word challenge"
           },
           "4": {
-            "title": "Completa Configurazione Chiave",
-            "description": "Faccia clic su 'Configura Chiave'. SSP Key ora funge da secondo fattore di autenticazione per il suo SSP Wallet.",
-            "action": "Finalizza chiave"
+            "title": "Scan the QR Code",
+            "description": "In your browser wallet, tick any extra chains to activate — one approval covers them all. Then tap 'Scan Code' in SSP Key and scan the QR code shown in your browser. Both apps also still support manual entry for offline setups.",
+            "action": "Sync devices"
           },
           "5": {
-            "title": "Scansiona Codice QR",
-            "description": "Faccia clic su 'Scansiona Codice' per sincronizzare il suo SSP Key con SSP Wallet. Scansioni il codice QR visualizzato nel browser.",
-            "action": "Sincronizza dispositivi"
+            "title": "Slide to Approve",
+            "description": "SSP Key shows the synchronisation request with every chain you selected. Slide to approve — a single approval activates all of them, with live progress on both devices.",
+            "action": "Approve sync"
           },
           "6": {
-            "title": "Approva Sincronizzazione",
-            "description": "Faccia clic su 'Approva Sincronizzazione' e confermi con la password della Chiave. Verrà notificato del successo della sincronizzazione.",
-            "action": "Completa sincronizzazione"
+            "title": "Verify Your Pairing",
+            "description": "Both devices now show the same 6 words. Compare them — or tap 'Scan wallet to verify' in SSP Key to check automatically. Matching words prove your pairing wasn't tampered with. If they differ, stop and re-pair.",
+            "action": "Match the 6 words"
           }
         }
+      }
+    },
+    "afterTitle": "After Setup: Finding Your Way Around",
+    "afterSubtitle": "SSP Wallet 2.0 in a nutshell — where things are and how sending works",
+    "after": {
+      "0": {
+        "title": "Navigate with the Identity Pill",
+        "description": "Tap the identity pill at the top — your wallet's name and color — to switch wallets and networks. The bottom bar has four tabs: Home, Portfolio, Activity, and Menu. Everything that used to live in Settings is now under Menu."
+      },
+      "1": {
+        "title": "Send with Two Devices",
+        "description": "Sending is one clear 3-step flow — Details, Review, Approve — with the full recipient address always shown at review. To finish, SSP Key displays a plain-language summary, decoded on your phone, of exactly what you're signing. Slide to approve; release early and nothing happens."
       }
     },
     "tipsTitle": "Best Practice di Sicurezza",
@@ -1117,11 +1130,11 @@
           },
           "13": {
             "question": "Ricevo l'errore \"Synchronisation with SSP wallet needed\" sul mobile",
-            "answer": "Questo errore si verifica in genere quando si cambia telefono o quando una blockchain non è ancora sincronizzata con SSP Key. Per risolvere: 1) Apra SSP Wallet, 2) Passi alla blockchain che vuole risincronizzare, 3) Faccia clic sul menu burger (angolo in alto a destra), 4) Selezioni \"SSP Wallet Details\", 5) Confermi l'accesso con la sua password, 6) Nella prima riga, trovi \"Chain Sync with SSP Key\" e faccia clic sull'icona occhio per mostrare il codice QR, 7) Scansioni il codice QR con SSP Key e approvi la sincronizzazione della chain."
+            "answer": "This error typically occurs when changing phones or when a blockchain is not yet activated on your SSP Key. To resolve: 1) Open SSP Wallet, 2) Tap the identity pill at the top and switch to the chain you want to activate — the wallet shows the chain sync screen with a QR code, 3) Optionally tick more chains to activate them in the same approval, 4) Tap 'Scan Code' in SSP Key and scan the QR code, 5) Slide to approve on your phone — one approval activates all selected chains."
           },
           "14": {
             "question": "Ricevo l'errore \"SSP Key Public nonces do not match or SSP Key Public nonces are missing\"",
-            "answer": "Questo errore si verifica quando i nonce pubblici utilizzati per costruire le transazioni non sono sincronizzati tra SSP Wallet e SSP Key. Per risolvere: 1) Apra il menu burger (angolo in alto a destra), 2) Vada in Impostazioni, 3) Trovi la sezione \"Public Nonces\" e faccia clic su \"Sync Public Nonces\", 4) Scansioni il codice QR mostrato con SSP Key, 5) Approvi la richiesta sul dispositivo mobile. I nonce pubblici sono ora sincronizzati e può iniziare le transazioni."
+            "answer": "This error occurs when public nonces used to construct transactions are not synchronized between your SSP Wallet and SSP Key. To resolve: 1) Open SSP Wallet and go to the Menu tab, 2) In the Security section, find \"Public Nonces\" and click \"Sync Public Nonces\", 3) Approve the request on your SSP Key. Your public nonces are now synchronized and you can begin transacting."
           }
         }
       }
