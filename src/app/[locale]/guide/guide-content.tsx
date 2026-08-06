@@ -6,10 +6,12 @@ import {
   ArrowRight,
   CheckCircle,
   Chrome,
+  Compass,
   Download,
   Lock,
   type LucideIcon,
   Play,
+  Send,
   Shield,
   Smartphone,
 } from 'lucide-react'
@@ -40,9 +42,9 @@ const phases: GuidePhaseShape[] = [
       { index: 0, link: '/download' },
       { index: 1 },
       { index: 2 },
-      { index: 3 },
+      { index: 3, important: true },
       { index: 4 },
-      { index: 5, important: true },
+      { index: 5 },
       { index: 6 },
     ],
   },
@@ -59,14 +61,16 @@ const phases: GuidePhaseShape[] = [
         },
       },
       { index: 1 },
-      { index: 2 },
-      { index: 3, important: true },
+      { index: 2, important: true },
+      { index: 3 },
       { index: 4 },
       { index: 5 },
-      { index: 6 },
+      { index: 6, important: true },
     ],
   },
 ]
+
+const afterSetupIcons: LucideIcon[] = [Compass, Send]
 
 const securityTipIcons: LucideIcon[] = [Lock, Shield, Smartphone]
 
@@ -279,7 +283,11 @@ export function GuideContent() {
                   </div>
                 </div>
 
-                <p className='mb-6 text-gray-600 dark:text-gray-400'>{t('videoDescription')}</p>
+                <p className='mb-4 text-gray-600 dark:text-gray-400'>{t('videoDescription')}</p>
+
+                <p className='mb-6 text-sm text-amber-600 dark:text-amber-400'>
+                  {t('videoLegacyNote')}
+                </p>
 
                 <div className='space-y-3'>
                   <div className='flex items-center text-sm text-gray-600 dark:text-gray-400'>
@@ -381,8 +389,49 @@ export function GuideContent() {
         </div>
       </section>
 
-      {/* Security Tips */}
+      {/* After Setup: Using SSP Wallet 2.0 */}
       <section className='section-padding'>
+        <div className='container-custom'>
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.4 }}
+            viewport={{ once: true }}
+            className='mb-12 text-center'
+          >
+            <h2 className='heading-2 mb-4'>{t('afterTitle')}</h2>
+            <p className='mx-auto max-w-2xl text-lg text-gray-600 dark:text-gray-400'>
+              {t('afterSubtitle')}
+            </p>
+          </motion.div>
+
+          <div className='mx-auto grid max-w-4xl gap-8 md:grid-cols-2'>
+            {afterSetupIcons.map((AfterIcon, index) => (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.4, delay: index * 0.1 }}
+                viewport={{ once: true }}
+                className='dark:bg-dark-800 rounded-2xl border border-gray-200 bg-white p-8 transition-shadow hover:shadow-lg dark:border-gray-700'
+              >
+                <div className='bg-primary-100 text-primary-600 dark:bg-primary-900/30 dark:text-primary-400 mb-4 inline-flex h-16 w-16 items-center justify-center rounded-2xl'>
+                  <AfterIcon className='h-8 w-8' />
+                </div>
+                <h3 className='mb-2 text-xl font-bold text-gray-900 dark:text-white'>
+                  {t(`after.${index}.title`)}
+                </h3>
+                <p className='text-gray-600 dark:text-gray-400'>
+                  {t(`after.${index}.description`)}
+                </p>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Security Tips */}
+      <section className='section-padding dark:bg-dark-900 bg-gray-50'>
         <div className='container-custom'>
           <motion.div
             initial={{ opacity: 0, y: 30 }}
