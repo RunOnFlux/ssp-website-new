@@ -65,6 +65,23 @@ const nextConfig: NextConfig = {
     removeConsole: process.env.NODE_ENV === 'production' ? { exclude: ['error', 'warn'] } : false,
   },
   experimental: { scrollRestoration: true },
+  async redirects() {
+    return [
+      // SSP Wallet's "download SSP Key" QR/link points here, but the page
+      // never existed — send it to the mobile section of /download. Temporary
+      // (307) so a dedicated device-detecting page can replace it later.
+      {
+        source: '/download/ssp-key',
+        destination: '/download#mobile',
+        permanent: false,
+      },
+      {
+        source: '/:locale/download/ssp-key',
+        destination: '/:locale/download#mobile',
+        permanent: false,
+      },
+    ]
+  },
   async headers() {
     return [
       {
