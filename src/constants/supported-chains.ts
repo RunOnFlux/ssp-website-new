@@ -1,7 +1,7 @@
 export interface SupportedChain {
   symbol: string
   name: string
-  network: 'utxo' | 'evm'
+  network: 'utxo' | 'evm' | 'sol'
 }
 
 export const SUPPORTED_CHAINS: readonly SupportedChain[] = [
@@ -17,4 +17,5 @@ export const SUPPORTED_CHAINS: readonly SupportedChain[] = [
   { symbol: 'BSC', name: 'BNB Smart Chain', network: 'evm' },
   { symbol: 'AVAX', name: 'Avalanche', network: 'evm' },
   { symbol: 'BASE', name: 'Base', network: 'evm' },
+  { symbol: 'SOL', name: 'Solana', network: 'sol' },
 ] as const

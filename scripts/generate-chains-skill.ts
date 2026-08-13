@@ -17,6 +17,7 @@ async function main() {
   await fs.mkdir(path.dirname(TARGET), { recursive: true })
   const utxo = SUPPORTED_CHAINS.filter(c => c.network === 'utxo')
   const evm = SUPPORTED_CHAINS.filter(c => c.network === 'evm')
+  const sol = SUPPORTED_CHAINS.filter(c => c.network === 'sol')
   const body = `
 SSP Wallet supports ${SUPPORTED_CHAINS.length} blockchains as of ${new Date().toISOString().slice(0, 10)}.
 
@@ -27,7 +28,15 @@ ${utxo.map(c => `- **${c.name}** (\`${c.symbol}\`)`).join('\n')}
 ## EVM chains
 
 ${evm.map(c => `- **${c.name}** (\`${c.symbol}\`)`).join('\n')}
+${
+  sol.length > 0
+    ? `
+## Solana
 
+${sol.map(c => `- **${c.name}** (\`${c.symbol}\`)`).join('\n')}
+`
+    : ''
+}
 ## How to use
 
 - See feature comparison: https://sspwallet.io/features

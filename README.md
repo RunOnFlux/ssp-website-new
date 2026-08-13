@@ -117,7 +117,7 @@ Every static route has a sibling `agent.md` file served when the request carries
 
 ## Supported chains
 
-12 chains as of this commit. The authoritative list is generated from `src/constants/supported-chains.ts` into `src/app/api/agent-skills/skills/list-supported-chains/SKILL.md` on every build.
+13 chains as of this commit. The authoritative list is generated from `src/constants/supported-chains.ts` into `src/app/api/agent-skills/skills/list-supported-chains/SKILL.md` on every build.
 
 ## Open-source rules
 

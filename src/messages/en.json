@@ -342,7 +342,7 @@
       "accountAbstractionStrong": "Account Abstraction (ERC-4337)",
       "accountAbstractionAfter": "Smart contract wallets",
       "solanaStrong": "Solana Support",
-      "solanaAfter": "Coming soon with multisig",
+      "solanaAfter": "Live with 2-of-2 multisig",
       "viewFullList": "View Full Asset List"
     },
     "cta": {
@@ -974,7 +974,7 @@
           },
           "3": {
             "question": "What cryptocurrencies does SSP Wallet support?",
-            "answer": "SSP Wallet supports 15+ blockchains including Bitcoin (BTC), Ethereum (ETH), Litecoin (LTC), Zcash (ZEC), Ravencoin (RVN), Dogecoin (DOGE), Bitcoin Cash (BCH), Flux (FLUX), Polygon (MATIC), BSC, Avalanche (AVAX), and Base. For EVM-compatible chains, we support all ERC-20 tokens and you can import your own custom token lists. Solana support is coming soon."
+            "answer": "SSP Wallet supports 15+ blockchains including Bitcoin (BTC), Ethereum (ETH), Litecoin (LTC), Zcash (ZEC), Ravencoin (RVN), Dogecoin (DOGE), Bitcoin Cash (BCH), Flux (FLUX), Polygon (MATIC), BSC, Avalanche (AVAX), Base, and Solana (SOL). For EVM-compatible chains, we support all ERC-20 tokens and you can import your own custom token lists."
           },
           "4": {
             "question": "Where can I find the complete list of supported assets?",

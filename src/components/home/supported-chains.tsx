@@ -27,6 +27,7 @@ const CHAIN_VISUALS: Record<string, ChainVisual> = {
   BSC: { logo: '/chains/bnb.svg', color: 'from-yellow-400 to-yellow-600' },
   AVAX: { logo: '/chains/avax.svg', color: 'from-red-400 to-red-600' },
   BASE: { logo: '/chains/base.svg', color: 'from-blue-500 to-blue-700' },
+  SOL: { logo: '/chains/sol.svg', color: 'from-purple-500 to-teal-400' },
 }
 
 const FALLBACK_VISUAL: ChainVisual = {
@@ -148,9 +149,15 @@ export function SupportedChains() {
 
                   <p className='mb-2 text-xs text-gray-500 dark:text-gray-400'>{chain.symbol}</p>
 
-                  <p className='text-xs text-gray-600 opacity-0 transition-opacity duration-300 group-hover:opacity-100 dark:text-gray-300'>
-                    {chain.description}
-                  </p>
+                  {/* Rendered only when a description exists. A chain added
+                      ahead of its translations (chainDescriptions is key-parity
+                      checked across all locales at build time) would otherwise
+                      reserve an empty line and look broken on hover. */}
+                  {chain.description && (
+                    <p className='text-xs text-gray-600 opacity-0 transition-opacity duration-300 group-hover:opacity-100 dark:text-gray-300'>
+                      {chain.description}
+                    </p>
+                  )}
                 </div>
 
                 {/* Hover Border Effect */}
@@ -193,7 +200,7 @@ export function SupportedChains() {
                     </span>
                   </div>
                   <div className='flex items-center space-x-3'>
-                    <div className='h-2 w-2 rounded-full bg-orange-500'></div>
+                    <div className='h-2 w-2 rounded-full bg-green-500'></div>
                     <span className='text-sm'>
                       <strong>{t('solanaStrong')}</strong> - {t('solanaAfter')}
                     </span>

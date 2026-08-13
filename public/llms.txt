@@ -14,7 +14,7 @@ SSP Wallet is developed by InFlux Technologies (RunOnFlux). It consists of two c
 
 ## Supported blockchains
 
-Native support: Bitcoin (BTC), Ethereum (ETH), Litecoin (LTC), Zcash (ZEC), Ravencoin (RVN), Dogecoin (DOGE), Bitcoin Cash (BCH), Flux (FLUX), Polygon (MATIC), Binance Smart Chain (BSC), Avalanche (AVAX), Base. Full ERC-20 token support on all EVM chains with custom token list import. Solana support is in development.
+Native support: Bitcoin (BTC), Ethereum (ETH), Litecoin (LTC), Zcash (ZEC), Ravencoin (RVN), Dogecoin (DOGE), Bitcoin Cash (BCH), Flux (FLUX), Polygon (MATIC), Binance Smart Chain (BSC), Avalanche (AVAX), Base, Solana (SOL). Full ERC-20 token support on all EVM chains with custom token list import, and SPL token support on Solana.
 
 ## Documentation and support
 

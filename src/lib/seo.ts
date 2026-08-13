@@ -218,6 +218,7 @@ export function createSoftwareApplicationJsonLd(): Record<string, unknown> {
       'Binance Smart Chain (BSC)',
       'Avalanche (AVAX)',
       'Base',
+      'Solana (SOL)',
     ],
   }
 }

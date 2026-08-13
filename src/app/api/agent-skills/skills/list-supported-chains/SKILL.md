@@ -2,10 +2,10 @@
 name: list-supported-chains
 description: Authoritative list of blockchains and assets supported by SSP Wallet, regenerated automatically from src/constants/supported-chains.ts on every build.
 url: https://sspwallet.io/api/agent-skills/skills/list-supported-chains/SKILL.md
-last_reviewed: 2026-07-22
+last_reviewed: 2026-08-13
 ---
 
-SSP Wallet supports 12 blockchains as of 2026-07-22.
+SSP Wallet supports 13 blockchains as of 2026-08-13.
 
 ## UTXO chains
 
@@ -24,6 +24,10 @@ SSP Wallet supports 12 blockchains as of 2026-07-22.
 - **BNB Smart Chain** (`BSC`)
 - **Avalanche** (`AVAX`)
 - **Base** (`BASE`)
+
+## Solana
+
+- **Solana** (`SOL`)
 
 ## How to use
 
