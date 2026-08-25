@@ -110,7 +110,15 @@ export default async function AcademyLandingPage({
       )}
 
       <section className='container-custom py-12'>
-        <h2 className='mb-6 text-2xl font-bold md:text-3xl'>{t('latestArticles')}</h2>
+        <div className='mb-6 flex flex-wrap items-baseline justify-between gap-3'>
+          <h2 className='text-2xl font-bold md:text-3xl'>{t('latestArticles')}</h2>
+          <Link
+            href='/academy/articles'
+            className='text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300 text-sm font-semibold underline underline-offset-4'
+          >
+            {t('viewAllArticles')}
+          </Link>
+        </div>
         {latest.length === 0 ? (
           <p className='py-8 text-center text-gray-500 dark:text-gray-400'>{t('comingSoon')}</p>
         ) : (

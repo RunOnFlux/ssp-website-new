@@ -438,7 +438,18 @@
       "coin-guides": "Mỗi đồng coin hoặc chain mà SSP hỗ trợ đều có những đặc điểm riêng — UTXO so với account-based, multisig gốc so với ERC-4337, động lực phí, thời gian finality. Bộ sưu tập này trình bày từng cái một.",
       "defi": "SSP hỗ trợ DeFi thông qua ERC-4337 Account Abstraction trên các EVM chain. Các bài viết này giải thích AA là gì, dApp nào bạn có thể sử dụng an toàn từ ví multisig và cách SSP giữ cho bạn kiểm soát trong khi tham gia vào các giao thức DeFi.",
       "news-explained": "Ngoài các tiêu đề: những thay đổi quy định, thất bại sàn giao dịch, sự cố giao thức và cập nhật tiêu chuẩn thực sự ảnh hưởng đến người dùng tự lưu trữ — được giải thích không phóng đại."
-    }
+    },
+    "allArticles": "Tất cả bài viết",
+    "allArticlesDescription": "Mọi hướng dẫn chúng tôi đã đăng, mới nhất trước. Tìm theo tiêu đề hoặc lọc theo chủ đề.",
+    "allArticlesMetaTitle": "Tất cả bài viết — SSP Academy",
+    "allArticlesMetaDescription": "Duyệt và tìm kiếm mọi bài viết của SSP Academy. Hướng dẫn về multisig, tự lưu ký, bảo mật và các chuỗi được hỗ trợ.",
+    "viewAllArticles": "Xem tất cả bài viết",
+    "searchPlaceholder": "Tìm bài viết…",
+    "searchLabel": "Tìm bài viết",
+    "allTopics": "Tất cả chủ đề",
+    "resultCount": "{count, plural, =0 {Không có bài viết} other {# bài viết}}",
+    "noResults": "Không có bài viết nào khớp với tìm kiếm của bạn.",
+    "clearFilters": "Xóa bộ lọc"
   },
   "Author": {
     "title": "{name}",

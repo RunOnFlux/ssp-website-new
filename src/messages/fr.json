@@ -438,7 +438,18 @@
       "coin-guides": "Chaque coin ou chaîne pris en charge par SSP a ses propres particularités — UTXO vs. basé sur des comptes, multisig natif vs. ERC-4337, dynamiques de frais, temps de finalité. Cette collection les couvre un par un.",
       "defi": "SSP prend en charge la DeFi via ERC-4337 Account Abstraction sur les chaînes EVM. Ces articles expliquent ce qu'est l'AA, quels dApps vous pouvez utiliser en toute sécurité depuis un portefeuille multisig, et comment SSP vous garde en contrôle tout en vous permettant de participer aux protocoles DeFi.",
       "news-explained": "Au-delà des gros titres : les évolutions réglementaires, les faillites d'exchanges, les incidents de protocoles et les mises à jour de standards qui affectent réellement les utilisateurs en auto-conservation — expliqués sans battage médiatique."
-    }
+    },
+    "allArticles": "Tous les articles",
+    "allArticlesDescription": "Tous les guides que nous avons publiés, du plus récent au plus ancien. Cherchez par titre ou filtrez par thème.",
+    "allArticlesMetaTitle": "Tous les articles — SSP Academy",
+    "allArticlesMetaDescription": "Parcourez et recherchez tous les articles de SSP Academy. Des guides sur le multisig, l’auto-conservation, la sécurité et les chaînes prises en charge.",
+    "viewAllArticles": "Voir tous les articles",
+    "searchPlaceholder": "Rechercher des articles…",
+    "searchLabel": "Rechercher des articles",
+    "allTopics": "Tous les thèmes",
+    "resultCount": "{count, plural, =0 {Aucun article} one {# article} other {# articles}}",
+    "noResults": "Aucun article ne correspond à votre recherche.",
+    "clearFilters": "Effacer les filtres"
   },
   "Author": {
     "title": "{name}",

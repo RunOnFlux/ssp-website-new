@@ -438,7 +438,18 @@
       "coin-guides": "SSP 支持的每一种币和每一条链都有其特性——UTXO 与账户模型、原生多重签名与 ERC-4337、手续费机制、最终性时间。本合集逐一进行解析。",
       "defi": "SSP 在 EVM 链上通过 ERC-4337 账户抽象支持 DeFi。本类文章介绍 AA 是什么、哪些 dApp 可在多重签名钱包中安全使用，以及 SSP 如何在你参与 DeFi 协议时仍保持控制权。",
       "news-explained": "超越头条：真正影响自托管用户的监管变化、交易所事件、协议事故与标准更新——理性解读，不夸大其词。"
-    }
+    },
+    "allArticles": "全部文章",
+    "allArticlesDescription": "我们发布过的所有指南，最新的排在前面。可按标题搜索，或按主题筛选。",
+    "allArticlesMetaTitle": "全部文章 — SSP Academy",
+    "allArticlesMetaDescription": "浏览并搜索 SSP Academy 的全部文章。涵盖多签、自我保管、安全与所支持链的各类指南。",
+    "viewAllArticles": "查看全部文章",
+    "searchPlaceholder": "搜索文章…",
+    "searchLabel": "搜索文章",
+    "allTopics": "全部主题",
+    "resultCount": "{count, plural, =0 {没有文章} other {# 篇文章}}",
+    "noResults": "没有文章符合你的搜索。",
+    "clearFilters": "清除筛选"
   },
   "Author": {
     "title": "{name}",

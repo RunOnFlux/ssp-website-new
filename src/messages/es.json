@@ -438,7 +438,18 @@
       "coin-guides": "Cada moneda o cadena que SSP soporta tiene sus propias particularidades: UTXO frente a basadas en cuentas, multifirma nativa frente a ERC-4337, dinámica de comisiones, tiempos de finalidad. Esta colección las analiza una a una.",
       "defi": "SSP admite DeFi mediante Account Abstraction ERC-4337 en cadenas EVM. Estos artículos explican qué es AA, qué dApps puedes utilizar de forma segura desde una cartera multifirma y cómo SSP mantiene tu control mientras participas en protocolos DeFi.",
       "news-explained": "Más allá de los titulares: los cambios regulatorios, las quiebras de exchanges, los incidentes en protocolos y las actualizaciones de estándares que realmente afectan a los usuarios de autocustodia, explicados sin sensacionalismo."
-    }
+    },
+    "allArticles": "Todos los artículos",
+    "allArticlesDescription": "Todas las guías que hemos publicado, de la más reciente a la más antigua. Busca por título o filtra por tema.",
+    "allArticlesMetaTitle": "Todos los artículos — SSP Academy",
+    "allArticlesMetaDescription": "Explora y busca en todos los artículos de SSP Academy. Guías sobre multifirma, autocustodia, seguridad y cadenas compatibles.",
+    "viewAllArticles": "Ver todos los artículos",
+    "searchPlaceholder": "Buscar artículos…",
+    "searchLabel": "Buscar artículos",
+    "allTopics": "Todos los temas",
+    "resultCount": "{count, plural, =0 {Ningún artículo} one {# artículo} other {# artículos}}",
+    "noResults": "Ningún artículo coincide con tu búsqueda.",
+    "clearFilters": "Limpiar filtros"
   },
   "Author": {
     "title": "{name}",

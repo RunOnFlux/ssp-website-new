@@ -438,7 +438,18 @@
       "coin-guides": "SSP がサポートする各コイン・チェーンにはそれぞれ特徴があります — UTXO かアカウントベースか、ネイティブ multisig か ERC-4337 か、手数料の仕組み、ファイナリティ時間など。このコレクションでは 1 つずつ詳しく解説します。",
       "defi": "SSP は EVM チェーン上の ERC-4337 アカウント抽象化を通じて DeFi をサポートしています。これらの記事では、AA とは何か、multisig ウォレットから安全に使える dApp、SSP が DeFi プロトコルへの参加を可能にしながらもあなたのコントロールを維持する方法を解説します。",
       "news-explained": "ヘッドラインの裏側：セルフカストディユーザーに実際に影響を与える規制の変化、取引所の破綻、プロトコルインシデント、規格の更新を誇張なく解説します。"
-    }
+    },
+    "allArticles": "すべての記事",
+    "allArticlesDescription": "これまでに公開したすべてのガイドを、新しい順に。タイトルで検索するか、トピックで絞り込めます。",
+    "allArticlesMetaTitle": "すべての記事 — SSP Academy",
+    "allArticlesMetaDescription": "SSP Academy のすべての記事を閲覧・検索できます。マルチシグ、自己管理、セキュリティ、対応チェーンのガイド。",
+    "viewAllArticles": "すべての記事を見る",
+    "searchPlaceholder": "記事を検索…",
+    "searchLabel": "記事を検索",
+    "allTopics": "すべてのトピック",
+    "resultCount": "{count, plural, =0 {記事はありません} other {# 件の記事}}",
+    "noResults": "検索に一致する記事はありません。",
+    "clearFilters": "フィルターをクリア"
   },
   "Author": {
     "title": "{name}",

@@ -438,7 +438,18 @@
       "coin-guides": "Each coin or chain SSP supports has its own quirks — UTXO vs. account-based, native multisig vs. ERC-4337, fee dynamics, finality times. This collection covers them one at a time.",
       "defi": "SSP supports DeFi via ERC-4337 Account Abstraction on EVM chains. These articles explain what AA is, what dApps you can use safely from a multisig wallet, and how SSP keeps you in control while letting you participate in DeFi protocols.",
       "news-explained": "Beyond the headlines: the regulatory shifts, exchange failures, protocol incidents, and standards updates that actually affect self-custody users — explained without hype."
-    }
+    },
+    "allArticles": "All articles",
+    "allArticlesDescription": "Every guide we have published, newest first. Search by title or filter by topic.",
+    "allArticlesMetaTitle": "All Articles — SSP Academy",
+    "allArticlesMetaDescription": "Browse and search every SSP Academy article. Guides on multisig, self-custody, security and supported chains.",
+    "viewAllArticles": "View all articles",
+    "searchPlaceholder": "Search articles…",
+    "searchLabel": "Search articles",
+    "allTopics": "All topics",
+    "resultCount": "{count, plural, =0 {No articles} one {# article} other {# articles}}",
+    "noResults": "No articles match your search.",
+    "clearFilters": "Clear filters"
   },
   "Author": {
     "title": "{name}",

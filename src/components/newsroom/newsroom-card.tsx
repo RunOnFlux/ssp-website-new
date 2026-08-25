@@ -26,36 +26,40 @@ export function NewsroomCard({ post, href }: NewsroomCardProps) {
   const cardImage = post.imageSquare || post.image
   const cardImageAlt = post.imageSquare ? post.imageSquareAlt || post.imageAlt : post.imageAlt
   return (
-    <Link href={link} className='group block'>
-      <article className='rounded-card dark:border-dark-700 dark:bg-dark-800 overflow-hidden border border-gray-200 bg-white transition-transform duration-200 group-hover:scale-[1.02]'>
-        <div className='relative h-[250px] overflow-hidden md:h-[350px]'>
+    // h-full lets the card fill its grid cell; the column layout below then
+    // pins the meta row to the bottom so every card in a row ends level,
+    // regardless of how long its title or description happens to be.
+    <Link href={link} className='group block h-full'>
+      <article className='rounded-card dark:border-dark-700 dark:bg-dark-800 flex h-full flex-col overflow-hidden border border-gray-200 bg-white transition-transform duration-200 group-hover:scale-[1.02]'>
+        {/* Fixed 16:9 box rather than a fixed pixel height, so the image scales
+            with the column instead of dominating narrow ones. */}
+        <div className='relative aspect-[16/9] shrink-0 overflow-hidden'>
           <Image
             src={cmsMediaUrl(cardImage)}
             alt={cardImageAlt ?? ''}
             fill
             className='object-cover'
-            sizes='(max-width: 768px) 100vw, 50vw'
+            sizes='(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw'
           />
-          <div className='dark:to-dark-800/80 absolute inset-0 bg-linear-to-b from-transparent to-white/80' />
         </div>
-        <div className='px-6 pt-4 pb-6 md:px-8 md:pt-6 md:pb-8'>
-          <h3 className='mb-3 text-2xl leading-tight font-bold text-gray-900 md:mb-4 md:text-[40px] md:leading-[50px] dark:text-white'>
+        <div className='flex flex-1 flex-col p-5'>
+          <h3 className='mb-2 line-clamp-2 text-lg leading-snug font-bold text-gray-900 md:text-xl dark:text-white'>
             {post.title}
           </h3>
-          <p className='mb-4 line-clamp-2 text-base leading-relaxed font-medium text-gray-600 md:mb-6 md:text-2xl md:leading-[39.6px] dark:text-gray-300'>
+          <p className='mb-4 line-clamp-3 text-sm leading-relaxed text-gray-600 md:text-base dark:text-gray-300'>
             {post.description}
           </p>
-          <div className='flex items-center justify-between'>
+          <div className='mt-auto flex items-center justify-between gap-3'>
             <time
               dateTime={post.date}
-              className='text-sm font-medium text-gray-500 md:text-base dark:text-gray-400'
+              className='text-xs font-medium text-gray-500 md:text-sm dark:text-gray-400'
             >
               {formatDate(post.date)}
             </time>
-            <div className='rounded-pill bg-primary-500/15 flex items-center gap-2 px-4 py-2'>
-              <Clock className='text-primary-600 dark:text-primary-400 h-4 w-4' />
-              <span className='text-primary-700 dark:text-primary-300 text-sm font-bold md:text-base'>
-                {post.readTime} min read
+            <div className='rounded-pill bg-primary-500/15 flex shrink-0 items-center gap-1.5 px-3 py-1'>
+              <Clock className='text-primary-600 dark:text-primary-400 h-3.5 w-3.5' />
+              <span className='text-primary-700 dark:text-primary-300 text-xs font-semibold'>
+                {post.readTime} min
               </span>
             </div>
           </div>

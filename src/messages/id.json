@@ -438,7 +438,18 @@
       "coin-guides": "Setiap koin atau chain yang didukung SSP memiliki keunikannya masing-masing — UTXO vs. berbasis akun, multisig native vs. ERC-4337, dinamika biaya, waktu finalitas. Koleksi ini membahas satu per satu.",
       "defi": "SSP mendukung DeFi melalui ERC-4337 Account Abstraction di chain EVM. Artikel-artikel ini menjelaskan apa itu AA, dApp apa yang dapat Anda gunakan dengan aman dari dompet multisig, dan bagaimana SSP membuat Anda tetap dalam kendali sambil memungkinkan Anda berpartisipasi dalam protokol DeFi.",
       "news-explained": "Di balik berita utama: pergeseran regulasi, kegagalan bursa, insiden protokol, dan pembaruan standar yang benar-benar memengaruhi pengguna kustodi mandiri — dijelaskan tanpa hype."
-    }
+    },
+    "allArticles": "Semua artikel",
+    "allArticlesDescription": "Semua panduan yang telah kami terbitkan, terbaru lebih dulu. Cari berdasarkan judul atau saring menurut topik.",
+    "allArticlesMetaTitle": "Semua artikel — SSP Academy",
+    "allArticlesMetaDescription": "Jelajahi dan cari semua artikel SSP Academy. Panduan tentang multisig, swakelola, keamanan, dan rantai yang didukung.",
+    "viewAllArticles": "Lihat semua artikel",
+    "searchPlaceholder": "Cari artikel…",
+    "searchLabel": "Cari artikel",
+    "allTopics": "Semua topik",
+    "resultCount": "{count, plural, =0 {Tidak ada artikel} other {# artikel}}",
+    "noResults": "Tidak ada artikel yang cocok dengan pencarian Anda.",
+    "clearFilters": "Hapus filter"
   },
   "Author": {
     "title": "{name}",

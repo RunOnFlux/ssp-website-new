@@ -438,7 +438,18 @@
       "coin-guides": "Każda moneta lub sieć obsługiwana przez SSP ma swoje osobliwości — UTXO a model kont, natywny multisig a ERC-4337, dynamika opłat, czasy nieodwołalności. Ten zbiór omawia je po kolei.",
       "defi": "SSP obsługuje DeFi przez ERC-4337 Account Abstraction na sieciach EVM. Artykuły wyjaśniają, czym jest AA, z jakich dApps można bezpiecznie korzystać z portfela multisig i jak SSP utrzymuje kontrolę, pozwalając jednocześnie uczestniczyć w protokołach DeFi.",
       "news-explained": "Poza nagłówkami: zmiany regulacyjne, upadki giełd, incydenty protokołów i aktualizacje standardów, które naprawdę dotyczą użytkowników samodzielnie przechowujących krypto — wyjaśnione bez zbędnego szumu."
-    }
+    },
+    "allArticles": "Wszystkie artykuły",
+    "allArticlesDescription": "Wszystkie opublikowane przez nas przewodniki, od najnowszych. Szukaj po tytule lub filtruj po temacie.",
+    "allArticlesMetaTitle": "Wszystkie artykuły — SSP Academy",
+    "allArticlesMetaDescription": "Przeglądaj i przeszukuj wszystkie artykuły SSP Academy. Przewodniki po multisigu, samodzielnym przechowywaniu, bezpieczeństwie i obsługiwanych łańcuchach.",
+    "viewAllArticles": "Zobacz wszystkie artykuły",
+    "searchPlaceholder": "Szukaj artykułów…",
+    "searchLabel": "Szukaj artykułów",
+    "allTopics": "Wszystkie tematy",
+    "resultCount": "{count, plural, =0 {Brak artykułów} one {# artykuł} few {# artykuły} many {# artykułów} other {# artykułów}}",
+    "noResults": "Żaden artykuł nie pasuje do wyszukiwania.",
+    "clearFilters": "Wyczyść filtry"
   },
   "Author": {
     "title": "{name}",

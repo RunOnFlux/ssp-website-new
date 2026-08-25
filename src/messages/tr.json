@@ -438,7 +438,18 @@
       "coin-guides": "SSP'nin desteklediği her coin veya zincirin kendine özgü özellikleri vardır — UTXO'ya karşı hesap tabanlı, yerel multisig'e karşı ERC-4337, ücret dinamikleri, kesinleşme süreleri. Bu koleksiyon bunları birer birer ele alır.",
       "defi": "SSP, EVM zincirlerinde ERC-4337 Account Abstraction aracılığıyla DeFi'yi destekler. Bu makaleler AA'nın ne olduğunu, multisig cüzdandan hangi dApp'leri güvenle kullanabileceğinizi ve SSP'nin DeFi protokollerine katılırken sizi nasıl kontrol sahibi tuttuğunu açıklar.",
       "news-explained": "Manşetlerin ötesinde: öz saklama kullanıcılarını gerçekten etkileyen düzenleyici değişiklikler, borsa iflasları, protokol olayları ve standart güncellemeleri — abartısız açıklamalarla."
-    }
+    },
+    "allArticles": "Tüm makaleler",
+    "allArticlesDescription": "Yayımladığımız bütün rehberler, en yenisi başta. Başlığa göre arayın ya da konuya göre süzün.",
+    "allArticlesMetaTitle": "Tüm makaleler — SSP Academy",
+    "allArticlesMetaDescription": "SSP Academy’deki bütün makalelere göz atın ve arayın. Çoklu imza, kendi saklaması, güvenlik ve desteklenen zincirler üzerine rehberler.",
+    "viewAllArticles": "Tüm makaleleri gör",
+    "searchPlaceholder": "Makale ara…",
+    "searchLabel": "Makale ara",
+    "allTopics": "Tüm konular",
+    "resultCount": "{count, plural, =0 {Makale yok} other {# makale}}",
+    "noResults": "Aramanızla eşleşen makale yok.",
+    "clearFilters": "Filtreleri temizle"
   },
   "Author": {
     "title": "{name}",

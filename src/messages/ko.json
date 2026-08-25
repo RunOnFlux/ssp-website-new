@@ -438,7 +438,18 @@
       "coin-guides": "SSP가 지원하는 각 코인 또는 체인에는 고유한 특성이 있습니다 — UTXO 대 계정 기반, 네이티브 multisig 대 ERC-4337, 수수료 구조, 최종성 시간. 이 컬렉션은 하나씩 다룹니다.",
       "defi": "SSP는 EVM 체인의 ERC-4337 Account Abstraction을 통해 DeFi를 지원합니다. 이 글들은 AA가 무엇인지, multisig 지갑에서 안전하게 사용할 수 있는 dApp이 무엇인지, 그리고 SSP가 DeFi 프로토콜에 참여하면서도 사용자를 통제 상태로 유지하는 방법을 설명합니다.",
       "news-explained": "헤드라인 너머: 셀프 커스터디 사용자에게 실질적으로 영향을 미치는 규제 변화, 거래소 실패, 프로토콜 사건 및 표준 업데이트 — 과장 없이 설명합니다."
-    }
+    },
+    "allArticles": "전체 글",
+    "allArticlesDescription": "지금까지 펴낸 모든 안내서를 최신순으로. 제목으로 검색하거나 주제로 추립니다.",
+    "allArticlesMetaTitle": "전체 글 — SSP Academy",
+    "allArticlesMetaDescription": "SSP Academy의 모든 글을 훑어보고 검색하세요. 멀티시그, 자기 보관, 보안, 지원 체인에 대한 안내서.",
+    "viewAllArticles": "전체 글 보기",
+    "searchPlaceholder": "글 검색…",
+    "searchLabel": "글 검색",
+    "allTopics": "전체 주제",
+    "resultCount": "{count, plural, =0 {글 없음} other {#개의 글}}",
+    "noResults": "검색과 일치하는 글이 없습니다.",
+    "clearFilters": "필터 지우기"
   },
   "Author": {
     "title": "{name}",

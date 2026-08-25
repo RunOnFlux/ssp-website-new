@@ -89,7 +89,7 @@ export function PostArticle({
               &lt; {backLabel ?? t('backToNewsroom')}
             </Link>
           )}
-          <h1 className='mt-6 max-w-[900px] text-4xl leading-tight font-bold text-gray-900 md:text-5xl lg:text-[60px] lg:leading-[1.2] dark:text-white'>
+          <h1 className='mt-6 max-w-[20ch] text-3xl leading-tight font-bold text-gray-900 md:max-w-[24ch] md:text-4xl lg:text-5xl lg:leading-[1.15] dark:text-white'>
             {post.title}
           </h1>
           <div className='mt-6 flex flex-col gap-4 md:flex-row md:items-center md:justify-between'>
@@ -133,7 +133,7 @@ export function PostArticle({
           </aside>
         )}
 
-        <div className='prose prose-lg dark:prose-invert max-w-none'>
+        <div className='prose dark:prose-invert max-w-[68ch]'>
           <Image
             src={cmsMediaUrl(post.image)}
             alt={post.imageAlt}
