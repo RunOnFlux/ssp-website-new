@@ -2,7 +2,7 @@
 title: SSP Academy
 url: https://sspwallet.io/academy
 description: Guides, deep dives, and tutorials covering self-custody and SSP-specific topics.
-last_reviewed: 2026-05-08
+last_reviewed: 2026-08-25
 ---
 
 # SSP Academy
@@ -11,9 +11,14 @@ The SSP Academy is the educational arm of SSP Wallet. Articles are categorized b
 
 ## Sub-routes
 
+- `/academy/articles` — full archive: every article, newest first, with client-side
+  search over title, description and tags plus topic filtering
 - `/academy/{category}` — category landing page
 - `/academy/{category}/{slug}` — individual article
 - `/academy/series/{slug}` — multi-part learning path
+
+The landing page shows categories, learning paths and the 12 most recent
+articles; `/academy/articles` is the complete, searchable index linked from it.
 
 ## Categories
 
